@@ -83,16 +83,10 @@ def main():
     except Exception as e:
         print("Fehler bei DD Munich:", e)
 
-    print(f"Gesamtanzahl Events (ungefiltert): {len(all_events)}")
+    print(f"Gesamtanzahl Events: {len(all_events)}")
 
-    # Filter anwenden
-    filtered_events = [ev for ev in all_events if is_relevant_event(ev)]
-
-    print(f"Gesamtanzahl Events (gefiltert): {len(filtered_events)}")
-
-    generate_ics(filtered_events)
+    generate_ics(all_events)
 
 
 if __name__ == "__main__":
     main()
-

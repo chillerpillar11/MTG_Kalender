@@ -3,7 +3,7 @@ name: Generate Magic Calendar
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"   # jeden Tag um 06:00
+    - cron: "0 6 * * *"
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 ics
 
       - name: Run calendar generator
         run: python generate_calendar.py

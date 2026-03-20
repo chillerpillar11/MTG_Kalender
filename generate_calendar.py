@@ -74,12 +74,6 @@ def is_relevant_event(ev):
     if "championship" in name:
         return True
 
-    # DD-spezifische Varianten
-    if "friday night modern" in name:
-        return True
-    if "after work modern" in name:
-        return True
-
     return False
 
 

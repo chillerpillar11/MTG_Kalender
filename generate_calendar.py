@@ -27,36 +27,31 @@ def fetch_bbspiele_events():
     cards = soup.select(".events-card")
 
     for card in cards:
-        # Titel
         title_el = card.select_one(".netzp-events-title")
         if not title_el:
             continue
         title = title_el.get_text(strip=True)
 
-        # Datum + Uhrzeit
         date_el = card.select_one(".icon-calendar + span")
         if not date_el:
             continue
 
         raw = date_el.get_text(strip=True)
-        # Beispiel: "Sa., 04.04.26, 11:00 - 18:00"
         parts = raw.split(",")
         if len(parts) < 3:
             continue
 
-        date_str = parts[1].strip()  # "04.04.26"
-        time_str = parts[2].strip().split("-")[0].strip()  # "11:00"
+        date_str = parts[1].strip()
+        time_str = parts[2].strip().split("-")[0].strip()
 
         try:
             dt = datetime.strptime(f"{date_str} {time_str}", "%d.%m.%y %H:%M")
         except:
             continue
 
-        # Ort
         loc_el = card.select_one(".icon-marker + b")
         location = loc_el.get_text(strip=True) if loc_el else "BB-Spiele"
 
-        # Beschreibung
         desc_el = card.select_one(".card-text.lead")
         description = desc_el.get_text(strip=True) if desc_el else "Event von BB-Spiele"
 
@@ -134,7 +129,7 @@ def fetch_funtainment_events():
 
 
 # ---------------------------------------------------------
-# DD MUNICH
+# DECK & DICE / DD MUNICH
 # ---------------------------------------------------------
 def fetch_ddmunich_events():
     print("Hole Events von Deck & Dice / DD Munich...")
@@ -151,7 +146,6 @@ def fetch_ddmunich_events():
     soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    # Alle Kalenderzellen
     cells = soup.select("[data-hook^='calendar-cell-']")
 
     for cell in cells:
@@ -159,14 +153,12 @@ def fetch_ddmunich_events():
         if not data_hook:
             continue
 
-        # Beispiel: calendar-cell-2026-02-22T23:00:00.000Z
         try:
             iso = data_hook.replace("calendar-cell-", "")
             date = datetime.fromisoformat(iso.replace("Z", ""))
         except:
             continue
 
-        # Events in der Zelle
         items = cell.select(".x336W1")
 
         for item in items:
@@ -179,7 +171,6 @@ def fetch_ddmunich_events():
             time_str = time_el.get_text(strip=True)
             title = title_el.get_text(strip=True)
 
-            # Datum + Uhrzeit kombinieren
             try:
                 dt = datetime.strptime(
                     f"{date.strftime('%Y-%m-%d')} {time_str}",
@@ -201,6 +192,38 @@ def fetch_ddmunich_events():
 
 
 # ---------------------------------------------------------
+# FILTER: NUR RELEVANTE EVENTS
+# ---------------------------------------------------------
+def is_relevant_event(event):
+    name = event.name.lower()
+    location = (event.location or "").lower()
+
+    # RCQs
+    if (
+        "rcq" in name
+        or "regional championship" in name
+        or "qualifier" in name
+        or "store qualifier" in name
+        or "wpn qualifier" in name
+    ):
+        return True
+
+    # Store Championships
+    if "store championship" in name or "championship" in name:
+        return True
+
+    # Friday Night Magic (nur Modern)
+    if ("friday night magic" in name or "fnm" in name) and "modern" in name:
+        return True
+
+    # After Work Modern (nur Deck & Dice)
+    if "after work modern" in name and "deck & dice" in location:
+        return True
+
+    return False
+
+
+# ---------------------------------------------------------
 # GENERATE ICS
 # ---------------------------------------------------------
 def generate_ics():
@@ -213,6 +236,19 @@ def generate_ics():
     dd = fetch_ddmunich_events()
 
     all_events = bb + ft + dd
+
+    # Filter
+    all_events = [e for e in all_events if is_relevant_event(e)]
+
+    # Duplikate entfernen
+    unique = {}
+    for e in all_events:
+        key = (e.name.lower(), e.begin)
+        unique[key] = e
+    all_events = list(unique.values())
+
+    # Sortieren
+    all_events.sort(key=lambda e: e.begin)
 
     print("Gesamtanzahl Events:", len(all_events))
 

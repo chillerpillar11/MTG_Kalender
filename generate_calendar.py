@@ -83,32 +83,45 @@ def save_history(events):
 def generate_proxy_events(event):
     title = event["title"].lower()
 
+    # Wöchentliche Formate
     weekly_keywords = [
-        # Modern
         "after work modern",
-        "friday night modern",
-        "friday night magic",
-        "fnm",
-
-        # Legacy
         "after work legacy",
-        "legacy",
-
-        # Premodern
         "after work premodern",
         "premodern",
+        "legacy",
+        "modern",  # Modern außer Friday Night Modern
     ]
 
-    if not any(k in title for k in weekly_keywords):
+    # 14-tägiges Format: Friday Night Modern
+    fnm_modern_keywords = [
+        "friday night modern",
+        "friday night magic – modern",
+        "friday night magic - modern",
+        "friday night magic modern",
+    ]
+
+    # Prüfen, ob Friday Night Modern → 14 Tage
+    is_fnm_modern = any(k in title for k in fnm_modern_keywords)
+
+    # Prüfen, ob wöchentliches Format
+    is_weekly = any(k in title for k in weekly_keywords)
+
+    if not (is_fnm_modern or is_weekly):
         return []
 
     proxy_events = []
     start = event["start"]
     end = event["end"]
 
-    for i in range(1, 13):  # 12 Wochen
-        new_start = start + timedelta(weeks=i)
-        new_end = end + timedelta(weeks=i)
+    for i in range(1, 13):  # 12 Wiederholungen
+        if is_fnm_modern:
+            delta = timedelta(weeks=2)
+        else:
+            delta = timedelta(weeks=1)
+
+        new_start = start + delta * i
+        new_end = end + delta * i
 
         proxy_events.append({
             "title": event["title"],

@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 from ics import Calendar, Event
 
 print("Script gestartet")
@@ -61,6 +61,7 @@ def fetch_bbspiele_events():
         e.location = location
         e.description = description
 
+        set_default_duration(e)
         events.append(e)
 
     print(f"BB-Spiele Events gefunden: {len(events)}")
@@ -122,6 +123,7 @@ def fetch_funtainment_events():
         e.location = location
         e.description = description
 
+        set_default_duration(e)
         events.append(e)
 
     print(f"Funtainment Events gefunden: {len(events)}")
@@ -185,6 +187,7 @@ def fetch_ddmunich_events():
             e.location = "Deck & Dice / DD Munich"
             e.description = "Event von Deck & Dice / DD Munich"
 
+            set_default_duration(e)
             events.append(e)
 
     print(f"DD Munich Events gefunden: {len(events)}")
@@ -198,29 +201,56 @@ def is_relevant_event(event):
     name = event.name.lower()
     location = (event.location or "").lower()
 
-    # RCQs
-    if (
-        "rcq" in name
-        or "regional championship" in name
-        or "qualifier" in name
-        or "store qualifier" in name
-        or "wpn qualifier" in name
-    ):
+    # RCQ
+    if any(x in name for x in [
+        "rcq",
+        "regional championship",
+        "qualifier",
+        "wpn qualifier",
+        "store qualifier",
+        "championship qualifier"
+    ]):
         return True
 
-    # Store Championships
+    # Store Championship
     if "store championship" in name or "championship" in name:
         return True
 
-    # Friday Night Magic (nur Modern)
-    if ("friday night magic" in name or "fnm" in name) and "modern" in name:
+    # Friday Night Modern
+    if (
+        any(x in name for x in ["friday night magic", "fnm", "friday night"])
+        and "modern" in name
+    ):
         return True
 
     # After Work Modern (nur Deck & Dice)
-    if "after work modern" in name and "deck & dice" in location:
+    if "after" in name and "modern" in name and "deck & dice" in location:
         return True
 
     return False
+
+
+# ---------------------------------------------------------
+# DAUER SETZEN
+# ---------------------------------------------------------
+def set_default_duration(event):
+    name = event.name.lower()
+
+    if "rcq" in name or "regional championship" in name or "qualifier" in name:
+        event.duration = timedelta(hours=6)
+        return
+
+    if ("friday night" in name or "fnm" in name) and "modern" in name:
+        event.duration = timedelta(hours=4)
+        return
+
+    if "after" in name and "modern" in name:
+        event.duration = timedelta(hours=3)
+        return
+
+    if "store championship" in name or "championship" in name:
+        event.duration = timedelta(hours=5)
+        return
 
 
 # ---------------------------------------------------------

@@ -7,22 +7,35 @@ import re
 TZ = ZoneInfo("Europe/Berlin")
 
 # ---------------------------------------------------------
-# Modern/RCQ Filter (Premodern ausgeschlossen!)
+# Relevante Formate für Deck & Dice
 # ---------------------------------------------------------
-def is_modern_or_rcq(title: str) -> bool:
+def is_relevant_dd_event(title: str) -> bool:
     title = title.lower()
 
-    # Premodern explizit ausschließen
-    if "premodern" in title:
-        return False
-
+    # Formate, die wir aufnehmen wollen
     include = [
+        # Modern
         "modern",
+        "fnm",
+        "friday night magic",
+        "friday night modern",
+        "after work modern",
+
+        # Legacy
+        "legacy",
+        "after work legacy",
+
+        # Premodern
+        "premodern",
+        "after work premodern",
+
+        # RCQ
         "rcq",
         "regional championship qualifier",
         "qualifier",
     ]
 
+    # Formate, die wir NICHT wollen
     exclude = [
         "commander",
         "edh",
@@ -80,9 +93,9 @@ def extract_time(text: str):
 
 
 # ---------------------------------------------------------
-# Modern-Events aus dem Wix Event Widget
+# Events aus dem Wix Event Widget
 # ---------------------------------------------------------
-def fetch_widget_modern_events(soup):
+def fetch_widget_events(soup):
     print("\n--- DEBUG: Widget-Parsing ---")
 
     events = []
@@ -101,8 +114,8 @@ def fetch_widget_modern_events(soup):
 
         print(f"  → Card: '{title}' | Datum: '{date_text}'")
 
-        if not is_modern_or_rcq(title):
-            print("    ✗ Filter: kein Modern/RCQ")
+        if not is_relevant_dd_event(title):
+            print("    ✗ Filter: nicht relevant")
             continue
 
         # Beispiel: "20. März 2026, 18:30 – 23:00"
@@ -136,7 +149,7 @@ def fetch_widget_modern_events(soup):
         start = datetime(year, month, day, hour, minute, tzinfo=TZ)
         end = start + timedelta(hours=3)
 
-        print("    ✓ Modern-Event übernommen")
+        print("    ✓ Relevantes Event übernommen")
 
         events.append({
             "title": title,
@@ -147,7 +160,7 @@ def fetch_widget_modern_events(soup):
             "description": "",
         })
 
-    print(f"Widget Modern/RCQ Events: {len(events)}")
+    print(f"Widget relevante Events: {len(events)}")
     return events
 
 
@@ -169,7 +182,7 @@ def fetch_dd_munich_events():
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    widget_events = fetch_widget_modern_events(soup)
+    widget_events = fetch_widget_events(soup)
 
     # Doppelte Events vermeiden
     seen = set()
@@ -182,7 +195,7 @@ def fetch_dd_munich_events():
             final.append(ev)
 
     print(f"\n--- DEBUG: FINAL ---")
-    print(f"Gesamt Modern/RCQ Events: {len(final)}")
+    print(f"Gesamt relevante Events: {len(final)}")
     for ev in final:
         print(f"  ✓ {ev['title']} @ {ev['start']}")
 

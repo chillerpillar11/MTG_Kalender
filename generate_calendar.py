@@ -1,92 +1,80 @@
-#!/usr/bin/env python3
-import uuid
+import pytz
+from ics import Calendar, Event
 from datetime import datetime
-from zoneinfo import ZoneInfo
-from pathlib import Path
+from bb_spiele import fetch_bb_spiele_events
+from funtainment import fetch_funtainment_events
+from dd_munich import fetch_dd_munich_events
 
-# Stores importieren
-from stores.bb_spiele import fetch_bb_spiele_events
-from stores.funtainment import fetch_funtainment_events
-from stores.dd_munich import fetch_dd_munich_events
+TZ = pytz.timezone("Europe/Berlin")
 
-TZ = ZoneInfo("Europe/Berlin")
-
-
-# ---------------------------------------------------------
-# ICS-Helfer
-# ---------------------------------------------------------
-def format_dt(dt: datetime) -> str:
-    """ICS-konforme Zeitformatierung."""
-    return dt.astimezone(TZ).strftime("%Y%m%dT%H%M%S")
-
-
-def generate_ics(events, filename="magic.ics"):
-    """Erstellt eine ICS-Datei aus Event-Dictionaries."""
-    lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//Magic Munich Calendar//DE",
-        "CALSCALE:GREGORIAN",
-    ]
-
+def tag_store(events, store_name):
+    """Fügt dem Titel einen Store‑Tag hinzu."""
+    tagged = []
     for ev in events:
-        uid = f"{uuid.uuid4()}@magic-munich"
+        ev["title"] = f"{store_name} {ev['title']}"
+        ev["store"] = store_name  # optional, falls später benötigt
+        tagged.append(ev)
+    return tagged
 
-        # --- VEVENT START ---
-        lines.append("BEGIN:VEVENT")
-        lines.append(f"UID:{uid}")
-        lines.append(f"DTSTAMP:{format_dt(datetime.now(TZ))}")
-        lines.append(f"DTSTART:{format_dt(ev['start'])}")
-        lines.append(f"DTEND:{format_dt(ev['end'])}")
-        lines.append(f"SUMMARY:{ev['title']}")
-        lines.append(f"LOCATION:{ev.get('location', '')}")
-        lines.append(f"URL:{ev.get('url', '')}")
-
-        # Beschreibung OHNE Backslash im f-String
-        desc = ev.get("description", "")
-        desc = desc.replace("\n", " ").replace("\r", " ")
-        lines.append(f"DESCRIPTION:{desc}")
-
-        lines.append("END:VEVENT")
-        # --- VEVENT END ---
-
-    lines.append("END:VCALENDAR")
-
-    Path(filename).write_text("\n".join(lines), encoding="utf-8")
-    print(f"ICS erzeugt: {filename}")
-
-
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
-def main():
-    print("Script gestartet")
+def generate_calendar():
     print("Erzeuge Kalender...")
 
     all_events = []
 
-    # BB-Spiele
-    try:
-        all_events.extend(fetch_bb_spiele_events())
-    except Exception as e:
-        print("Fehler bei BB-Spiele:", e)
+    # --- BB-Spiele ---
+    print("Hole Events von BB-Spiele...")
+    bb_events = fetch_bb_spiele_events()
+    bb_events = tag_store(bb_events, "BB-Spiele –")
+    print(f"BB-Spiele Modern/RCQ Events gefunden: {len(bb_events)}")
+    all_events.extend(bb_events)
 
-    # Funtainment
-    try:
-        all_events.extend(fetch_funtainment_events())
-    except Exception as e:
-        print("Fehler bei Funtainment:", e)
+    # --- Funtainment ---
+    print("Hole Events von Funtainment...")
+    ft_events = fetch_funtainment_events()
+    ft_events = tag_store(ft_events, "Funtainment –")
+    print(f"Funtainment Modern/RCQ Events gefunden: {len(ft_events)}")
+    all_events.extend(ft_events)
 
-    # Deck & Dice
-    try:
-        all_events.extend(fetch_dd_munich_events())
-    except Exception as e:
-        print("Fehler bei DD Munich:", e)
+    # --- Deck & Dice ---
+    print("Hole Events von Deck & Dice / DD Munich...")
+    dd_events = fetch_dd_munich_events()
+    dd_events = tag_store(dd_events, "Deck & Dice –")
+    print(f"Deck & Dice Modern/RCQ Events gefunden: {len(dd_events)}")
+    all_events.extend(dd_events)
 
-    print(f"Gesamtanzahl Events: {len(all_events)}")
+    # --- Duplikate entfernen ---
+    print("\nEntferne Duplikate...")
 
-    generate_ics(all_events)
+    seen = set()
+    unique_events = []
 
+    for ev in all_events:
+        # Der Schlüssel ist jetzt eindeutig, weil der Store im Titel steckt
+        key = (ev["title"].lower().strip(), ev["start"])
+
+        if key not in seen:
+            seen.add(key)
+            unique_events.append(ev)
+
+    print(f"Gesamtanzahl Events: {len(unique_events)}")
+
+    # --- ICS erzeugen ---
+    cal = Calendar()
+
+    for ev in unique_events:
+        ics_event = Event()
+        ics_event.name = ev["title"]
+        ics_event.begin = ev["start"].astimezone(TZ)
+        ics_event.end = ev["end"].astimezone(TZ)
+        ics_event.location = ev.get("location", "")
+        ics_event.description = ev.get("description", "")
+        cal.events.add(ics_event)
+
+    with open("magic.ics", "w", encoding="utf-8") as f:
+        f.writelines(cal)
+
+    print("ICS erzeugt: magic.ics")
 
 if __name__ == "__main__":
-    main()
+    print("Script gestartet")
+    generate_calendar()

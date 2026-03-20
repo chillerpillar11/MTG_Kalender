@@ -59,17 +59,15 @@ def is_modern_or_rcq(title: str) -> bool:
 
 
 # ---------------------------------------------------------
-# Hilfsfunktion: Uhrzeit aus Text extrahieren
+# Hilfsfunktion: Uhrzeit extrahieren
 # ---------------------------------------------------------
 def extract_time(text: str):
     text = text.lower()
 
-    # 18:30 oder 18.30
     m = re.search(r"(\d{1,2})[:\.](\d{2})", text)
     if m:
         return int(m.group(1)), int(m.group(2))
 
-    # 19 Uhr
     m = re.search(r"(\d{1,2})\s*uhr", text)
     if m:
         return int(m.group(1)), 0
@@ -81,13 +79,15 @@ def extract_time(text: str):
 # A) Modern-Events aus dem Monatskalender
 # ---------------------------------------------------------
 def fetch_calendar_modern_events(soup):
-    events = []
+    print("\n--- DEBUG: Kalender-Parsing ---")
 
-    # Jede Kalenderzelle
-    for cell in soup.select('[data-hook^="calendar-cell-"]'):
+    events = []
+    cells = soup.select('[data-hook^="calendar-cell-"]')
+    print(f"Gefundene Kalenderzellen: {len(cells)}")
+
+    for cell in cells:
         data_hook = cell.get("data-hook", "")
 
-        # Datum extrahieren
         m = re.search(r"calendar-cell-(\d{4})-(\d{2})-(\d{2})T", data_hook)
         if not m:
             continue
@@ -95,8 +95,11 @@ def fetch_calendar_modern_events(soup):
         year, month, day = map(int, m.groups())
         base_date = datetime(year, month, day, tzinfo=TZ)
 
-        # Modern-Events stehen in <li class="nJOvU6">
-        for li in cell.select("li.nJOvU6"):
+        li_items = cell.select("li.nJOvU6")
+        if li_items:
+            print(f"  Datum {day}.{month}.{year}: {len(li_items)} Event-Einträge gefunden")
+
+        for li in li_items:
             title_el = li.select_one(".JsVhwR")
             time_el = li.select_one(".KOi6Xx")
 
@@ -106,16 +109,22 @@ def fetch_calendar_modern_events(soup):
             title = title_el.get_text(strip=True)
             time_text = time_el.get_text(strip=True)
 
+            print(f"    → Gefunden: '{title}' um {time_text}")
+
             if not is_modern_or_rcq(title):
+                print("      ✗ Filter: kein Modern/RCQ")
                 continue
 
             t = extract_time(time_text)
             if not t:
+                print("      ✗ Uhrzeit konnte nicht extrahiert werden")
                 continue
 
             hour, minute = t
             start = base_date.replace(hour=hour, minute=minute)
             end = start + timedelta(hours=3)
+
+            print("      ✓ Modern-Event übernommen")
 
             events.append({
                 "title": title,
@@ -126,6 +135,7 @@ def fetch_calendar_modern_events(soup):
                 "description": "",
             })
 
+    print(f"Kalender Modern/RCQ Events: {len(events)}")
     return events
 
 
@@ -133,9 +143,13 @@ def fetch_calendar_modern_events(soup):
 # B) Modern-Events aus dem Wix Event Widget
 # ---------------------------------------------------------
 def fetch_widget_modern_events(soup):
-    events = []
+    print("\n--- DEBUG: Widget-Parsing ---")
 
-    for card in soup.select('[data-hook="events-card"]'):
+    events = []
+    cards = soup.select('[data-hook="events-card"]')
+    print(f"Gefundene Event-Cards: {len(cards)}")
+
+    for card in cards:
         title_el = card.select_one('[data-hook="title"]')
         date_el = card.select_one('[data-hook="date"]')
 
@@ -145,12 +159,16 @@ def fetch_widget_modern_events(soup):
         title = title_el.get_text(strip=True)
         date_text = date_el.get_text(strip=True)
 
+        print(f"  → Card: '{title}' | Datum: '{date_text}'")
+
         if not is_modern_or_rcq(title):
+            print("    ✗ Filter: kein Modern/RCQ")
             continue
 
         # Beispiel: "20. März 2026, 18:30 – 23:00"
         m = re.match(r"(\d{1,2})\. (\w+) (\d{4}), (\d{1,2}:\d{2})", date_text)
         if not m:
+            print("    ✗ Datum/Uhrzeit nicht erkannt")
             continue
 
         day = int(m.group(1))
@@ -164,6 +182,7 @@ def fetch_widget_modern_events(soup):
         }
 
         if month_name not in MONTHS:
+            print("    ✗ Monatsname unbekannt")
             continue
 
         month = MONTHS[month_name]
@@ -171,10 +190,13 @@ def fetch_widget_modern_events(soup):
         try:
             hour, minute = map(int, time_str.split(":"))
         except:
+            print("    ✗ Uhrzeit konnte nicht extrahiert werden")
             continue
 
         start = datetime(year, month, day, hour, minute, tzinfo=TZ)
         end = start + timedelta(hours=3)
+
+        print("    ✓ Modern-Event übernommen")
 
         events.append({
             "title": title,
@@ -185,11 +207,12 @@ def fetch_widget_modern_events(soup):
             "description": "",
         })
 
+    print(f"Widget Modern/RCQ Events: {len(events)}")
     return events
 
 
 # ---------------------------------------------------------
-# Hauptfunktion: kombiniert beide Quellen
+# Hauptfunktion
 # ---------------------------------------------------------
 def fetch_dd_munich_events():
     print("Hole Events von Deck & Dice / DD Munich...")
@@ -209,7 +232,7 @@ def fetch_dd_munich_events():
     calendar_events = fetch_calendar_modern_events(soup)
     widget_events = fetch_widget_modern_events(soup)
 
-    # Doppelte Events vermeiden (Titel + Datum)
+    # Doppelte Events vermeiden
     seen = set()
     final = []
 
@@ -219,5 +242,9 @@ def fetch_dd_munich_events():
             seen.add(key)
             final.append(ev)
 
-    print(f"DD Munich Modern/RCQ Events gefunden: {len(final)}")
+    print(f"\n--- DEBUG: FINAL ---")
+    print(f"Gesamt Modern/RCQ Events: {len(final)}")
+    for ev in final:
+        print(f"  ✓ {ev['title']} @ {ev['start']}")
+
     return final

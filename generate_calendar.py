@@ -34,11 +34,10 @@ def set_default_duration(event):
 
 
 # ---------------------------------------------------------
-# FILTER: NUR RELEVANTE EVENTS
+# FILTER: NUR RELEVANTE EVENTS (NICHT DD-SPEZIFISCH)
 # ---------------------------------------------------------
 def is_relevant_event(event):
     name = event.name.lower()
-    location = (event.location or "").lower()
 
     # RCQ (alle Shops)
     if any(x in name for x in [
@@ -62,8 +61,8 @@ def is_relevant_event(event):
     ):
         return True
 
-    # After Work Modern (Deck & Dice – aber wir sind großzügig)
-    if any(x in name for x in ["after work modern", "afterwork modern", "after-work modern"]):
+    # After Work Modern (alle Shops – praktisch nur DD)
+    if "after work modern" in name or "after-work modern" in name or "afterwork modern" in name:
         return True
 
     return False
@@ -234,19 +233,15 @@ def fetch_ddmunich_events():
             title = title_el.get_text(strip=True)
             name_lower = title.lower()
 
-            # Wir interessieren uns nur für:
+            # Wir wollen hier NUR:
             # - Friday Night Modern 18.30
             # - After Work Modern - 19:00 Uhr
-            if "modern" not in name_lower:
-                continue
-
-            # Uhrzeit aus dem Titel ableiten
             if "friday night modern" in name_lower:
                 hour, minute = 18, 30
             elif "after work modern" in name_lower or "after-work modern" in name_lower or "afterwork modern" in name_lower:
                 hour, minute = 19, 0
             else:
-                # andere Modern-Events ignorieren
+                # alle anderen DD-Events ignorieren
                 continue
 
             dt = datetime(
@@ -284,7 +279,7 @@ def generate_ics():
 
     all_events = bb + ft + dd
 
-    # Filter
+    # Filter (DD ist durch fetch_ddmunich_events schon stark eingeschränkt)
     all_events = [e for e in all_events if is_relevant_event(e)]
 
     # Duplikate entfernen

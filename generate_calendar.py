@@ -1,71 +1,60 @@
 import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
 from ics import Calendar, Event
 
 print("Script gestartet")
 
-# Öffentliche Wizards-Eventseite (HTML, nicht API)
-WIZARDS_URL = (
-    "https://locator.wizards.com/events"
-    "?searchType=magic-events"
-    "&query=München"
+# Stabile Wizards-JSON-API (wird von der Webseite selbst genutzt)
+WIZARDS_API = (
+    "https://locator.wizards.com/api/event/search"
+    "?query=München"
     "&distance=100"
+    "&searchType=magic-events"
 )
 
-# MTGO Update Seite (kannst du später auch rauswerfen, wenn du willst)
 MTGO_URL = "https://mtgoupdate.com/"
 
 
 def fetch_wizards_events():
-    print("Hole Wizards Events (HTML Scraper)...")
+    print("Hole Wizards Events (stabile JSON API)...")
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Accept": "text/html",
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json",
     }
 
-    resp = requests.get(WIZARDS_URL, headers=headers)
-    soup = BeautifulSoup(resp.text, "html.parser")
+    try:
+        resp = requests.get(WIZARDS_API, headers=headers)
+        data = resp.json()
+    except Exception as e:
+        print("Fehler beim Laden der Wizards API:", e)
+        return []
 
     events = []
 
-    # Struktur kann sich ändern – das hier ist ein pragmatischer Start:
-    cards = soup.select("div.event-card")
+    # Die API liefert eine Liste unter "results"
+    results = data.get("results", [])
 
-    for card in cards:
-        title_el = card.select_one(".event-card-title")
-        date_el = card.select_one(".event-card-date")
-        time_el = card.select_one(".event-card-time")
-        store_el = card.select_one(".event-card-store")
-        address_el = card.select_one(".event-card-address")
+    for item in results:
+        title = item.get("title")
+        store = item.get("storeName", "")
+        address = item.get("address", "")
+        start = item.get("startDate")
 
-        if not title_el or not date_el:
+        if not (title and start):
             continue
 
-        title = title_el.get_text(strip=True)
-        date_str = date_el.get_text(strip=True)
-        time_str = time_el.get_text(strip=True) if time_el else "00:00"
-
-        # Versuche ein paar gängige Formate
-        dt = None
-        for fmt in ("%Y-%m-%d %H:%M", "%d.%m.%Y %H:%M", "%Y-%m-%d", "%d.%m.%Y"):
-            try:
-                dt = datetime.strptime(f"{date_str} {time_str}", fmt)
-                break
-            except ValueError:
-                continue
-        if dt is None:
+        # Beispiel: "2026-04-12T14:00:00"
+        try:
+            dt = datetime.fromisoformat(start.replace("Z", ""))
+        except:
             continue
-
-        store = store_el.get_text(strip=True) if store_el else ""
-        address = address_el.get_text(strip=True) if address_el else ""
 
         e = Event()
         e.name = f"{title} – {store}" if store else title
         e.begin = dt
         e.location = address
-        e.description = "WPN Event (Scraper)"
+        e.description = "WPN Event (JSON API)"
 
         events.append(e)
 
@@ -80,9 +69,10 @@ def fetch_mtgo_events():
     try:
         resp = requests.get(MTGO_URL)
     except Exception as e:
-        print(f"Fehler beim Laden von MTGO: {e}")
+        print("Fehler beim Laden von MTGO:", e)
         return events
 
+    from bs4 import BeautifulSoup
     soup = BeautifulSoup(resp.text, "html.parser")
 
     rows = soup.select("table tbody tr")
@@ -93,7 +83,6 @@ def fetch_mtgo_events():
 
         name, format_, date_str, time_str = cols[:4]
 
-        # Nur Modern-Events
         if "Modern" not in format_:
             continue
 

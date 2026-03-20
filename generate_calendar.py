@@ -24,79 +24,51 @@ def fetch_bbspiele_events():
     soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    items = soup.select(".event-list-item")
-    for item in items:
-        title_el = item.select_one(".event-title")
-        date_el = item.select_one(".event-date")
-        loc_el = item.select_one(".event-location")
+    cards = soup.select(".events-card")
 
-        if not title_el or not date_el:
+    for card in cards:
+        # Titel
+        title_el = card.select_one(".netzp-events-title")
+        if not title_el:
+            continue
+        title = title_el.get_text(strip=True)
+
+        # Datum + Uhrzeit
+        date_el = card.select_one(".icon-calendar + span")
+        if not date_el:
             continue
 
-        title = title_el.get_text(strip=True)
-        date_str = date_el.get_text(strip=True).replace("–", "-")
-        location = loc_el.get_text(strip=True) if loc_el else "BB Spiele München"
+        raw = date_el.get_text(strip=True)
+        # Beispiel: "Sa., 04.04.26, 11:00 - 18:00"
+        parts = raw.split(",")
+        if len(parts) < 3:
+            continue
+
+        date_str = parts[1].strip()  # "04.04.26"
+        time_str = parts[2].strip().split("-")[0].strip()  # "11:00"
 
         try:
-            dt = datetime.strptime(date_str, "%d.%m.%Y - %H:%M")
+            dt = datetime.strptime(f"{date_str} {time_str}", "%d.%m.%y %H:%M")
         except:
             continue
+
+        # Ort
+        loc_el = card.select_one(".icon-marker + b")
+        location = loc_el.get_text(strip=True) if loc_el else "BB-Spiele"
+
+        # Beschreibung
+        desc_el = card.select_one(".card-text.lead")
+        description = desc_el.get_text(strip=True) if desc_el else "Event von BB-Spiele"
 
         e = Event()
         e.name = title
         e.begin = dt
         e.location = location
-        e.description = "Event von BB-Spiele"
+        e.description = description
+
         events.append(e)
 
     print(f"BB-Spiele Events gefunden: {len(events)}")
-    return events
-
-
-# ---------------------------------------------------------
-# DD MUNICH
-# ---------------------------------------------------------
-def fetch_ddmunich_events():
-    print("Hole Events von DD Munich...")
-
-    url = "https://www.dd-munich.de/event-list"
-    headers = {"User-Agent": "Mozilla/5.0"}
-
-    try:
-        resp = requests.get(url, headers=headers)
-    except Exception as e:
-        print("Fehler bei DD Munich:", e)
-        return []
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    events = []
-
-    items = soup.select(".event")
-    for item in items:
-        title_el = item.select_one("h3")
-        date_el = item.select_one(".date")
-        loc_el = item.select_one(".location")
-
-        if not title_el or not date_el:
-            continue
-
-        title = title_el.get_text(strip=True)
-        date_str = date_el.get_text(strip=True)
-        location = loc_el.get_text(strip=True) if loc_el else "DD Munich"
-
-        try:
-            dt = datetime.strptime(date_str, "%d.%m.%Y %H:%M")
-        except:
-            continue
-
-        e = Event()
-        e.name = title
-        e.begin = dt
-        e.location = location
-        e.description = "Event von DD Munich"
-        events.append(e)
-
-    print(f"DD Munich Events gefunden: {len(events)}")
     return events
 
 
@@ -118,27 +90,43 @@ def fetch_funtainment_events():
     soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    items = soup.select(".product--box")
-    for item in items:
-        title_el = item.select_one(".product--title")
-        date_el = item.select_one(".product--price-info")
+    cards = soup.select(".events-card")
 
-        if not title_el or not date_el:
+    for card in cards:
+        title_el = card.select_one(".netzp-events-title")
+        if not title_el:
+            continue
+        title = title_el.get_text(strip=True)
+
+        date_el = card.select_one(".icon-calendar + span")
+        if not date_el:
             continue
 
-        title = title_el.get_text(strip=True)
-        date_str = date_el.get_text(strip=True)
+        raw = date_el.get_text(strip=True)
+        parts = raw.split(",")
+        if len(parts) < 3:
+            continue
+
+        date_str = parts[1].strip()
+        time_str = parts[2].strip().split("-")[0].strip()
 
         try:
-            dt = datetime.strptime(date_str, "%d.%m.%Y %H:%M")
+            dt = datetime.strptime(f"{date_str} {time_str}", "%d.%m.%y %H:%M")
         except:
             continue
+
+        loc_el = card.select_one(".icon-marker + b")
+        location = loc_el.get_text(strip=True) if loc_el else "Funtainment München"
+
+        desc_el = card.select_one(".card-text.lead")
+        description = desc_el.get_text(strip=True) if desc_el else "Event von Funtainment"
 
         e = Event()
         e.name = title
         e.begin = dt
-        e.location = "Funtainment München"
-        e.description = "Event von Funtainment"
+        e.location = location
+        e.description = description
+
         events.append(e)
 
     print(f"Funtainment Events gefunden: {len(events)}")
@@ -146,47 +134,72 @@ def fetch_funtainment_events():
 
 
 # ---------------------------------------------------------
-# MAGIC PAPA
+# DD MUNICH
 # ---------------------------------------------------------
-def fetch_magicpapa_events():
-    print("Hole Events von MagicPapa...")
+def fetch_ddmunich_events():
+    print("Hole Events von DD Munich...")
 
-    url = "https://www.magicpapa-shop.de/c/events"
+    url = "https://www.dd-munich.de/event-list"
     headers = {"User-Agent": "Mozilla/5.0"}
 
     try:
         resp = requests.get(url, headers=headers)
     except Exception as e:
-        print("Fehler bei MagicPapa:", e)
+        print("Fehler bei DD Munich:", e)
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    items = soup.select(".product--box")
-    for item in items:
-        title_el = item.select_one(".product--title")
-        date_el = item.select_one(".product--delivery")
+    day_blocks = soup.select("[data-hook='calendar-event-list']")
 
-        if not title_el or not date_el:
+    monate = {
+        "Januar": "01", "Februar": "02", "März": "03", "April": "04",
+        "Mai": "05", "Juni": "06", "Juli": "07", "August": "08",
+        "September": "09", "Oktober": "10", "November": "11", "Dezember": "12"
+    }
+
+    for block in day_blocks:
+        date_el = block.select_one("[data-hook='calendar-popup-title']")
+        if not date_el:
             continue
 
-        title = title_el.get_text(strip=True)
-        date_str = date_el.get_text(strip=True)
+        raw_date = date_el.get_text(strip=True)  # "20. März"
 
         try:
-            dt = datetime.strptime(date_str, "%d.%m.%Y %H:%M")
+            tag, monat_name = raw_date.split(". ")[0], raw_date.split(". ")[1]
+            monat = monate[monat_name]
+            jahr = str(datetime.now().year)
+            date_str = f"{tag.zfill(2)}.{monat}.{jahr}"
         except:
             continue
 
-        e = Event()
-        e.name = title
-        e.begin = dt
-        e.location = "MagicPapa München"
-        e.description = "Event von MagicPapa"
-        events.append(e)
+        items = block.select("li.nJOvU6")
 
-    print(f"MagicPapa Events gefunden: {len(events)}")
+        for item in items:
+            title_el = item.select_one("[data-hook^='event-title']")
+            time_el = item.select_one("[data-hook^='event-time']")
+
+            if not title_el or not time_el:
+                continue
+
+            title = title_el.get_text(strip=True)
+            time_str = time_el.get_text(strip=True).replace(".", ":")
+
+            try:
+                dt = datetime.strptime(f"{date_str} {time_str}", "%d.%m.%Y %H:%M")
+            except:
+                continue
+
+            e = Event()
+            e.name = title
+            e.begin = dt
+            e.location = "DD Munich"
+            e.description = "Event von DD Munich"
+
+            events.append(e)
+
+    print(f"DD Munich Events gefunden: {len(events)}")
     return events
 
 
@@ -199,11 +212,10 @@ def generate_ics():
     cal = Calendar()
 
     bb = fetch_bbspiele_events()
-    dd = fetch_ddmunich_events()
     ft = fetch_funtainment_events()
-    mp = fetch_magicpapa_events()
+    dd = fetch_ddmunich_events()
 
-    all_events = bb + dd + ft + mp
+    all_events = bb + ft + dd
 
     print("Gesamtanzahl Events:", len(all_events))
 

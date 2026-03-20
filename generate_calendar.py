@@ -84,10 +84,19 @@ def generate_proxy_events(event):
     title = event["title"].lower()
 
     weekly_keywords = [
+        # Modern
         "after work modern",
         "friday night modern",
         "friday night magic",
         "fnm",
+
+        # Legacy
+        "after work legacy",
+        "legacy",
+
+        # Premodern
+        "after work premodern",
+        "premodern",
     ]
 
     if not any(k in title for k in weekly_keywords):

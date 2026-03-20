@@ -30,7 +30,7 @@ def set_default_duration(event):
 
 
 # ---------------------------------------------------------
-# FILTER: NUR RELEVANTE EVENTS
+# FILTER
 # ---------------------------------------------------------
 def is_relevant_event(event):
     name = event.name.lower()
@@ -48,10 +48,7 @@ def is_relevant_event(event):
     if "store championship" in name or "championship" in name:
         return True
 
-    if (
-        any(x in name for x in ["friday night", "fnm", "friday night magic"])
-        and "modern" in name
-    ):
+    if ("friday night" in name or "fnm" in name) and "modern" in name:
         return True
 
     if "after work modern" in name or "after-work modern" in name or "afterwork modern" in name:
@@ -185,57 +182,42 @@ def fetch_funtainment_events():
 
 
 # ---------------------------------------------------------
-# DECK & DICE / DD MUNICH
+# DECK & DICE / DD MUNICH — WIX EVENTS API
 # ---------------------------------------------------------
 def fetch_ddmunich_events():
     print("Hole Events von Deck & Dice / DD Munich...")
 
-    url = "https://www.dd-munich.de/event-list"
+    url = "https://www.dd-munich.de/_api/wix-events/v1/events"
     headers = {"User-Agent": "Mozilla/5.0"}
 
     try:
         resp = requests.get(url, headers=headers)
+        data = resp.json()
     except Exception as e:
         print("Fehler bei DD Munich:", e)
         return []
 
-    soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    cards = soup.select('li[data-hook="events-card"]')
-
-    for card in cards:
-        title_el = card.select_one('a[data-hook="title"]')
-        if not title_el:
-            continue
-
-        title = title_el.get_text(strip=True)
+    for item in data.get("events", []):
+        title = item.get("title", "")
         name_lower = title.lower()
 
+        # Nur Modern-Events behalten
         if "modern" not in name_lower:
             continue
 
-        date_el = card.select_one('div[data-hook="date"]')
-        if not date_el:
+        start = item.get("startDate")
+        if not start:
             continue
 
-        raw = date_el.get_text(strip=True)
-
-        try:
-            date_part, time_part = raw.split(",")
-            start_time = time_part.split("–")[0].strip()
-            dt = datetime.strptime(f"{date_part.strip()} {start_time}", "%d. %B %Y %H:%M")
-        except:
-            try:
-                dt = datetime.strptime(raw.split("–")[0].strip(), "%d. %b %Y, %H:%M")
-            except:
-                continue
+        dt = datetime.fromisoformat(start.replace("Z", "+00:00"))
 
         e = Event()
         e.name = title
         e.begin = dt
         e.location = "Deck & Dice / DD Munich"
-        e.description = "Event von Deck & Dice / DD Munich"
+        e.description = item.get("description", "")
 
         set_default_duration(e)
         events.append(e)

@@ -32,6 +32,7 @@ def generate_ics(events, filename="magic.ics"):
     for ev in events:
         uid = f"{uuid.uuid4()}@magic-munich"
 
+        # --- VEVENT START ---
         lines.append("BEGIN:VEVENT")
         lines.append(f"UID:{uid}")
         lines.append(f"DTSTAMP:{format_dt(datetime.now(TZ))}")
@@ -41,11 +42,13 @@ def generate_ics(events, filename="magic.ics"):
         lines.append(f"LOCATION:{ev.get('location', '')}")
         lines.append(f"URL:{ev.get('url', '')}")
 
-        # Backslash-freier DESCRIPTION-Block
-        desc = ev.get("description", "").replace("\n", " ")
+        # Beschreibung OHNE Backslash im f-String
+        desc = ev.get("description", "")
+        desc = desc.replace("\n", " ").replace("\r", " ")
         lines.append(f"DESCRIPTION:{desc}")
 
         lines.append("END:VEVENT")
+        # --- VEVENT END ---
 
     lines.append("END:VCALENDAR")
 

@@ -201,7 +201,7 @@ def is_relevant_event(event):
     name = event.name.lower()
     location = (event.location or "").lower()
 
-    # RCQ
+    # --- RCQ (alle Shops) ---
     if any(x in name for x in [
         "rcq",
         "regional championship",
@@ -212,19 +212,23 @@ def is_relevant_event(event):
     ]):
         return True
 
-    # Store Championship
+    # --- Store Championship (alle Shops) ---
     if "store championship" in name or "championship" in name:
         return True
 
-    # Friday Night Modern
+    # --- Friday Night Modern (alle Shops) ---
     if (
-        any(x in name for x in ["friday night magic", "fnm", "friday night"])
+        any(x in name for x in ["friday night", "fnm", "friday night magic"])
         and "modern" in name
     ):
         return True
 
-    # After Work Modern (nur Deck & Dice)
-    if "after" in name and "modern" in name and "deck & dice" in location:
+    # --- After Work Modern (Deck & Dice) ---
+    if (
+        any(x in name for x in ["after", "afterwork", "after-work"])
+        and "modern" in name
+        and any(x in location for x in ["deck", "dice", "dd munich"])
+    ):
         return True
 
     return False

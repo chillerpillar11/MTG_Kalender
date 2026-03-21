@@ -60,7 +60,7 @@ def is_relevant_dd_event(title: str) -> bool:
 
 
 # ---------------------------------------------------------
-# Uhrzeit extrahieren
+# Uhrzeit extrahieren (falls wir sie mal aus Text brauchen)
 # ---------------------------------------------------------
 def extract_time(text: str):
     text = text.lower()
@@ -74,6 +74,31 @@ def extract_time(text: str):
         return int(m.group(1)), 0
 
     return None
+
+
+# ---------------------------------------------------------
+# Monatsnamen normalisieren (Vollformen + Abkürzungen)
+# ---------------------------------------------------------
+def parse_month_name(name: str) -> int | None:
+    n = name.lower().strip().replace(".", "")
+
+    MONTHS = {
+        "jan": 1, "januar": 1,
+        "feb": 2, "februar": 2,
+        "mär": 3, "maer": 3, "maerz": 3, "märz": 3,
+        "mrz": 3,
+        "apr": 4, "april": 4,
+        "mai": 5,
+        "jun": 6, "juni": 6,
+        "jul": 7, "juli": 7,
+        "aug": 8, "august": 8,
+        "sep": 9, "sept": 9, "september": 9,
+        "okt": 10, "oktober": 10,
+        "nov": 11, "november": 11,
+        "dez": 12, "dezember": 12,
+    }
+
+    return MONTHS.get(n)
 
 
 # ---------------------------------------------------------
@@ -102,32 +127,31 @@ def fetch_widget_events(soup):
             print("    ✗ Filter: nicht relevant")
             continue
 
-        # Beispiel: "20. März 2026, 18:30 – 23:00"
-        m = re.match(r"(\d{1,2})\. (\w+) (\d{4}), (\d{1,2}:\d{2})", date_text)
+        # Beispiele:
+        # "20. März 2026, 18:30 – 23:00"
+        # "03. Apr. 2026, 18:30 – 23:00"
+        m = re.match(
+            r"(\d{1,2})\.\s+([A-Za-zÄÖÜäöü\.]+)\s+(\d{4}),\s+(\d{1,2}:\d{2})",
+            date_text
+        )
         if not m:
-            print("    ✗ Datum/Uhrzeit nicht erkannt")
+            print("    ✗ Datum/Uhrzeit nicht erkannt (Regex-Mismatch)")
             continue
 
         day = int(m.group(1))
-        month_name = m.group(2).lower()
+        month_name = m.group(2)
         year = int(m.group(3))
         time_str = m.group(4)
 
-        MONTHS = {
-            "januar": 1, "februar": 2, "märz": 3, "april": 4, "mai": 5, "juni": 6,
-            "juli": 7, "august": 8, "september": 9, "oktober": 10, "november": 11, "dezember": 12
-        }
-
-        if month_name not in MONTHS:
-            print("    ✗ Monatsname unbekannt")
+        month = parse_month_name(month_name)
+        if not month:
+            print(f"    ✗ Monatsname unbekannt: '{month_name}'")
             continue
-
-        month = MONTHS[month_name]
 
         try:
             hour, minute = map(int, time_str.split(":"))
-        except:
-            print("    ✗ Uhrzeit konnte nicht extrahiert werden")
+        except Exception:
+            print(f"    ✗ Uhrzeit konnte nicht extrahiert werden: '{time_str}'")
             continue
 
         start = datetime(year, month, day, hour, minute, tzinfo=TZ)

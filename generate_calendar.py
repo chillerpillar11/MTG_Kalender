@@ -192,11 +192,14 @@ def main():
     # Neue + Proxy + alte Events zusammenführen
     combined = restored + all_events + proxy_events
 
-    # Duplikate entfernen (echte Events überschreiben Proxy)
+    # Duplikate entfernen
+    # ❗ Echte Events werden NIE überschrieben
     unique = {}
     for ev in combined:
         key = (ev["title"].lower().strip(), ev["start"].isoformat())
-        unique[key] = ev
+
+        if key not in unique:
+            unique[key] = ev
 
     final_events = list(unique.values())
 

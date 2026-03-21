@@ -162,7 +162,9 @@ def fetch_mtgo_events():
     all_events = []
 
     # Alle Wochen sind im HTML → alle Container scrapen
-    containers = soup.select("div.container")
+    for week in range(0, 4):
+        url = f"https://mtgoupdate.com/weekdata.php?week={week}"
+        ...
 
     print(f"Gefundene Wochen: {len(containers)}")
 

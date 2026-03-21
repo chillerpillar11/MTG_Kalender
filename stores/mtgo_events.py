@@ -66,11 +66,45 @@ def extract_event(text: str):
 
 
 # ---------------------------------------------------------
-# Eine Woche aus einem Container scrapen
+# Monat/Jahr aus aktuellem Datum ableiten
 # ---------------------------------------------------------
-def scrape_week(container, month, year):
+def infer_month_year(day_number: int):
+    today = datetime.now(TZ)
+
+    # Wenn der Tag >= heute.day - 3 → gleicher Monat
+    if day_number >= today.day - 3:
+        return today.month, today.year
+
+    # Sonst → nächster Monat
+    next_month = today.month + 1
+    next_year = today.year
+
+    if next_month == 13:
+        next_month = 1
+        next_year += 1
+
+    return next_month, next_year
+
+
+# ---------------------------------------------------------
+# Eine Woche scrapen
+# ---------------------------------------------------------
+def scrape_week(container):
     events = []
 
+    # Ersten Tag finden
+    first_legend = container.select_one("#day0 legend span")
+    if not first_legend:
+        return []
+
+    m = re.match(r"[A-Za-z]+\s+(\d{1,2}[a-z]{2})", first_legend.get_text(strip=True))
+    if not m:
+        return []
+
+    first_day_number = parse_day_suffix(m.group(1))
+    month, year = infer_month_year(first_day_number)
+
+    # Jetzt alle 7 Tage scrapen
     for day_index in range(7):
         day_div = container.select_one(f"#day{day_index}")
         if not day_div:
@@ -128,7 +162,7 @@ def scrape_week(container, month, year):
 
 
 # ---------------------------------------------------------
-# Hauptfunktion: aktuelle Woche scrapen
+# Hauptfunktion
 # ---------------------------------------------------------
 def fetch_mtgo_events():
     print("Hole MTGO Events...")
@@ -145,28 +179,11 @@ def fetch_mtgo_events():
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Monat + Jahr stehen im <h1>, z.B. "March 2026"
-    header = soup.select_one("h1")
-    if not header:
-        print("MTGO: Kein <h1> mit Monat/Jahr gefunden")
-        return []
-
-    header_text = header.get_text(strip=True)
-    m2 = re.match(r"([A-Za-z]+)\s+(\d{4})", header_text)
-    if not m2:
-        print(f"MTGO: Konnte Monat/Jahr nicht parsen aus: '{header_text}'")
-        return []
-
-    month_name = m2.group(1)
-    year = int(m2.group(2))
-    month = datetime.strptime(month_name, "%B").month
-
-    # Ersten Container nehmen (aktuelle Woche)
     container = soup.select_one("div.container")
     if not container:
         print("MTGO: Kein div.container gefunden")
         return []
 
-    week_events = scrape_week(container, month, year)
+    week_events = scrape_week(container)
     print(f"MTGO Modern Events gefunden: {len(week_events)}")
     return week_events

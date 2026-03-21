@@ -2,7 +2,7 @@ name: Update Calendar
 
 on:
   schedule:
-    - cron: "0 * * * *"   # jede Stunde
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -29,12 +29,16 @@ jobs:
         run: |
           python generate_calendar.py
 
+      - name: Dump MTGO HTML
+        run: |
+          python mtgo_dump.py
+
       - name: Commit updated files
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add magic.ics events_history.json
-          git commit -m "Update calendar and history" || echo "No changes to commit"
+          git add magic.ics events_history.json mtgo_raw.html
+          git commit -m "Update calendar, history and MTGO dump" || echo "No changes to commit"
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.8.0

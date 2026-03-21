@@ -51,9 +51,7 @@ def parse_datetime(text: str):
 def fetch_bb_spiele_events():
     print("Hole Events von BB-Spiele...")
 
-    # ✔ KORREKTE URL
     url = "https://www.bb-spiele.de/events"
-
     headers = {"User-Agent": "Mozilla/5.0"}
 
     try:
@@ -65,15 +63,46 @@ def fetch_bb_spiele_events():
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
+    # Alle bekannten Event-Selektoren von "The Events Calendar"
+    selectors = [
+        ".tribe-events-calendar-list__event",
+        ".tribe-events-calendar-day__event",
+        ".tribe-events-calendar-month__event",
+        ".tribe-events-pro-week-grid__event",
+        ".tribe-events-pro-map__event-card",
+        ".tribe-events-pro-photo__event",
+        ".tribe-events-calendar-latest-past__event",
+        ".tribe-events-calendar-latest__event",
+        ".tribe-events-event-card",  # neuere Versionen
+    ]
+
+    cards = []
+    for sel in selectors:
+        found = soup.select(sel)
+        if found:
+            print(f"Selector '{sel}' → {len(found)} Events gefunden")
+            cards.extend(found)
+
+    print(f"Gesamt gefundene Event-Cards: {len(cards)}")
+
     events = []
 
-    # Event-Container (The Events Calendar / WP)
-    cards = soup.select(".tribe-events-calendar-list__event")
-    print(f"Gefundene Event-Cards: {len(cards)}")
-
     for card in cards:
-        title_el = card.select_one(".tribe-events-calendar-list__event-title-link")
-        date_el = card.select_one(".tribe-events-calendar-list__event-datetime")
+        # Titel
+        title_el = (
+            card.select_one(".tribe-events-calendar-list__event-title-link")
+            or card.select_one(".tribe-events-event-title")
+            or card.select_one("h3")
+            or card.select_one("a")
+        )
+
+        # Datum
+        date_el = (
+            card.select_one(".tribe-events-calendar-list__event-datetime")
+            or card.select_one(".tribe-event-date-start")
+            or card.select_one(".tribe-events-event-datetime")
+            or card.select_one(".tribe-events-event-date")
+        )
 
         if not title_el or not date_el:
             continue
@@ -83,7 +112,6 @@ def fetch_bb_spiele_events():
 
         print(f"  → Card: '{title}' | Datum: '{date_text}'")
 
-        # Nur RCQ & Store Championships behalten
         if not is_relevant_bb_event(title):
             print("    ✗ Filter: nicht relevant für BB-Spiele")
             continue

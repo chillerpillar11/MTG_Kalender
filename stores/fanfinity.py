@@ -30,14 +30,16 @@ def fetch_fanfinity_events():
         title = title_tag.text.strip()
         url = title_tag["href"]
 
-        # Datum (z. B. "May 2026")
-        date_tag = item.select_one(".elementor-post-info__item--type-custom")
-        if not date_tag:
+        # Alle Datumselemente holen
+        date_tags = item.select(".elementor-post-info__item--type-custom")
+
+        if len(date_tags) < 2:
             continue
 
-        date_text = date_tag.text.strip()
+        # Das zweite Element ist das echte Datum
+        date_text = date_tags[-1].text.strip()
 
-        # Datum parsen
+        # Datum parsen (z. B. "May 2026")
         try:
             parsed_date = datetime.strptime(date_text, "%B %Y")
         except:

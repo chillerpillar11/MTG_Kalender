@@ -125,38 +125,36 @@ def generate_proxy_events(event):
     # ⭐ Wiederholungsintervall
     delta = timedelta(weeks=2) if is_biweekly else timedelta(weeks=1)
 
-    # ⭐ Bis Jahresende generieren
-    year_end = datetime(start.year, 12, 31)
+# ⭐ Bis Jahresende generieren
+year_end = datetime(start.year, 12, 31, tzinfo=TZ)
 
-    # ⭐ Münchner Feiertage (vereinfachte Liste)
-    holidays = {
-        datetime(start.year, 1, 1),   # Neujahr
-        datetime(start.year, 5, 1),   # Tag der Arbeit
-        datetime(start.year, 10, 3),  # Tag der Deutschen Einheit
-        datetime(start.year, 12, 25), # Weihnachten
-        datetime(start.year, 12, 26), # 2. Weihnachtstag
-    }
+# ⭐ Münchner Feiertage (timezone-aware!)
+holidays = {
+    datetime(start.year, 1, 1, tzinfo=TZ),
+    datetime(start.year, 5, 1, tzinfo=TZ),
+    datetime(start.year, 10, 3, tzinfo=TZ),
+    datetime(start.year, 12, 25, tzinfo=TZ),
+    datetime(start.year, 12, 26, tzinfo=TZ),
+}
 
-    next_start = start + delta
-    next_end = end + delta
+next_start = start + delta
+next_end = end + delta
 
-    while next_start <= year_end:
-        # Feiertage überspringen
-        if next_start.date() not in {h.date() for h in holidays}:
-            proxy_events.append({
-                "title": event["title"],
-                "start": next_start,
-                "end": next_end,
-                "location": event.get("location", ""),
-                "url": event.get("url", ""),
-                "description": event.get("description", ""),
-                "all_day": event.get("all_day", False)
-            })
+while next_start <= year_end:
+    # Feiertage überspringen
+    if next_start.date() not in {h.date() for h in holidays}:
+        proxy_events.append({
+            "title": event["title"],
+            "start": next_start,
+            "end": next_end,
+            "location": event.get("location", ""),
+            "url": event.get("url", ""),
+            "description": event.get("description", ""),
+            "all_day": event.get("all_day", False)
+        })
 
-        next_start += delta
-        next_end += delta
-
-    return proxy_events
+    next_start += delta
+    next_end += delta
 
 # ---------------------------------------------------------
 # MAIN

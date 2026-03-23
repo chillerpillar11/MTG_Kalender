@@ -2167,5 +2167,14 @@
     "url": "https://www.dd-munich.de",
     "description": "",
     "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-04-03T18:30:00+02:00",
+    "end": "2026-04-03T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
   }
 ]

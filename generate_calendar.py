@@ -122,24 +122,41 @@ def generate_proxy_events(event):
     start = event["start"]
     end = event["end"]
 
-    for i in range(1, 13):
-        delta = timedelta(weeks=2) if is_biweekly else timedelta(weeks=1)
+    # ⭐ Wiederholungsintervall
+    delta = timedelta(weeks=2) if is_biweekly else timedelta(weeks=1)
 
-        new_start = start + delta * i
-        new_end = end + delta * i
+    # ⭐ Bis Jahresende generieren
+    year_end = datetime(start.year, 12, 31)
 
-        proxy_events.append({
-            "title": event["title"],
-            "start": new_start,
-            "end": new_end,
-            "location": event.get("location", ""),
-            "url": event.get("url", ""),
-            "description": event.get("description", ""),
-            "all_day": event.get("all_day", False)
-        })
+    # ⭐ Münchner Feiertage (vereinfachte Liste)
+    holidays = {
+        datetime(start.year, 1, 1),   # Neujahr
+        datetime(start.year, 5, 1),   # Tag der Arbeit
+        datetime(start.year, 10, 3),  # Tag der Deutschen Einheit
+        datetime(start.year, 12, 25), # Weihnachten
+        datetime(start.year, 12, 26), # 2. Weihnachtstag
+    }
+
+    next_start = start + delta
+    next_end = end + delta
+
+    while next_start <= year_end:
+        # Feiertage überspringen
+        if next_start.date() not in {h.date() for h in holidays}:
+            proxy_events.append({
+                "title": event["title"],
+                "start": next_start,
+                "end": next_end,
+                "location": event.get("location", ""),
+                "url": event.get("url", ""),
+                "description": event.get("description", ""),
+                "all_day": event.get("all_day", False)
+            })
+
+        next_start += delta
+        next_end += delta
 
     return proxy_events
-
 
 # ---------------------------------------------------------
 # MAIN

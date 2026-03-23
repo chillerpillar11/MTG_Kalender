@@ -1,26 +1,3 @@
-#!/usr/bin/env python3
-import uuid
-from datetime import datetime
-from zoneinfo import ZoneInfo
-from pathlib import Path
-
-# Stores importieren
-from stores.bb_spiele import fetch_bb_spiele_events
-from stores.funtainment import fetch_funtainment_events
-from stores.dd_munich import fetch_dd_munich_events
-from stores.fanfinity import fetch_fanfinity_events
-
-TZ = ZoneInfo("Europe/Berlin")
-
-
-# ---------------------------------------------------------
-# ICS-Helfer
-# ---------------------------------------------------------
-def format_dt(dt: datetime) -> str:
-    """ICS-konforme Zeitformatierung."""
-    return dt.astimezone(TZ).strftime("%Y%m%dT%H%M%S")
-
-
 def generate_ics(events, filename="magic.ics"):
     """Erstellt eine ICS-Datei aus Event-Dictionaries."""
     lines = [
@@ -29,7 +6,7 @@ def generate_ics(events, filename="magic.ics"):
         "PRODID:-//Magic Munich Calendar//DE",
         "CALSCALE:GREGORIAN",
 
-        # ⭐ iPhone-Kalendername Fix
+        # iPhone-Kalendername Fix
         "X-WR-CALNAME:Minga Boys Magic Kalender",
         "X-WR-TIMEZONE:Europe/Berlin",
     ]
@@ -40,8 +17,16 @@ def generate_ics(events, filename="magic.ics"):
         lines.append("BEGIN:VEVENT")
         lines.append(f"UID:{uid}")
         lines.append(f"DTSTAMP:{format_dt(datetime.now(TZ))}")
-        lines.append(f"DTSTART:{format_dt(ev['start'])}")
-        lines.append(f"DTEND:{format_dt(ev['end'])}")
+
+        # ⭐ All-Day Events korrekt schreiben
+        if ev.get("all_day"):
+            # Enddatum ist EXKLUSIV → ICS-Standard
+            lines.append(f"DTSTART;VALUE=DATE:{ev['start'].strftime('%Y%m%d')}")
+            lines.append(f"DTEND;VALUE=DATE:{ev['end'].strftime('%Y%m%d')}")
+        else:
+            lines.append(f"DTSTART:{format_dt(ev['start'])}")
+            lines.append(f"DTEND:{format_dt(ev['end'])}")
+
         lines.append(f"SUMMARY:{ev['title']}")
         lines.append(f"LOCATION:{ev.get('location', '')}")
         lines.append(f"URL:{ev.get('url', '')}")
@@ -56,63 +41,3 @@ def generate_ics(events, filename="magic.ics"):
 
     Path(filename).write_text("\n".join(lines), encoding="utf-8")
     print(f"ICS erzeugt: {filename}")
-
-
-# ---------------------------------------------------------
-# Store-Namen in Titel einfügen (Duplikate vermeiden)
-# ---------------------------------------------------------
-def normalize_event_titles(events):
-    for ev in events:
-        store = ev.get("store")
-        title = ev.get("title", "")
-
-        if store and store.lower() not in title.lower():
-            ev["title"] = f"{title} ({store})"
-
-    return events
-
-
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
-def main():
-    print("Script gestartet")
-    print("Erzeuge Kalender...")
-
-    all_events = []
-
-    print("Hole Events von BB-Spiele...")
-    try:
-        all_events.extend(fetch_bb_spiele_events())
-    except Exception as e:
-        print("Fehler bei BB-Spiele:", e)
-
-    print("Hole Events von Funtainment...")
-    try:
-        all_events.extend(fetch_funtainment_events())
-    except Exception as e:
-        print("Fehler bei Funtainment:", e)
-
-    print("Hole Events von Deck & Dice / DD Munich...")
-    try:
-        all_events.extend(fetch_dd_munich_events())
-    except Exception as e:
-        print("Fehler bei DD Munich:", e)
-
-    print("Hole Events von Fanfinity...")
-    try:
-        all_events.extend(fetch_fanfinity_events())
-    except Exception as e:
-        print("Fehler bei Fanfinity:", e)
-
-    print(f"Gesamtanzahl Events: {len(all_events)}")
-
-    # Titel normalisieren
-    all_events = normalize_event_titles(all_events)
-
-    # ICS erzeugen
-    generate_ics(all_events)
-
-
-if __name__ == "__main__":
-    main()

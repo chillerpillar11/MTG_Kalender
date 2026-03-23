@@ -33,11 +33,12 @@ def fetch_fanfinity_events():
         # Alle Datumselemente holen
         date_tags = item.select(".elementor-post-info__item--type-custom")
 
+        # Wir brauchen mindestens 2 Elemente: [0] Zahl, [1] Datum
         if len(date_tags) < 2:
             continue
 
-        # Das zweite Element ist das echte Datum
-        date_text = date_tags[-1].text.strip()
+        # Das echte Datum ist IMMER das zweite Element
+        date_text = date_tags[1].text.strip()
 
         # Datum parsen (z. B. "May 2026")
         try:

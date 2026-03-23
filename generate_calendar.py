@@ -63,7 +63,6 @@ def generate_ics(events, filename="magic.ics"):
         lines.append(f"UID:{uid}")
         lines.append(f"DTSTAMP:{format_dt(datetime.now(TZ))}")
 
-        # ⭐ All-Day Events korrekt schreiben
         if ev.get("all_day"):
             lines.append(f"DTSTART;VALUE=DATE:{ev['start'].strftime('%Y%m%d')}")
             lines.append(f"DTEND;VALUE=DATE:{ev['end'].strftime('%Y%m%d')}")
@@ -114,7 +113,7 @@ def save_history(events):
 
 
 # ---------------------------------------------------------
-# Proxy-Event-Generator (bis Jahresende, Feiertage skippen)
+# Proxy-Event-Generator (Feiertage skippen)
 # ---------------------------------------------------------
 def generate_proxy_events(event):
     title = event["title"].lower()
@@ -129,18 +128,13 @@ def generate_proxy_events(event):
         "after work modern",
         "after work legacy",
         "after work premodern",
-    ]
-
-    # 14-tägige Serien
-    biweekly_formats = [
         "friday night modern",
         "friday night standard",
     ]
 
     is_weekly = any(f in title for f in weekly_formats)
-    is_biweekly = any(f in title for f in biweekly_formats)
 
-    if not (is_weekly or is_biweekly):
+    if not is_weekly:
         return []
 
     proxy_events = []
@@ -148,13 +142,13 @@ def generate_proxy_events(event):
     start = event["start"]
     end = event["end"]
 
-    delta = timedelta(weeks=2) if is_biweekly else timedelta(weeks=1)
+    delta = timedelta(weeks=1)
 
     # ⭐ Feiertage für Startjahr + Folgejahr laden
-    holidays = (
-        load_bavarian_holidays(start.year)
-        | load_bavarian_holidays(start.year + 1)
-    )
+    years = {start.year, start.year + 1}
+    holidays = set()
+    for y in years:
+        holidays |= load_bavarian_holidays(y)
 
     # ⭐ Bis Jahresende generieren
     year_end = datetime(start.year, 12, 31, tzinfo=TZ)
@@ -163,7 +157,6 @@ def generate_proxy_events(event):
     next_end = end + delta
 
     while next_start <= year_end:
-        # ⭐ Feiertage zuverlässig überspringen
         if next_start.date() not in holidays:
             proxy_events.append({
                 "title": event["title"],
@@ -179,6 +172,7 @@ def generate_proxy_events(event):
         next_end += delta
 
     return proxy_events
+
 
 # ---------------------------------------------------------
 # MAIN
@@ -237,17 +231,27 @@ def main():
     # Alte Events laden
     history = load_history()
 
+    # ⭐ History filtern: keine Events an Feiertagen wiederherstellen
     restored = []
-    for ev in history:
-        restored.append({
-            "title": ev["title"],
-            "start": datetime.fromisoformat(ev["start"]),
-            "end": datetime.fromisoformat(ev["end"]),
-            "location": ev.get("location", ""),
-            "url": ev.get("url", ""),
-            "description": ev.get("description", ""),
-            "all_day": ev.get("all_day", False)
-        })
+    if history:
+        years = {datetime.now(TZ).year, datetime.now(TZ).year + 1}
+        holidays = set()
+        for y in years:
+            holidays |= load_bavarian_holidays(y)
+
+        for ev in history:
+            start_dt = datetime.fromisoformat(ev["start"])
+            if start_dt.date() in holidays:
+                continue
+            restored.append({
+                "title": ev["title"],
+                "start": start_dt,
+                "end": datetime.fromisoformat(ev["end"]),
+                "location": ev.get("location", ""),
+                "url": ev.get("url", ""),
+                "description": ev.get("description", ""),
+                "all_day": ev.get("all_day", False)
+            })
 
     # Neue + Proxy + alte Events zusammenführen
     combined = restored + all_events + proxy_events

@@ -163,7 +163,7 @@ def generate_proxy_events(event):
     next_end = end + delta
 
     while next_start <= year_end:
-        # Feiertage überspringen
+        # ⭐ Feiertage zuverlässig überspringen
         if next_start.date() not in holidays:
             proxy_events.append({
                 "title": event["title"],

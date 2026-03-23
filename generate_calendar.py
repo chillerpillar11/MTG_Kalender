@@ -8,7 +8,7 @@ from pathlib import Path
 from stores.bb_spiele import fetch_bb_spiele_events
 from stores.funtainment import fetch_funtainment_events
 from stores.dd_munich import fetch_dd_munich_events
-from stores.fanfinity import fetch_fanfinity_events
+from stores.fanfinity import fetch_fanfinity_events   # <<< WICHTIG
 
 TZ = ZoneInfo("Europe/Berlin")
 
@@ -17,12 +17,10 @@ TZ = ZoneInfo("Europe/Berlin")
 # ICS-Helfer
 # ---------------------------------------------------------
 def format_dt(dt: datetime) -> str:
-    """ICS-konforme Zeitformatierung."""
     return dt.astimezone(TZ).strftime("%Y%m%dT%H%M%S")
 
 
 def generate_ics(events, filename="magic.ics"):
-    """Erstellt eine ICS-Datei aus Event-Dictionaries."""
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -42,8 +40,7 @@ def generate_ics(events, filename="magic.ics"):
         lines.append(f"LOCATION:{ev.get('location', '')}")
         lines.append(f"URL:{ev.get('url', '')}")
 
-        desc = ev.get("description", "")
-        desc = desc.replace("\n", " ").replace("\r", " ")
+        desc = ev.get("description", "").replace("\n", " ").replace("\r", " ")
         lines.append(f"DESCRIPTION:{desc}")
 
         lines.append("END:VEVENT")
@@ -55,10 +52,9 @@ def generate_ics(events, filename="magic.ics"):
 
 
 # ---------------------------------------------------------
-# Store-Namen in Titel einfügen (Duplikate vermeiden)
+# Store-Namen in Titel einfügen
 # ---------------------------------------------------------
 def normalize_event_titles(events):
-    """Fügt Store-Namen in den Titel ein, um Duplikate zu vermeiden."""
     for ev in events:
         store = ev.get("store")
         title = ev.get("title", "")
@@ -78,25 +74,25 @@ def main():
 
     all_events = []
 
-    # BB-Spiele
+    print("Hole Events von BB-Spiele...")
     try:
         all_events.extend(fetch_bb_spiele_events())
     except Exception as e:
         print("Fehler bei BB-Spiele:", e)
 
-    # Funtainment
+    print("Hole Events von Funtainment...")
     try:
         all_events.extend(fetch_funtainment_events())
     except Exception as e:
         print("Fehler bei Funtainment:", e)
 
-    # Deck & Dice
+    print("Hole Events von Deck & Dice / DD Munich...")
     try:
         all_events.extend(fetch_dd_munich_events())
     except Exception as e:
         print("Fehler bei DD Munich:", e)
 
-    # Fanfinity
+    print("Hole Events von Fanfinity...")
     try:
         all_events.extend(fetch_fanfinity_events())
     except Exception as e:
@@ -104,10 +100,8 @@ def main():
 
     print(f"Gesamtanzahl Events: {len(all_events)}")
 
-    # Store-Namen in Titel einfügen
     all_events = normalize_event_titles(all_events)
 
-    # ICS erzeugen
     generate_ics(all_events)
 
 

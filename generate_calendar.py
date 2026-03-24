@@ -11,6 +11,7 @@ from stores.bb_spiele import fetch_bb_spiele_events
 from stores.funtainment import fetch_funtainment_events
 from stores.dd_munich import fetch_dd_munich_events
 from stores.fanfinity import fetch_fanfinity_events
+from stores.countdown import fetch_countdown_events
 
 TZ = ZoneInfo("Europe/Berlin")
 HISTORY_FILE = Path("events_history.json")
@@ -220,6 +221,15 @@ def main():
         print("Fehler bei Fanfinity:", e)
 
     print(f"Neue Events geladen: {len(all_events)}")
+
+    # Countdown Spielewelt
+    try:
+        events = fetch_countdown_events()
+        for ev in events:
+            ev["title"] = f"Countdown – {ev['title']}"
+        all_events.extend(events)
+    except Exception as e:
+        print("Fehler bei Countdown Spielewelt:", e)
 
     # Proxy-Events erzeugen
     proxy_events = []

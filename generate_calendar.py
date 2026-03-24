@@ -12,6 +12,7 @@ from stores.funtainment import fetch_funtainment_events
 from stores.dd_munich import fetch_dd_munich_events
 from stores.fanfinity import fetch_fanfinity_events
 from stores.countdown import fetch_countdown_events
+from stores.racoon import fetch_racoon_events
 
 TZ = ZoneInfo("Europe/Berlin")
 HISTORY_FILE = Path("events_history.json")
@@ -230,6 +231,13 @@ def main():
         all_events.extend(events)
     except Exception as e:
         print("Fehler bei Countdown Spielewelt:", e)
+
+    # Racoon Rises
+    try:
+        events = fetch_racoon_events()
+        all_events.extend(events)
+    except Exception as e:
+        print("Fehler bei Racoon Rises:", e)
 
     # Proxy-Events erzeugen
     proxy_events = []

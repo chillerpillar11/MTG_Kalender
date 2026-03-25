@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters
 TZ = ZoneInfo("Europe/Berlin")
 CUSTOM_EVENTS_FILE = Path("custom_events.json")
 
-BOT_TOKEN = "HIER_DEIN_TELEGRAM_TOKEN_EINFÜGEN"
+BOT_TOKEN = "8624373741:AAG_0-PNhM0ZvE90yQCtueVKip37aDYH2dE"
 
 
 def save_event(event):

@@ -4,7 +4,7 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Berlin")
 
-RACCOON_URL = "https://raccoon-rises.de/wp-json/tribe/events/v1/events"
+RACOON_URL = "https://racoon-rises.de/wp-json/tribe/events/v1/events"
 
 LEGACY_KEYWORDS = [
     "legacy",
@@ -54,7 +54,7 @@ def fetch_racoon_events():
     page = 1
 
     while True:
-        resp = requests.get(RACCOON_URL, params={"page": page})
+        resp = requests.get(RACOON_URL, params={"page": page})
         data = resp.json()
 
         for ev in data.get("events", []):

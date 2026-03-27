@@ -4,8 +4,8 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Berlin")
 
-# Domain mit EINEM c – korrekt für Racoon Rises
-RACOON_URL = "https://racoon-rises.de/wp-json/tribe/events/v1/events"
+# KORREKTE Domain: racoon-rises.com (ein c, .com)
+RACOON_URL = "https://racoon-rises.com/wp-json/tribe/events/v1/events"
 
 LEGACY_KEYWORDS = [
     "legacy",

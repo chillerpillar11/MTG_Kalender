@@ -10,53 +10,77 @@ BASE_URL = "https://www.magicpapa-shop.de"
 LIST_URL = "https://www.magicpapa-shop.de/c/events"
 
 # ---------------------------------------------------------
-# Hilfsfunktionen
+# Deutsche Monatsnamen
+# ---------------------------------------------------------
+
+GERMAN_MONTHS = {
+    "januar": 1, "jan": 1,
+    "februar": 2, "feb": 2,
+    "märz": 3, "maerz": 3, "mrz": 3,
+    "april": 4, "apr": 4,
+    "mai": 5,
+    "juni": 6, "jun": 6,
+    "juli": 7, "jul": 7,
+    "august": 8, "aug": 8,
+    "september": 9, "sep": 9,
+    "oktober": 10, "okt": 10,
+    "november": 11, "nov": 11,
+    "dezember": 12, "dez": 12,
+}
+
+# ---------------------------------------------------------
+# Datum + Uhrzeit Parser
 # ---------------------------------------------------------
 
 def parse_date_from_text(text):
-    """
-    Extrahiert Datum + Uhrzeit aus Titeln wie:
-    - "SA 02. Mai 2026 Start 10:00"
-    - "Freitag 17.April 18:00 Uhr"
-    - "02-mai-2026-start-10-00"
-    """
+    text = text.lower()
 
-    # 1) Versuche deutsches Datum im Format "02. Mai 2026"
-    m = re.search(r"(\d{1,2})[.\s]+([A-Za-zäöüÄÖÜ]+)[\s.]+(\d{4})", text)
+    # 1) Titel-Format: "02. Mai 2026" oder "02 mai 2026"
+    m = re.search(r"(\d{1,2})[.\s]+([a-zäöü]+)[\s.]+(\d{4})", text)
     if m:
         day, month_name, year = m.groups()
-        try:
-            dt = datetime.strptime(f"{day} {month_name} {year}", "%d %B %Y")
-        except:
-            try:
-                dt = datetime.strptime(f"{day} {month_name} {year}", "%d %b %Y")
-            except:
-                dt = None
-    else:
-        dt = None
+        month_name = month_name.lower()
 
-    # 2) Uhrzeit extrahieren
-    t = re.search(r"(\d{1,2})[:.](\d{2})", text)
-    if t:
-        hour, minute = t.groups()
-    else:
-        hour, minute = "18", "00"  # Fallback
+        if month_name not in GERMAN_MONTHS:
+            return None
 
-    if dt:
-        return dt.replace(hour=int(hour), minute=int(minute), tzinfo=TZ)
+        month = GERMAN_MONTHS[month_name]
 
-    # 3) Fallback: URL-Format "02-mai-2026-start-10-00"
-    m2 = re.search(r"(\d{1,2})-([A-Za-zäöüÄÖÜ]+)-(\d{4}).*?(\d{1,2})-(\d{2})", text)
+        # Uhrzeit extrahieren
+        t = re.search(r"(\d{1,2})[:.](\d{2})", text)
+        if t:
+            hour, minute = t.groups()
+        else:
+            hour, minute = "18", "00"
+
+        return datetime(
+            int(year), month, int(day),
+            int(hour), int(minute),
+            tzinfo=TZ
+        )
+
+    # 2) URL-Format: "02-mai-2026-start-10-00"
+    m2 = re.search(r"(\d{1,2})-([a-zäöü]+)-(\d{4}).*?(\d{1,2})-(\d{2})", text)
     if m2:
         day, month_name, year, hour, minute = m2.groups()
-        try:
-            dt = datetime.strptime(f"{day} {month_name} {year}", "%d %B %Y")
-        except:
-            dt = datetime.strptime(f"{day} {month_name} {year}", "%d %b %Y")
-        return dt.replace(hour=int(hour), minute=int(minute), tzinfo=TZ)
+        month_name = month_name.lower()
+
+        if month_name not in GERMAN_MONTHS:
+            return None
+
+        month = GERMAN_MONTHS[month_name]
+
+        return datetime(
+            int(year), month, int(day),
+            int(hour), int(minute),
+            tzinfo=TZ
+        )
 
     return None
 
+# ---------------------------------------------------------
+# Format-Erkennung
+# ---------------------------------------------------------
 
 def detect_format(title):
     title = title.lower()
@@ -64,10 +88,9 @@ def detect_format(title):
         return "Modern"
     if "standard" in title:
         return "Standard"
-    if "limited" in title or "sealed" in title or "prerelease" in title:
+    if "prerelease" in title or "sealed" in title or "limited" in title:
         return "Limited"
     return "Magic Event"
-
 
 # ---------------------------------------------------------
 # Hauptfunktion
@@ -94,7 +117,7 @@ def fetch_magicpapa_events():
             continue
 
         title = title_tag.get_text(strip=True)
-        url = BASE_URL + link_tag["href"]
+        url = BASE_URL + link_tag["href"].lstrip("/")
 
         # Nur RCQs extrahieren
         if "rcq" not in title.lower():

@@ -9,6 +9,10 @@ TZ = ZoneInfo("Europe/Berlin")
 BASE_URL = "https://www.datefix.de"
 PAGE_URL = "https://www.datefix.de/kalender/5800?dfxp={}"
 
+# ---------------------------------------------------------
+# Zeitbereich parsen
+# ---------------------------------------------------------
+
 def parse_time_range(text):
     text = text.lower()
     m = re.search(r"(\d{1,2}):(\d{2}).*?(\d{1,2}):(\d{2})", text)
@@ -23,6 +27,10 @@ def parse_time_range(text):
 
     return None
 
+# ---------------------------------------------------------
+# Format erkennen
+# ---------------------------------------------------------
+
 def detect_format(title):
     t = title.lower()
     if "modern" in t:
@@ -35,21 +43,55 @@ def detect_format(title):
         return "Limited"
     return "Magic Event"
 
+# ---------------------------------------------------------
+# Hauptfunktion mit Debugging
+# ---------------------------------------------------------
+
 def fetch_gamesisland_events():
     events = []
 
+    print("\n==============================")
+    print(" GAMES ISLAND DEBUG START")
+    print("==============================\n")
+
     for page in range(1, 6):
         url = PAGE_URL.format(page)
+        print(f"\n--- Lade Seite {page}: {url} ---")
 
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        try:
+            r = requests.get(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=10
+            )
+        except Exception as e:
+            print("Request-Fehler:", e)
+            continue
+
+        print("HTTP-Status:", r.status_code)
+        print("HTML-Länge:", len(r.text))
+
+        # Erste 2000 Zeichen anzeigen
+        print("\n--- Erste 2000 Zeichen ---")
+        print(r.text[:2000])
+
+        # Keyword Checks
+        print("\n--- Keyword Checks ---")
+        print("Enthält 'terminitem'? ->", "terminitem" in r.text)
+        print("Enthält 'dfx-titel-liste-dreizeilig'? ->", "dfx-titel-liste-dreizeilig" in r.text)
+        print("Enthält 'startDate'? ->", "startDate" in r.text)
+
         soup = BeautifulSoup(r.text, "html.parser")
 
         # WICHTIG: Datefix liefert Events unter .terminitem
         items = soup.select(".terminitem")
+        print("Gefundene .terminitem:", len(items))
 
         if not items:
+            print("Keine Items auf dieser Seite – Pagination Ende.")
             break
 
+        # Events extrahieren
         for item in items:
             title_tag = item.select_one("h5[itemprop='name']")
             start_meta = item.select_one("meta[itemprop='startDate']")
@@ -102,5 +144,11 @@ def fetch_gamesisland_events():
                 "description": title,
                 "all_day": False
             })
+
+    print("\n==============================")
+    print(" GAMES ISLAND DEBUG ENDE")
+    print("==============================\n")
+
+    print("Gefundene RCQ/DQ-Events:", len(events))
 
     return events

@@ -7,7 +7,7 @@ import re
 TZ = ZoneInfo("Europe/Berlin")
 
 BASE_URL = "https://www.magicpapa-shop.de"
-LIST_URL = "https://https://www.magicpapa-shop.de/c/events"
+LIST_URL = "https://www.magicpapa-shop.de/c/events"
 
 # ---------------------------------------------------------
 # Hilfsfunktionen

@@ -144,6 +144,42 @@
     "all_day": false
   },
   {
+    "title": "Fanfinity \u2013 Magic Spotlight: Secrets",
+    "start": "2026-05-08T00:00:00",
+    "end": "2026-05-11T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-london-2026/",
+    "description": "Event von Fanfinity: Magic Spotlight: Secrets\nhttps://www.fanfinity.gg/event/magic-spotlight-series-london-2026/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series \u2013 Regional Championship \u2013 Prague 2026",
+    "start": "2026-05-29T00:00:00",
+    "end": "2026-06-01T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-prague-2026/",
+    "description": "Event von Fanfinity: Ultimate Guard European Magic Series \u2013 Regional Championship \u2013 Prague 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-prague-2026/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Magic Spotlight Series Brussels 2026",
+    "start": "2026-07-24T00:00:00",
+    "end": "2026-07-27T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
+    "description": "Event von Fanfinity: Magic Spotlight Series Brussels 2026\nhttps://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
+    "start": "2026-10-09T00:00:00",
+    "end": "2026-10-12T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
+    "description": "Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
+    "all_day": true
+  },
+  {
     "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
     "start": "2026-04-26T11:00:00+02:00",
     "end": "2026-04-26T14:00:00+02:00",
@@ -1531,15 +1567,6 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-05-08T18:30:00+02:00",
-    "end": "2026-05-08T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-05-15T18:30:00+02:00",
     "end": "2026-05-15T21:30:00+02:00",
     "location": "Deck & Dice Munich",
@@ -1551,15 +1578,6 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-05-22T18:30:00+02:00",
     "end": "2026-05-22T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-05-29T18:30:00+02:00",
-    "end": "2026-05-29T21:30:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -1623,15 +1641,6 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-07-17T18:30:00+02:00",
     "end": "2026-07-17T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-07-24T18:30:00+02:00",
-    "end": "2026-07-24T21:30:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -1729,15 +1738,6 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-10-09T18:30:00+02:00",
-    "end": "2026-10-09T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-10-16T18:30:00+02:00",
     "end": "2026-10-16T21:30:00+02:00",
     "location": "Deck & Dice Munich",
@@ -1828,15 +1828,6 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-05-08T19:00:00+02:00",
-    "end": "2026-05-08T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-05-15T19:00:00+02:00",
     "end": "2026-05-15T22:00:00+02:00",
     "location": "Deck & Dice Munich",
@@ -1848,15 +1839,6 @@
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-05-22T19:00:00+02:00",
     "end": "2026-05-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-05-29T19:00:00+02:00",
-    "end": "2026-05-29T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -1920,15 +1902,6 @@
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-07-17T19:00:00+02:00",
     "end": "2026-07-17T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-07-24T19:00:00+02:00",
-    "end": "2026-07-24T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -2019,15 +1992,6 @@
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-10-02T19:00:00+02:00",
     "end": "2026-10-02T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-09T19:00:00+02:00",
-    "end": "2026-10-09T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

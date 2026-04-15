@@ -120,6 +120,38 @@ def save_history(events):
 
 
 # ---------------------------------------------------------
+# 🟩 Manuelle Events aus Telegram-Bot laden
+# ---------------------------------------------------------
+def load_manual_events():
+    path = Path("manual_events.json")
+    if not path.exists():
+        return []
+
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except:
+        return []
+
+    events = []
+    for ev in raw:
+        try:
+            events.append({
+                "title": ev["title"],
+                "start": datetime.fromisoformat(ev["start"]),
+                "end": datetime.fromisoformat(ev["end"]),
+                "location": ev.get("location", ""),
+                "url": ev.get("url", ""),
+                "description": ev.get("description", ""),
+                "all_day": ev.get("all_day", False),
+                "source": "MANUAL"
+            })
+        except Exception as e:
+            print("Fehler in manual_events.json:", e)
+
+    return events
+
+
+# ---------------------------------------------------------
 # Proxy-Event-Generator
 # ---------------------------------------------------------
 def generate_proxy_events(event, events_by_date):
@@ -165,7 +197,7 @@ def generate_proxy_events(event, events_by_date):
                 "start": next_start,
                 "end": next_end,
                 "location": event.get("location", ""),
-                "url": event.get("url", ""),
+                "url": ev.get("url", ""),
                 "description": event.get("description", ""),
                 "all_day": event.get("all_day", False)
             })
@@ -203,7 +235,7 @@ def main():
             print(f"{name}: {len(events)} Events gefunden")
             for ev in events:
                 ev["title"] = f"{prefix}{ev['title']}"
-                ev["source"] = name   # 🟩 Quelle speichern
+                ev["source"] = name
             all_events.extend(events)
         except Exception as e:
             print(f"Fehler bei {name}: {e}")
@@ -212,6 +244,11 @@ def main():
 
     # 🟩 MTGO-Events ausblenden
     all_events = [e for e in all_events if e["source"] != "MTGO"]
+
+    # 🟩 Manuelle Events aus Telegram-Bot hinzufügen
+    manual_events = load_manual_events()
+    print(f"Manuelle Events geladen: {len(manual_events)}")
+    all_events.extend(manual_events)
 
     # Events nach Datum gruppieren
     events_by_date = {}

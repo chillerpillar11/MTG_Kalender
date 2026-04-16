@@ -1,15 +1,5 @@
 [
   {
-    "title": "Test, 18.4.2026 11:00-15:00",
-    "start": "2026-04-18T11:00:00+02:00",
-    "end": "2026-04-18T15:00:00+02:00",
-    "location": "Unbekannt",
-    "url": "",
-    "description": "Test, 18.4.2026 11:00-15:00",
-    "all_day": false,
-    "source": "MANUAL"
-  },
-  {
     "title": "RCQ Pioneer",
     "start": "2026-05-20T11:00:00+02:00",
     "end": "2026-05-20T18:00:00+02:00",

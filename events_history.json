@@ -90,6 +90,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-04-15T19:00:00+02:00",
+    "end": "2026-04-15T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-04-17T17:00:00+02:00",
     "end": "2026-04-17T20:00:00+02:00",
@@ -105,15 +114,6 @@
     "location": "FUNtainment M\u00fcnchen",
     "url": "https://www.funtainment.de",
     "description": "Buche Deinen Platz f\u00fcr dieses Event",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-04-15T19:00:00+02:00",
-    "end": "2026-04-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -138,6 +138,15 @@
     "title": "Deck & Dice \u2013 After Work Modern - 19:00 Uhr",
     "start": "2026-04-21T19:00:00+02:00",
     "end": "2026-04-21T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-04-22T19:00:00+02:00",
+    "end": "2026-04-22T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -285,339 +294,6 @@
     "location": "Freiheitshalle Hof",
     "url": "http://www.datefix.de/kalender/5800?dfxid=1363973",
     "description": "Destination Qualifier - Sealed Format am 24.05.2026 Event",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-04-22T19:00:00+02:00",
-    "end": "2026-04-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-04-29T19:00:00+02:00",
-    "end": "2026-04-29T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-05-06T19:00:00+02:00",
-    "end": "2026-05-06T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-05-13T19:00:00+02:00",
-    "end": "2026-05-13T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-05-20T19:00:00+02:00",
-    "end": "2026-05-20T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-05-27T19:00:00+02:00",
-    "end": "2026-05-27T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-06-03T19:00:00+02:00",
-    "end": "2026-06-03T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-06-10T19:00:00+02:00",
-    "end": "2026-06-10T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-06-17T19:00:00+02:00",
-    "end": "2026-06-17T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-06-24T19:00:00+02:00",
-    "end": "2026-06-24T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-07-01T19:00:00+02:00",
-    "end": "2026-07-01T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-07-08T19:00:00+02:00",
-    "end": "2026-07-08T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-07-15T19:00:00+02:00",
-    "end": "2026-07-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-07-22T19:00:00+02:00",
-    "end": "2026-07-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-07-29T19:00:00+02:00",
-    "end": "2026-07-29T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-08-05T19:00:00+02:00",
-    "end": "2026-08-05T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-08-12T19:00:00+02:00",
-    "end": "2026-08-12T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-08-19T19:00:00+02:00",
-    "end": "2026-08-19T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-08-26T19:00:00+02:00",
-    "end": "2026-08-26T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-09-02T19:00:00+02:00",
-    "end": "2026-09-02T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-09-09T19:00:00+02:00",
-    "end": "2026-09-09T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-09-16T19:00:00+02:00",
-    "end": "2026-09-16T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-09-23T19:00:00+02:00",
-    "end": "2026-09-23T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-09-30T19:00:00+02:00",
-    "end": "2026-09-30T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-10-07T19:00:00+02:00",
-    "end": "2026-10-07T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-10-14T19:00:00+02:00",
-    "end": "2026-10-14T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-10-21T19:00:00+02:00",
-    "end": "2026-10-21T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-10-28T19:00:00+01:00",
-    "end": "2026-10-28T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-11-04T19:00:00+01:00",
-    "end": "2026-11-04T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-11-11T19:00:00+01:00",
-    "end": "2026-11-11T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-11-18T19:00:00+01:00",
-    "end": "2026-11-18T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-11-25T19:00:00+01:00",
-    "end": "2026-11-25T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-12-02T19:00:00+01:00",
-    "end": "2026-12-02T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-12-09T19:00:00+01:00",
-    "end": "2026-12-09T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-12-16T19:00:00+01:00",
-    "end": "2026-12-16T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-12-23T19:00:00+01:00",
-    "end": "2026-12-23T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Legacy",
-    "start": "2026-12-30T19:00:00+01:00",
-    "end": "2026-12-30T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -1560,6 +1236,330 @@
     "title": "Deck & Dice \u2013 After Work Modern - 19:00 Uhr",
     "start": "2026-12-29T19:00:00+01:00",
     "end": "2026-12-29T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-04-29T19:00:00+02:00",
+    "end": "2026-04-29T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-05-06T19:00:00+02:00",
+    "end": "2026-05-06T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-05-13T19:00:00+02:00",
+    "end": "2026-05-13T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-05-20T19:00:00+02:00",
+    "end": "2026-05-20T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-05-27T19:00:00+02:00",
+    "end": "2026-05-27T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-06-03T19:00:00+02:00",
+    "end": "2026-06-03T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-06-10T19:00:00+02:00",
+    "end": "2026-06-10T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-06-17T19:00:00+02:00",
+    "end": "2026-06-17T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-06-24T19:00:00+02:00",
+    "end": "2026-06-24T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-07-01T19:00:00+02:00",
+    "end": "2026-07-01T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-07-08T19:00:00+02:00",
+    "end": "2026-07-08T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-07-15T19:00:00+02:00",
+    "end": "2026-07-15T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-07-22T19:00:00+02:00",
+    "end": "2026-07-22T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-07-29T19:00:00+02:00",
+    "end": "2026-07-29T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-08-05T19:00:00+02:00",
+    "end": "2026-08-05T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-08-12T19:00:00+02:00",
+    "end": "2026-08-12T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-08-19T19:00:00+02:00",
+    "end": "2026-08-19T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-08-26T19:00:00+02:00",
+    "end": "2026-08-26T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-09-02T19:00:00+02:00",
+    "end": "2026-09-02T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-09-09T19:00:00+02:00",
+    "end": "2026-09-09T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-09-16T19:00:00+02:00",
+    "end": "2026-09-16T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-09-23T19:00:00+02:00",
+    "end": "2026-09-23T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-09-30T19:00:00+02:00",
+    "end": "2026-09-30T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-10-07T19:00:00+02:00",
+    "end": "2026-10-07T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-10-14T19:00:00+02:00",
+    "end": "2026-10-14T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-10-21T19:00:00+02:00",
+    "end": "2026-10-21T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-10-28T19:00:00+01:00",
+    "end": "2026-10-28T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-11-04T19:00:00+01:00",
+    "end": "2026-11-04T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-11-11T19:00:00+01:00",
+    "end": "2026-11-11T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-11-18T19:00:00+01:00",
+    "end": "2026-11-18T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-11-25T19:00:00+01:00",
+    "end": "2026-11-25T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-12-02T19:00:00+01:00",
+    "end": "2026-12-02T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-12-09T19:00:00+01:00",
+    "end": "2026-12-09T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-12-16T19:00:00+01:00",
+    "end": "2026-12-16T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-12-23T19:00:00+01:00",
+    "end": "2026-12-23T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-12-30T19:00:00+01:00",
+    "end": "2026-12-30T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

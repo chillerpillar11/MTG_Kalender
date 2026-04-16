@@ -297,30 +297,12 @@
     "all_day": false
   },
   {
-    "title": "Test, 18.4.2026 11:00-15:00",
-    "start": "2026-04-18T11:00:00+02:00",
-    "end": "2026-04-18T15:00:00+02:00",
-    "location": "Unbekannt",
+    "title": "*All-Star Championship Summer Edition: 23.05.2026, 10:00 Uhr* \n\n*Wo:*\nDeck n\u2018 Dice\nGrillparzerstra\u00dfe 14\n81675 M\u00fcnchen\n\n*Modus:*\n4 Turniere mit Jahresendturnier f\u00fcr die Top 8 mit den meisten Punkten.\n\nJedes Turnier besteht aus 3 Runden Draft, gefolgt von 3 Runden Modern\n\nEs wird das Set Secrets of Strixhaven gedraftet.\n\n*Payin:*\n35\u20ac - 5\u20ac davon gehen in den Pool f\u00fcr das Jahresendevent\n\n*Preise:*\nIn Storecredit nach Standings\n\nVerbindliche Anmeldung via DM. 32 Spots verf\u00fcgbar. First come, first serve.",
+    "start": "2026-05-23T18:00:00+02:00",
+    "end": "2026-05-23T22:00:00+02:00",
+    "location": "den Pool f\u00fcr das Jahresendevent",
     "url": "",
-    "description": "Test, 18.4.2026 11:00-15:00",
-    "all_day": false
-  },
-  {
-    "title": "RCQ Pioneer",
-    "start": "2026-05-20T11:00:00+02:00",
-    "end": "2026-05-20T18:00:00+02:00",
-    "location": "M\u00fcnchen",
-    "url": "",
-    "description": "RCQ Pioneer am 20.05.2026 11-18 in M\u00fcnchen",
-    "all_day": false
-  },
-  {
-    "title": "Modern",
-    "start": "2026-04-20T19:00:00+02:00",
-    "end": "2026-04-20T23:00:00+02:00",
-    "location": "Unbekannt",
-    "url": "",
-    "description": "Modern am 20.04. 19-23 Uhr im deck&Dice Munich",
+    "description": "*All-Star Championship Summer Edition: 23.05.2026, 10:00 Uhr* \n\n*Wo:*\nDeck n\u2018 Dice\nGrillparzerstra\u00dfe 14\n81675 M\u00fcnchen\n\n*Modus:*\n4 Turniere mit Jahresendturnier f\u00fcr die Top 8 mit den meisten Punkten.\n\nJedes Turnier besteht aus 3 Runden Draft, gefolgt von 3 Runden Modern\n\nEs wird das Set Secrets of Strixhaven gedraftet.\n\n*Payin:*\n35\u20ac - 5\u20ac davon gehen in den Pool f\u00fcr das Jahresendevent\n\n*Preise:*\nIn Storecredit nach Standings\n\nVerbindliche Anmeldung via DM. 32 Spots verf\u00fcgbar. First come, first serve.",
     "all_day": false
   },
   {
@@ -1290,6 +1272,15 @@
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-05-13T19:00:00+02:00",
     "end": "2026-05-13T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Legacy",
+    "start": "2026-05-20T19:00:00+02:00",
+    "end": "2026-05-20T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

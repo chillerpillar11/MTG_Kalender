@@ -117,6 +117,42 @@
     "all_day": false
   },
   {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-05-08T17:00:00+02:00",
+    "end": "2026-05-08T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-05-15T17:00:00+02:00",
+    "end": "2026-05-15T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-05-22T17:00:00+02:00",
+    "end": "2026-05-22T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-05-29T17:00:00+02:00",
+    "end": "2026-05-29T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
     "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
     "start": "2026-04-20T19:00:00+02:00",
     "end": "2026-04-20T22:00:00+02:00",
@@ -1549,24 +1585,6 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-05-15T19:00:00+02:00",
-    "end": "2026-05-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-05-22T19:00:00+02:00",
-    "end": "2026-05-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-06-05T19:00:00+02:00",
     "end": "2026-06-05T22:00:00+02:00",
     "location": "Deck & Dice Munich",
@@ -1803,24 +1821,6 @@
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-12-18T19:00:00+01:00",
     "end": "2026-12-18T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-05-15T19:00:00+02:00",
-    "end": "2026-05-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-05-22T19:00:00+02:00",
-    "end": "2026-05-22T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

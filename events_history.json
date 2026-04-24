@@ -136,8 +136,8 @@
   },
   {
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
-    "start": "2026-04-24T17:00:00+02:00",
-    "end": "2026-04-24T20:00:00+02:00",
+    "start": "2026-04-30T17:00:00+02:00",
+    "end": "2026-04-30T20:00:00+02:00",
     "location": "FUNtainment M\u00fcnchen",
     "url": "https://www.funtainment.de",
     "description": "Buche Deinen Platz f\u00fcr dieses Event",
@@ -156,6 +156,15 @@
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-05-15T17:00:00+02:00",
     "end": "2026-05-15T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 RCQ Modern Round 1 2026-27",
+    "start": "2026-05-16T11:00:00+02:00",
+    "end": "2026-05-16T14:00:00+02:00",
     "location": "FUNtainment M\u00fcnchen",
     "url": "https://www.funtainment.de",
     "description": "Buche Deinen Platz f\u00fcr dieses Event",

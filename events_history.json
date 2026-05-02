@@ -153,6 +153,15 @@
     "all_day": false
   },
   {
+    "title": "Magic Papa \u2013 RCQ \u2013 Modern",
+    "start": "2026-05-02T10:00:00+02:00",
+    "end": "2026-05-02T16:00:00+02:00",
+    "location": "Magic Papa, M\u00fcnchen",
+    "url": "https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-02-mai-2026-start-10-00-modern",
+    "description": "MTG RCQ 26/27 R1 am SA 02. Mai 2026 Start 10:00 - Modern",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Regional Championship Store Qualifier - Modern",
     "start": "2026-05-23T10:00:00+02:00",
     "end": "2026-05-23T13:00:00+02:00",
@@ -339,15 +348,6 @@
     "location": "Countdown Spielewelt Landsberg",
     "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-08-23/",
     "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Magic Papa \u2013 RCQ \u2013 Modern",
-    "start": "2026-05-02T10:00:00+02:00",
-    "end": "2026-05-02T16:00:00+02:00",
-    "location": "Magic Papa, M\u00fcnchen",
-    "url": "https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-02-mai-2026-start-10-00-modern",
-    "description": "MTG RCQ 26/27 R1 am SA 02. Mai 2026 Start 10:00 - Modern",
     "all_day": false
   },
   {

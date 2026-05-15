@@ -207,6 +207,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-05-15T18:30:00+02:00",
+    "end": "2026-05-15T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Regional Championship Store Qualifier - Modern",
     "start": "2026-05-23T10:00:00+02:00",
     "end": "2026-05-23T13:00:00+02:00",
@@ -261,15 +270,6 @@
     "all_day": false
   },
   {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-05-15T18:30:00+02:00",
-    "end": "2026-05-15T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
     "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
     "start": "2026-05-18T19:00:00+02:00",
     "end": "2026-05-18T22:00:00+02:00",
@@ -309,6 +309,15 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-05-22T19:00:00+02:00",
     "end": "2026-05-22T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-05-29T18:30:00+02:00",
+    "end": "2026-05-29T21:30:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -447,240 +456,6 @@
     "location": "Deck n\u2018 Dice, Grillparzerstra\u00dfe 14, 81675 M\u00fcnchen",
     "url": "",
     "description": "All-Star Championship Summer Edition: 23.05.2026, 10:00 Uhr \n\nWo:\nDeck n\u2018 Dice\nGrillparzerstra\u00dfe 14\n81675 M\u00fcnchen\n\nModus:\n4 Turniere mit Jahresendturnier f\u00fcr die Top 8 mit den meisten Punkten.\n\nJedes Turnier besteht aus 3 Runden Draft, gefolgt von 3 Runden Modern\n\nEs wird das Set Secrets of Strixhaven gedraftet.\n\nPayin:\n35\u20ac - 5\u20ac davon gehen in den Pool f\u00fcr das Jahresendevent\n\nPreise:\nIn Storecredit nach Standings\n\nVerbindliche Anmeldung via DM. 32 Spots verf\u00fcgbar. First come, first serve.",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-06-05T18:30:00+02:00",
-    "end": "2026-06-05T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-06-12T18:30:00+02:00",
-    "end": "2026-06-12T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-06-19T18:30:00+02:00",
-    "end": "2026-06-19T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-06-26T18:30:00+02:00",
-    "end": "2026-06-26T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-07-10T18:30:00+02:00",
-    "end": "2026-07-10T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-07-17T18:30:00+02:00",
-    "end": "2026-07-17T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-07-31T18:30:00+02:00",
-    "end": "2026-07-31T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-08-07T18:30:00+02:00",
-    "end": "2026-08-07T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-08-14T18:30:00+02:00",
-    "end": "2026-08-14T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-08-21T18:30:00+02:00",
-    "end": "2026-08-21T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-08-28T18:30:00+02:00",
-    "end": "2026-08-28T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-09-04T18:30:00+02:00",
-    "end": "2026-09-04T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-09-11T18:30:00+02:00",
-    "end": "2026-09-11T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-09-18T18:30:00+02:00",
-    "end": "2026-09-18T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-09-25T18:30:00+02:00",
-    "end": "2026-09-25T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-02T18:30:00+02:00",
-    "end": "2026-10-02T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-16T18:30:00+02:00",
-    "end": "2026-10-16T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-23T18:30:00+02:00",
-    "end": "2026-10-23T21:30:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-30T18:30:00+01:00",
-    "end": "2026-10-30T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-11-06T18:30:00+01:00",
-    "end": "2026-11-06T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-11-13T18:30:00+01:00",
-    "end": "2026-11-13T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-11-20T18:30:00+01:00",
-    "end": "2026-11-20T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-11-27T18:30:00+01:00",
-    "end": "2026-11-27T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-04T18:30:00+01:00",
-    "end": "2026-12-04T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-11T18:30:00+01:00",
-    "end": "2026-12-11T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-18T18:30:00+01:00",
-    "end": "2026-12-18T21:30:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -2037,6 +1812,240 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-12-18T19:00:00+01:00",
     "end": "2026-12-18T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-06-05T18:30:00+02:00",
+    "end": "2026-06-05T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-06-12T18:30:00+02:00",
+    "end": "2026-06-12T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-06-19T18:30:00+02:00",
+    "end": "2026-06-19T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-06-26T18:30:00+02:00",
+    "end": "2026-06-26T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-07-10T18:30:00+02:00",
+    "end": "2026-07-10T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-07-17T18:30:00+02:00",
+    "end": "2026-07-17T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-07-31T18:30:00+02:00",
+    "end": "2026-07-31T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-08-07T18:30:00+02:00",
+    "end": "2026-08-07T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-08-14T18:30:00+02:00",
+    "end": "2026-08-14T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-08-21T18:30:00+02:00",
+    "end": "2026-08-21T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-08-28T18:30:00+02:00",
+    "end": "2026-08-28T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-09-04T18:30:00+02:00",
+    "end": "2026-09-04T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-09-11T18:30:00+02:00",
+    "end": "2026-09-11T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-09-18T18:30:00+02:00",
+    "end": "2026-09-18T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-09-25T18:30:00+02:00",
+    "end": "2026-09-25T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-10-02T18:30:00+02:00",
+    "end": "2026-10-02T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-10-16T18:30:00+02:00",
+    "end": "2026-10-16T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-10-23T18:30:00+02:00",
+    "end": "2026-10-23T21:30:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-10-30T18:30:00+01:00",
+    "end": "2026-10-30T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-11-06T18:30:00+01:00",
+    "end": "2026-11-06T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-11-13T18:30:00+01:00",
+    "end": "2026-11-13T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-11-20T18:30:00+01:00",
+    "end": "2026-11-20T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-11-27T18:30:00+01:00",
+    "end": "2026-11-27T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-12-04T18:30:00+01:00",
+    "end": "2026-12-04T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-12-11T18:30:00+01:00",
+    "end": "2026-12-11T21:30:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-12-18T18:30:00+01:00",
+    "end": "2026-12-18T21:30:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

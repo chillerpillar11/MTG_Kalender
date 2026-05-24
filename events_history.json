@@ -252,6 +252,24 @@
     "all_day": false
   },
   {
+    "title": "Games Island \u2013 RCQ \u2013 Modern",
+    "start": "2026-05-24T09:00:00+02:00",
+    "end": "2026-05-24T22:00:00+02:00",
+    "location": "Freiheitshalle Hof",
+    "url": "http://www.datefix.de/kalender/5800?dfxid=1363972",
+    "description": "Destination Qualifier - Modern Format am 24.05.2026 Event",
+    "all_day": false
+  },
+  {
+    "title": "Games Island \u2013 RCQ \u2013 Limited",
+    "start": "2026-05-24T09:00:00+02:00",
+    "end": "2026-05-24T22:00:00+02:00",
+    "location": "Freiheitshalle Hof",
+    "url": "http://www.datefix.de/kalender/5800?dfxid=1363973",
+    "description": "Destination Qualifier - Sealed Format am 24.05.2026 Event",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Magic Store Championship: Secrets of Strixhaven",
     "start": "2026-05-30T11:00:00+02:00",
     "end": "2026-05-30T14:00:00+02:00",
@@ -447,24 +465,6 @@
     "location": "Magic Papa, M\u00fcnchen",
     "url": "https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-06-juni-2026-start-10-00-modern",
     "description": "MTG RCQ 26/27 R1 am SA 06. Juni 2026 Start 10:00 - Modern",
-    "all_day": false
-  },
-  {
-    "title": "Games Island \u2013 RCQ \u2013 Modern",
-    "start": "2026-05-24T09:00:00+02:00",
-    "end": "2026-05-24T22:00:00+02:00",
-    "location": "Freiheitshalle Hof",
-    "url": "http://www.datefix.de/kalender/5800?dfxid=1363972",
-    "description": "Destination Qualifier - Modern Format am 24.05.2026 Event",
-    "all_day": false
-  },
-  {
-    "title": "Games Island \u2013 RCQ \u2013 Limited",
-    "start": "2026-05-24T09:00:00+02:00",
-    "end": "2026-05-24T22:00:00+02:00",
-    "location": "Freiheitshalle Hof",
-    "url": "http://www.datefix.de/kalender/5800?dfxid=1363973",
-    "description": "Destination Qualifier - Sealed Format am 24.05.2026 Event",
     "all_day": false
   },
   {

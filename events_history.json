@@ -378,24 +378,6 @@
     "all_day": false
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Marvel Super Heroes",
-    "start": "2026-07-24T00:00:00",
-    "end": "2026-07-27T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "description": "Event von Fanfinity: Magic Spotlight: Marvel Super Heroes\nhttps://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "all_day": true
-  },
-  {
-    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
-    "start": "2026-10-09T00:00:00",
-    "end": "2026-10-12T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "description": "Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "all_day": true
-  },
-  {
     "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
     "start": "2026-06-28T11:00:00+02:00",
     "end": "2026-06-28T14:00:00+02:00",
@@ -447,6 +429,15 @@
     "location": "Games Island Ladenlokal",
     "url": "http://www.datefix.de/kalender/5800?dfxid=1368830",
     "description": "European Magic Series - RCQ Season 26/27 Round 1 - Sealed",
+    "all_day": false
+  },
+  {
+    "title": "MtG | Monthly Legacy",
+    "start": "2026-06-07T09:00:00+02:00",
+    "end": "2026-06-07T16:00:00+02:00",
+    "location": "Zum Waschb\u00e4ren, Zinglerstra\u00dfe 42, 89077 Ulm",
+    "url": "",
+    "description": "MtG | Monthly Legacy \nWo: Zum Waschb\u00e4ren, \n\nZinglerstra\u00dfe 42, 89077 Ulm\n\nTeilnahmegeb\u00fchr: 25.00\u20ac\n\nWann: 07 Juni 2026, 09:00 \u2013 16:00",
     "all_day": false
   },
   {

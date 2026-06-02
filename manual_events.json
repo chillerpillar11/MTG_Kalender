@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "title": "MtG | Monthly Legacy",
+    "start": "2026-06-07T09:00:00+02:00",
+    "end": "2026-06-07T16:00:00+02:00",
+    "location": "Zum Waschbären, Zinglerstraße 42, 89077 Ulm",
+    "url": "",
+    "description": "MtG | Monthly Legacy \nWo: Zum Waschbären, \n\nZinglerstraße 42, 89077 Ulm\n\nTeilnahmegebühr: 25.00€\n\nWann: 07 Juni 2026, 09:00 – 16:00",
+    "all_day": false,
+    "source": "MANUAL"
+  }
+]

@@ -351,15 +351,6 @@
     "all_day": false
   },
   {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-06-04T19:00:00+02:00",
-    "end": "2026-06-04T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
     "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
     "start": "2026-06-08T19:00:00+02:00",
     "end": "2026-06-08T22:00:00+02:00",
@@ -387,22 +378,13 @@
     "all_day": false
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Marvel Super Heroes",
-    "start": "2026-07-24T00:00:00",
-    "end": "2026-07-27T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "description": "Event von Fanfinity: Magic Spotlight: Marvel Super Heroes\nhttps://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "all_day": true
-  },
-  {
-    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
-    "start": "2026-10-09T00:00:00",
-    "end": "2026-10-12T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "description": "Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "all_day": true
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-06-11T19:00:00+02:00",
+    "end": "2026-06-11T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
   },
   {
     "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
@@ -465,267 +447,6 @@
     "location": "Zum Waschb\u00e4ren, Zinglerstra\u00dfe 42, 89077 Ulm",
     "url": "",
     "description": "MtG | Monthly Legacy \nWo: Zum Waschb\u00e4ren, \n\nZinglerstra\u00dfe 42, 89077 Ulm\n\nTeilnahmegeb\u00fchr: 25.00\u20ac\n\nWann: 07 Juni 2026, 09:00 \u2013 16:00",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-06-11T19:00:00+02:00",
-    "end": "2026-06-11T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-06-18T19:00:00+02:00",
-    "end": "2026-06-18T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-06-25T19:00:00+02:00",
-    "end": "2026-06-25T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-02T19:00:00+02:00",
-    "end": "2026-07-02T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-09T19:00:00+02:00",
-    "end": "2026-07-09T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-16T19:00:00+02:00",
-    "end": "2026-07-16T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-23T19:00:00+02:00",
-    "end": "2026-07-23T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-30T19:00:00+02:00",
-    "end": "2026-07-30T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-08-06T19:00:00+02:00",
-    "end": "2026-08-06T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-08-13T19:00:00+02:00",
-    "end": "2026-08-13T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-08-20T19:00:00+02:00",
-    "end": "2026-08-20T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-08-27T19:00:00+02:00",
-    "end": "2026-08-27T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-09-03T19:00:00+02:00",
-    "end": "2026-09-03T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-09-10T19:00:00+02:00",
-    "end": "2026-09-10T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-09-17T19:00:00+02:00",
-    "end": "2026-09-17T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-09-24T19:00:00+02:00",
-    "end": "2026-09-24T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-01T19:00:00+02:00",
-    "end": "2026-10-01T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-08T19:00:00+02:00",
-    "end": "2026-10-08T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-15T19:00:00+02:00",
-    "end": "2026-10-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-22T19:00:00+02:00",
-    "end": "2026-10-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-29T19:00:00+01:00",
-    "end": "2026-10-29T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-05T19:00:00+01:00",
-    "end": "2026-11-05T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-12T19:00:00+01:00",
-    "end": "2026-11-12T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-19T19:00:00+01:00",
-    "end": "2026-11-19T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-26T19:00:00+01:00",
-    "end": "2026-11-26T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-03T19:00:00+01:00",
-    "end": "2026-12-03T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-10T19:00:00+01:00",
-    "end": "2026-12-10T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-17T19:00:00+01:00",
-    "end": "2026-12-17T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-24T19:00:00+01:00",
-    "end": "2026-12-24T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -1506,6 +1227,258 @@
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-12-30T19:00:00+01:00",
     "end": "2026-12-30T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-06-18T19:00:00+02:00",
+    "end": "2026-06-18T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-06-25T19:00:00+02:00",
+    "end": "2026-06-25T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-02T19:00:00+02:00",
+    "end": "2026-07-02T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-09T19:00:00+02:00",
+    "end": "2026-07-09T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-16T19:00:00+02:00",
+    "end": "2026-07-16T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-23T19:00:00+02:00",
+    "end": "2026-07-23T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-30T19:00:00+02:00",
+    "end": "2026-07-30T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-08-06T19:00:00+02:00",
+    "end": "2026-08-06T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-08-13T19:00:00+02:00",
+    "end": "2026-08-13T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-08-20T19:00:00+02:00",
+    "end": "2026-08-20T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-08-27T19:00:00+02:00",
+    "end": "2026-08-27T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-09-03T19:00:00+02:00",
+    "end": "2026-09-03T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-09-10T19:00:00+02:00",
+    "end": "2026-09-10T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-09-17T19:00:00+02:00",
+    "end": "2026-09-17T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-09-24T19:00:00+02:00",
+    "end": "2026-09-24T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-01T19:00:00+02:00",
+    "end": "2026-10-01T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-08T19:00:00+02:00",
+    "end": "2026-10-08T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-15T19:00:00+02:00",
+    "end": "2026-10-15T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-22T19:00:00+02:00",
+    "end": "2026-10-22T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-29T19:00:00+01:00",
+    "end": "2026-10-29T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-05T19:00:00+01:00",
+    "end": "2026-11-05T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-12T19:00:00+01:00",
+    "end": "2026-11-12T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-19T19:00:00+01:00",
+    "end": "2026-11-19T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-26T19:00:00+01:00",
+    "end": "2026-11-26T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-03T19:00:00+01:00",
+    "end": "2026-12-03T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-10T19:00:00+01:00",
+    "end": "2026-12-10T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-17T19:00:00+01:00",
+    "end": "2026-12-17T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-24T19:00:00+01:00",
+    "end": "2026-12-24T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

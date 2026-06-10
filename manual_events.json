@@ -18,5 +18,15 @@
     "description": "Das Brett - Modern RCQ\n\nWo: Mariahilfstraße 12, 6020 Innsbruck\n\nWann: 12.07.2026 10:00-17:00\n\nTeilnahmegebühr: 35€\n\nURL: \n\nDetails:",
     "all_day": false,
     "source": "MANUAL"
+  },
+  {
+    "title": "Titel: Ultra Comix - Modern RCQ",
+    "start": "2026-07-25T10:00:00+02:00",
+    "end": "2026-07-25T17:00:00+02:00",
+    "location": "Vordere Sterngasse 2, 90402 Nürnberg",
+    "url": "",
+    "description": "Titel: Ultra Comix - Modern RCQ\n\nWo: Vordere Sterngasse 2, 90402 Nürnberg \n\nWann: 25.07.2026 10:00-17:00\n\nTeilnahmegebühr: 30€\n\nURL: \n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
   }
 ]

@@ -441,6 +441,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-07-02T19:00:00+02:00",
+    "end": "2026-07-02T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "Fanfinity \u2013 Magic Spotlight: Marvel Super Heroes",
     "start": "2026-07-24T00:00:00",
     "end": "2026-07-27T00:00:00",
@@ -768,15 +777,6 @@
     "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
     "start": "2026-06-25T19:00:00+02:00",
     "end": "2026-06-25T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-07-02T19:00:00+02:00",
-    "end": "2026-07-02T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

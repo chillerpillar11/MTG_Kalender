@@ -414,6 +414,87 @@
     "all_day": false
   },
   {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-07-03T17:00:00+02:00",
+    "end": "2026-07-03T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-07-10T17:00:00+02:00",
+    "end": "2026-07-10T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-07-17T17:00:00+02:00",
+    "end": "2026-07-17T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-07-24T17:00:00+02:00",
+    "end": "2026-07-24T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-07-31T17:00:00+02:00",
+    "end": "2026-07-31T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-08-07T17:00:00+02:00",
+    "end": "2026-08-07T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-08-14T17:00:00+02:00",
+    "end": "2026-08-14T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-08-21T17:00:00+02:00",
+    "end": "2026-08-21T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-08-28T17:00:00+02:00",
+    "end": "2026-08-28T20:00:00+02:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-06-24T19:00:00+02:00",
     "end": "2026-06-24T22:00:00+02:00",
@@ -1470,69 +1551,6 @@
     "title": "Deck & Dice \u2013 After Work Modern - 19:00 Uhr",
     "start": "2026-12-29T19:00:00+01:00",
     "end": "2026-12-29T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-07-10T19:00:00+02:00",
-    "end": "2026-07-10T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-07-17T19:00:00+02:00",
-    "end": "2026-07-17T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-07-31T19:00:00+02:00",
-    "end": "2026-07-31T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-08-07T19:00:00+02:00",
-    "end": "2026-08-07T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-08-14T19:00:00+02:00",
-    "end": "2026-08-14T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-08-21T19:00:00+02:00",
-    "end": "2026-08-21T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-08-28T19:00:00+02:00",
-    "end": "2026-08-28T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

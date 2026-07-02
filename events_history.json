@@ -558,24 +558,6 @@
     "all_day": false
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Marvel Super Heroes",
-    "start": "2026-07-24T00:00:00",
-    "end": "2026-07-27T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "description": "Event von Fanfinity: Magic Spotlight: Marvel Super Heroes\nhttps://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/",
-    "all_day": true
-  },
-  {
-    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
-    "start": "2026-10-09T00:00:00",
-    "end": "2026-10-12T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "description": "Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
-    "all_day": true
-  },
-  {
     "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
     "start": "2026-07-26T11:00:00+02:00",
     "end": "2026-07-26T14:00:00+02:00",
@@ -903,6 +885,15 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-10-02T19:00:00+02:00",
     "end": "2026-10-02T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-10-09T19:00:00+02:00",
+    "end": "2026-10-09T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

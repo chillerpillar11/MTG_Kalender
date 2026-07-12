@@ -441,6 +441,15 @@
     "all_day": false
   },
   {
+    "title": "Das Brett - Modern RCQ",
+    "start": "2026-07-12T10:00:00+02:00",
+    "end": "2026-07-12T17:00:00+02:00",
+    "location": "Mariahilfstra\u00dfe 12, 6020 Innsbruck",
+    "url": "",
+    "description": "Das Brett - Modern RCQ\n\nWo: Mariahilfstra\u00dfe 12, 6020 Innsbruck\n\nWann: 12.07.2026 10:00-17:00\n\nTeilnahmegeb\u00fchr: 35\u20ac\n\nURL: \n\nDetails:",
+    "all_day": false
+  },
+  {
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-07-17T17:00:00+02:00",
     "end": "2026-07-17T20:00:00+02:00",
@@ -618,15 +627,6 @@
     "location": "Magic Papa, M\u00fcnchen",
     "url": "https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-01-august-2026-start-10-00-modern",
     "description": "MTG RCQ 26/27 R1 am SA 01. August 2026 Start 10:00 - Modern",
-    "all_day": false
-  },
-  {
-    "title": "Das Brett - Modern RCQ",
-    "start": "2026-07-12T10:00:00+02:00",
-    "end": "2026-07-12T17:00:00+02:00",
-    "location": "Mariahilfstra\u00dfe 12, 6020 Innsbruck",
-    "url": "",
-    "description": "Das Brett - Modern RCQ\n\nWo: Mariahilfstra\u00dfe 12, 6020 Innsbruck\n\nWann: 12.07.2026 10:00-17:00\n\nTeilnahmegeb\u00fchr: 35\u20ac\n\nURL: \n\nDetails:",
     "all_day": false
   },
   {

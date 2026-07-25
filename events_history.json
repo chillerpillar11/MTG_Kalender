@@ -495,6 +495,15 @@
     "all_day": false
   },
   {
+    "title": "Ultra Comix - Modern RCQ",
+    "start": "2026-07-25T10:00:00+02:00",
+    "end": "2026-07-25T17:00:00+02:00",
+    "location": "Vordere Sterngasse 2, 90402 N\u00fcrnberg",
+    "url": "",
+    "description": "Ultra Comix - Modern RCQ\n\nWo: Vordere Sterngasse 2, 90402 N\u00fcrnberg \n\nWann: 25.07.2026 10:00-17:00\n\nTeilnahmegeb\u00fchr: 30\u20ac\n\nURL: \n\nDetails:",
+    "all_day": false
+  },
+  {
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-07-31T17:00:00+02:00",
     "end": "2026-07-31T20:00:00+02:00",
@@ -663,15 +672,6 @@
     "location": "Magic Papa, M\u00fcnchen",
     "url": "https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-01-august-2026-start-10-00-modern",
     "description": "MTG RCQ 26/27 R1 am SA 01. August 2026 Start 10:00 - Modern",
-    "all_day": false
-  },
-  {
-    "title": "Ultra Comix - Modern RCQ",
-    "start": "2026-07-25T10:00:00+02:00",
-    "end": "2026-07-25T17:00:00+02:00",
-    "location": "Vordere Sterngasse 2, 90402 N\u00fcrnberg",
-    "url": "",
-    "description": "Ultra Comix - Modern RCQ\n\nWo: Vordere Sterngasse 2, 90402 N\u00fcrnberg \n\nWann: 25.07.2026 10:00-17:00\n\nTeilnahmegeb\u00fchr: 30\u20ac\n\nURL: \n\nDetails:",
     "all_day": false
   },
   {

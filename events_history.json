@@ -612,6 +612,24 @@
     "all_day": false
   },
   {
+    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
+    "start": "2026-10-09T00:00:00",
+    "end": "2026-10-12T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
+    "description": "Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series \u2013 Regional Championship Bilbao 2027",
+    "start": "2027-02-12T00:00:00",
+    "end": "2027-02-15T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/",
+    "description": "Event von Fanfinity: Ultimate Guard European Magic Series \u2013 Regional Championship Bilbao 2027\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/",
+    "all_day": true
+  },
+  {
     "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
     "start": "2026-08-23T11:00:00+02:00",
     "end": "2026-08-23T14:00:00+02:00",
@@ -635,6 +653,15 @@
     "end": "2026-10-25T14:00:00+01:00",
     "location": "Countdown Spielewelt Landsberg",
     "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-10-25/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2026-11-22T11:00:00+01:00",
+    "end": "2026-11-22T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-11-22/",
     "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
     "all_day": false
   },
@@ -1452,15 +1479,6 @@
     "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-10-02T19:00:00+02:00",
     "end": "2026-10-02T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-10-09T19:00:00+02:00",
-    "end": "2026-10-09T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

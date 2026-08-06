@@ -93,6 +93,26 @@ def detect_format(title):
     return "Magic Event"
 
 # ---------------------------------------------------------
+# URL Normalisierung
+# ---------------------------------------------------------
+
+def normalize_magicpapa_url(url: str) -> str:
+    url = url.strip()
+
+    # Falsche Domain-Konstruktion korrigieren
+    url = url.replace("magicpapa-shop.dep/", "magicpapa-shop.de/p/")
+
+    # Falls URL ohne /p/ kommt, aber ein Produkt ist:
+    if url.startswith("https://www.magicpapa-shop.de/mtg-"):
+        url = url.replace("https://www.magicpapa-shop.de/", "https://www.magicpapa-shop.de/p/")
+
+    # Falls href ohne Domain kommt:
+    if url.startswith("/mtg-"):
+        url = "https://www.magicpapa-shop.de/p" + url
+
+    return url
+
+# ---------------------------------------------------------
 # Hauptfunktion
 # ---------------------------------------------------------
 
@@ -117,7 +137,9 @@ def fetch_magicpapa_events():
             continue
 
         title = title_tag.get_text(strip=True)
-        url = BASE_URL + link_tag["href"].lstrip("/")
+
+        raw_url = BASE_URL + link_tag["href"].lstrip("/")
+        url = normalize_magicpapa_url(raw_url)
 
         # Nur RCQs extrahieren
         if "rcq" not in title.lower():

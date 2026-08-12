@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Minga Boys Magic Kalender
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:3cc2c906-287a-4183-bacf-6ebf1258ca63@magic-munich
-DTSTAMP:20260812T223305
+UID:50d9eb4e-9c47-4d28-90f4-4b0187f34a3b@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260407T190000
 DTEND:20260407T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -15,8 +15,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:05393504-e13c-462e-b0f1-e3b1b833fa1f@magic-munich
-DTSTAMP:20260812T223305
+UID:b59d4649-2049-4697-a2da-f5c3e99f3c1f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260405T110000
 DTEND:20260405T130000
 SUMMARY:MTGO – Modern Challenge 32
@@ -25,8 +25,8 @@ URL:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:15ad4af3-7c40-4766-9610-43de4809b910@magic-munich
-DTSTAMP:20260812T223305
+UID:abc672eb-79cd-49e5-9301-89c849ee1b68@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260405T160000
 DTEND:20260405T180000
 SUMMARY:MTGO – Modern Preliminary
@@ -35,8 +35,8 @@ URL:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:1799fa89-2c65-470b-8355-e65ab33d84cd@magic-munich
-DTSTAMP:20260812T223305
+UID:51844622-a89e-4af5-aa88-5e3f5d30b370@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260407T040000
 DTEND:20260407T060000
 SUMMARY:MTGO – Modern Preliminary
@@ -45,8 +45,8 @@ URL:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:31ddd62b-54ea-4172-b162-6805d2e1bc7c@magic-munich
-DTSTAMP:20260812T223305
+UID:464f97cc-39b5-471f-9f2d-d1139e930044@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260407T100000
 DTEND:20260407T120000
 SUMMARY:MTGO – Modern Preliminary
@@ -55,8 +55,8 @@ URL:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:c17c9860-9f89-4c21-850d-4a9e356a9327@magic-munich
-DTSTAMP:20260812T223305
+UID:97084195-2851-4c17-9d50-9eb2b91f87aa@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260407T200000
 DTEND:20260407T220000
 SUMMARY:MTGO – Modern Challenge 64
@@ -65,8 +65,8 @@ URL:
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:7a7e7d95-741f-4b1a-9056-5b51840e447e@magic-munich
-DTSTAMP:20260812T223305
+UID:f6b1c1dd-473e-4e9c-b07e-89f0a6547f41@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260409T190000
 DTEND:20260409T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -75,8 +75,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:40b364cd-43f4-42b3-b325-8f0342ae753c@magic-munich
-DTSTAMP:20260812T223305
+UID:ff068b29-18ac-456e-acd9-45b2b82b3e4e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260410T183000
 DTEND:20260410T213000
 SUMMARY:Deck & Dice – Friday Night Standard 18.30
@@ -85,8 +85,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:db904ae8-0349-4bf6-8a00-c61d13381bbe@magic-munich
-DTSTAMP:20260812T223305
+UID:66e0b809-0a8a-482b-8b5c-f93081c26072@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260413T190000
 DTEND:20260413T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -95,8 +95,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f87aa8a9-858a-4e67-b855-063b8cb51290@magic-munich
-DTSTAMP:20260812T223305
+UID:a82c18e2-707f-4faa-a447-da45cfb750ae@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260414T190000
 DTEND:20260414T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -105,8 +105,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:9261da28-da69-4e2b-b2fc-079b583e7eeb@magic-munich
-DTSTAMP:20260812T223305
+UID:acaa7ad6-9e95-4eb4-9561-23789cbe8e54@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260415T190000
 DTEND:20260415T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -115,8 +115,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:e4305bbc-3494-463a-abad-31645bdccd8f@magic-munich
-DTSTAMP:20260812T223305
+UID:d731486b-af9d-48c3-bddd-faee0c49dedd@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260416T190000
 DTEND:20260416T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -125,8 +125,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:509f7c1b-26fd-4a20-bb41-df36e7516379@magic-munich
-DTSTAMP:20260812T223305
+UID:4ed1eb1f-3e47-4349-9b5e-c947c66b9ad1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260420T190000
 DTEND:20260420T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -135,8 +135,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:9f9394a2-761e-45cc-90d3-dfc5bd400991@magic-munich
-DTSTAMP:20260812T223305
+UID:1fec6c01-1bad-4463-9b2c-211f5e5bb69e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260424T190000
 DTEND:20260424T220000
 SUMMARY:Deck & Dice – Friday Night Standard 18.30
@@ -145,8 +145,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5609d95f-2a7c-4891-8db4-c192a8638e5e@magic-munich
-DTSTAMP:20260812T223305
+UID:3144893c-81bb-468c-91f6-a7bb13a62256@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260428T190000
 DTEND:20260428T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -155,8 +155,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:92321ff6-8c42-453f-ac0c-26e5f5d503b4@magic-munich
-DTSTAMP:20260812T223305
+UID:10018fce-0ae9-4541-8117-a9f02f4a044a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260429T190000
 DTEND:20260429T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -165,8 +165,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0214b322-0cd4-4aae-a1fb-1785f636c86e@magic-munich
-DTSTAMP:20260812T223305
+UID:c69fb255-aaa5-46f1-8100-d401a4e025d1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260430T190000
 DTEND:20260430T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -175,8 +175,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0e66b00b-f23b-4b17-a792-bacedc26aafc@magic-munich
-DTSTAMP:20260812T223305
+UID:ed25eb23-f33a-4886-b483-a029a96a9cf3@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260502T100000
 DTEND:20260502T160000
 SUMMARY:Magic Papa – RCQ – Modern
@@ -185,8 +185,8 @@ URL:https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-02-mai-2026-start-10-0
 DESCRIPTION:MTG RCQ 26/27 R1 am SA 02. Mai 2026 Start 10:00 - Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:fe55100a-573c-4bb9-a5ed-248341cbbf39@magic-munich
-DTSTAMP:20260812T223305
+UID:f2b88ebb-ac1e-4a12-b01f-d48921f1b006@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260504T190000
 DTEND:20260504T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -195,8 +195,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5af69d83-eeec-434f-b655-1cab9faf425d@magic-munich
-DTSTAMP:20260812T223305
+UID:e44fd20f-0218-4af8-9b03-df7c2b30d17f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260507T190000
 DTEND:20260507T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -205,8 +205,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:cc71281d-69fe-4961-bdef-2438d4507d3c@magic-munich
-DTSTAMP:20260812T223305
+UID:dc40d161-9afb-42fd-aba2-ad93f8db8820@magic-munich
+DTSTAMP:20260812T233438
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260511
 SUMMARY:Fanfinity – Magic Spotlight: Secrets
@@ -215,8 +215,8 @@ URL:https://www.fanfinity.gg/event/magic-spotlight-series-london-2026/
 DESCRIPTION:Event von Fanfinity: Magic Spotlight: Secrets https://www.fanfinity.gg/event/magic-spotlight-series-london-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:41ae85db-8583-408c-937f-23c1d4cc307b@magic-munich
-DTSTAMP:20260812T223305
+UID:0a7d88a8-48d0-4202-9274-a2faaf91f4b9@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260511T190000
 DTEND:20260511T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -225,8 +225,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f0a89d9c-51a7-4e87-8c89-5175e34e0c28@magic-munich
-DTSTAMP:20260812T223305
+UID:2ac80c56-ee13-4e53-beda-2a4cbb2e2572@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260512T190000
 DTEND:20260512T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -235,8 +235,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:a18da731-1dbc-4355-b3ff-2514d5dade22@magic-munich
-DTSTAMP:20260812T223305
+UID:ccc8a944-a6da-4ee5-8d8f-214977d82398@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260515T183000
 DTEND:20260515T213000
 SUMMARY:Deck & Dice – Friday Night Standard 18.30
@@ -245,8 +245,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f389e684-c5cb-494d-a883-a24cfa3a5673@magic-munich
-DTSTAMP:20260812T223305
+UID:ff4c9852-9864-4a2e-984a-16efa1702300@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260518T190000
 DTEND:20260518T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -255,8 +255,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:3c4b6c45-a11b-4ab8-bbdb-2fc124aba65b@magic-munich
-DTSTAMP:20260812T223305
+UID:470de30c-f011-4177-8f16-1a5e64354186@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260519T190000
 DTEND:20260519T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -265,8 +265,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:fe47f47d-b869-4efa-8a8d-572a9cc6bb60@magic-munich
-DTSTAMP:20260812T223305
+UID:2a9fb785-c8f9-49c9-8c45-3ee563117a8c@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260521T190000
 DTEND:20260521T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -275,8 +275,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:fd18ffc8-b2d8-4945-94eb-dc93d3ceb623@magic-munich
-DTSTAMP:20260812T223305
+UID:19c4030a-d7bd-4dc9-aec2-cdfa5d71a79f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260522T190000
 DTEND:20260522T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -285,8 +285,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:882dfe79-ff0e-4250-a2b6-f8b473015d8d@magic-munich
-DTSTAMP:20260812T223305
+UID:aebdbc61-28ca-4152-9d1e-1c14ece13c34@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260524T090000
 DTEND:20260524T220000
 SUMMARY:Games Island – RCQ – Modern
@@ -295,8 +295,8 @@ URL:http://www.datefix.de/kalender/5800?dfxid=1363972
 DESCRIPTION:Destination Qualifier - Modern Format am 24.05.2026 Event
 END:VEVENT
 BEGIN:VEVENT
-UID:f19df13b-5c41-45d8-8b3f-d70b49774631@magic-munich
-DTSTAMP:20260812T223305
+UID:52db52e1-3c25-4c5c-8d53-2596792e52ee@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260524T090000
 DTEND:20260524T220000
 SUMMARY:Games Island – RCQ – Limited
@@ -305,8 +305,8 @@ URL:http://www.datefix.de/kalender/5800?dfxid=1363973
 DESCRIPTION:Destination Qualifier - Sealed Format am 24.05.2026 Event
 END:VEVENT
 BEGIN:VEVENT
-UID:c11d4f33-e5a3-475a-93c3-13eeecf8a14e@magic-munich
-DTSTAMP:20260812T223305
+UID:1239439a-70e3-46ce-9800-d5af61a35d8e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260528T190000
 DTEND:20260528T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -315,8 +315,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:e168ef82-1052-4fa6-a15a-81eff82a28d9@magic-munich
-DTSTAMP:20260812T223305
+UID:613abd1d-c5c5-4518-894b-12c203bad848@magic-munich
+DTSTAMP:20260812T233438
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260601
 SUMMARY:Fanfinity – Ultimate Guard European Magic Series – Regional Championship Prague 2026
@@ -325,8 +325,8 @@ URL:https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional
 DESCRIPTION:Event von Fanfinity: Ultimate Guard European Magic Series – Regional Championship Prague 2026 https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-prague-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:b5cebe39-9fad-4d7a-887d-67d181f32f34@magic-munich
-DTSTAMP:20260812T223305
+UID:53de654a-38ec-4b4a-9119-dd90f77f6829@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260601T190000
 DTEND:20260601T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -335,8 +335,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:7a22e90d-6b7e-45ab-a7a9-5a279a525fd1@magic-munich
-DTSTAMP:20260812T223305
+UID:5b05425b-96c0-46d7-bb75-b11d95fda08e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260603T190000
 DTEND:20260603T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -345,8 +345,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:d198813c-fc2a-4b76-9a38-ed94da2cd69f@magic-munich
-DTSTAMP:20260812T223305
+UID:40628bee-fa7c-4f0c-a67a-4a2e348715c7@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260606T100000
 DTEND:20260606T160000
 SUMMARY:Magic Papa – RCQ – Modern
@@ -355,8 +355,8 @@ URL:https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-06-juni-2026-start-10-
 DESCRIPTION:MTG RCQ 26/27 R1 am SA 06. Juni 2026 Start 10:00 - Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:b87246ee-5536-4ea3-a5ae-9e6bea30480e@magic-munich
-DTSTAMP:20260812T223305
+UID:0f324bc9-c067-4dcd-8481-28153f89ce6e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260607T100000
 DTEND:20260607T190000
 SUMMARY:Games Island – RCQ – Limited
@@ -365,8 +365,8 @@ URL:http://www.datefix.de/kalender/5800?dfxid=1368830
 DESCRIPTION:European Magic Series - RCQ Season 26/27 Round 1 - Sealed
 END:VEVENT
 BEGIN:VEVENT
-UID:6d880546-5178-4628-8c0c-293b7c6e0c11@magic-munich
-DTSTAMP:20260812T223305
+UID:6566e81b-7ef8-4c67-89c6-96661edbebee@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260607T090000
 DTEND:20260607T160000
 SUMMARY:MtG | Monthly Legacy
@@ -375,8 +375,8 @@ URL:
 DESCRIPTION:MtG | Monthly Legacy  Wo: Zum Waschbären,   Zinglerstraße 42, 89077 Ulm  Teilnahmegebühr: 25.00€  Wann: 07 Juni 2026, 09:00 – 16:00
 END:VEVENT
 BEGIN:VEVENT
-UID:b5fe5280-9948-4a32-b7bb-1583d7980f5e@magic-munich
-DTSTAMP:20260812T223305
+UID:78152166-52b5-4c7d-ad8f-9add3d02c9ab@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260608T190000
 DTEND:20260608T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -385,8 +385,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5fc5bdc6-15a9-41d8-b815-cfbbb2e3864c@magic-munich
-DTSTAMP:20260812T223305
+UID:c0f632fd-aab6-4c2e-a600-a14ef4e9e5e1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260610T190000
 DTEND:20260610T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -395,8 +395,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f3ed27fa-9d28-484c-9de2-982965c52c6c@magic-munich
-DTSTAMP:20260812T223305
+UID:72cade04-612e-46e6-b38d-6c0ff9961960@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260611T190000
 DTEND:20260611T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -405,8 +405,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:8fff0722-6551-4868-b4ee-cbfa21b7de82@magic-munich
-DTSTAMP:20260812T223305
+UID:72f11239-d913-49e7-a716-b08ea9b317f8@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260615T190000
 DTEND:20260615T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -415,8 +415,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f32a9dc5-ae6e-42a9-99c1-1c071c63875e@magic-munich
-DTSTAMP:20260812T223305
+UID:00078597-aba2-4481-bccf-02468e974493@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260616T190000
 DTEND:20260616T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -425,8 +425,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b391a597-3d28-4981-8994-2c0e1eaac8cb@magic-munich
-DTSTAMP:20260812T223305
+UID:fcc6e4cd-155c-4208-b446-682e86556423@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260618T190000
 DTEND:20260618T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -435,8 +435,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b49cc78d-a580-4ebf-a93d-08f8cefa337d@magic-munich
-DTSTAMP:20260812T223305
+UID:2f4e0729-fee5-4a27-936e-9b0f4d1f71ba@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260619T190000
 DTEND:20260619T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -445,8 +445,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:de1904a9-bb43-4ff9-b1a8-cf097a5137a9@magic-munich
-DTSTAMP:20260812T223305
+UID:dfbffca5-21a7-4b44-bac7-4f9eb59b53ad@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260624T190000
 DTEND:20260624T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -455,8 +455,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:08b01b1f-dc53-4d36-8df4-8393056b655d@magic-munich
-DTSTAMP:20260812T223305
+UID:4a535d15-18fb-439a-a615-d3dffc6addbc@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260625T190000
 DTEND:20260625T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -465,8 +465,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0e9aa0a1-4d18-48c0-8578-45675d2632f1@magic-munich
-DTSTAMP:20260812T223305
+UID:1e375540-e862-4287-aaab-15e98629e44f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260629T190000
 DTEND:20260629T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -475,8 +475,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:8934d262-10ce-4ff0-989e-ee2f7db72d02@magic-munich
-DTSTAMP:20260812T223305
+UID:4544d7dd-5dc5-40e2-be5f-c5fae1b17988@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260630T190000
 DTEND:20260630T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -485,8 +485,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:55249f2f-05cf-43a6-8b4c-4bf1be6897a9@magic-munich
-DTSTAMP:20260812T223305
+UID:d9006aa8-ed8a-4136-8947-8e4ee0e660c4@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260702T190000
 DTEND:20260702T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -495,8 +495,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:de3ef75a-0492-4c33-91e0-c45e43e1d423@magic-munich
-DTSTAMP:20260812T223305
+UID:7edf9ec8-f4ef-4f50-b304-9653cf220c4a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260712T100000
 DTEND:20260712T170000
 SUMMARY:Das Brett - Modern RCQ
@@ -505,8 +505,8 @@ URL:
 DESCRIPTION:Das Brett - Modern RCQ  Wo: Mariahilfstraße 12, 6020 Innsbruck  Wann: 12.07.2026 10:00-17:00  Teilnahmegebühr: 35€  URL:   Details:
 END:VEVENT
 BEGIN:VEVENT
-UID:e2e27b3e-b53b-477e-ad60-9b455324f26c@magic-munich
-DTSTAMP:20260812T223305
+UID:e11768b7-33f5-4566-896f-40b7f23c9afd@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260713T190000
 DTEND:20260713T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -515,8 +515,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:10673d39-b39f-47ff-901e-9b2a69f5b34b@magic-munich
-DTSTAMP:20260812T223305
+UID:69c4cf62-9661-4a35-8c01-3e832eb86f02@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260717T190000
 DTEND:20260717T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -525,8 +525,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:d5a7d579-1756-47d4-870d-cfc1ef642424@magic-munich
-DTSTAMP:20260812T223305
+UID:3f369a3f-91ab-4ca1-a2d0-abe9388537a8@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260718T100000
 DTEND:20260718T160000
 SUMMARY:Magic Papa – RCQ – Modern
@@ -535,8 +535,8 @@ URL:https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-18-juli-2026-start-10-
 DESCRIPTION:MTG RCQ 26/27 R1 am SA 18. Juli 2026 Start 10:00 - Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:0b470b60-22f8-4d72-b539-658bcbe3c683@magic-munich
-DTSTAMP:20260812T223305
+UID:426c531b-13b6-44d5-aff2-103d15b5a2f2@magic-munich
+DTSTAMP:20260812T233438
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260727
 SUMMARY:Fanfinity – Magic Spotlight: Marvel Super Heroes
@@ -545,8 +545,8 @@ URL:https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/
 DESCRIPTION:Event von Fanfinity: Magic Spotlight: Marvel Super Heroes https://www.fanfinity.gg/event/magic-spotlight-series-brussels-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:05c34d94-9efa-4063-81b1-84383286aa0f@magic-munich
-DTSTAMP:20260812T223305
+UID:36b9feb0-8636-4a96-87eb-2210415426e5@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260724T183000
 DTEND:20260724T213000
 SUMMARY:Deck & Dice – Friday Night Standard
@@ -555,8 +555,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:e3dd0625-9911-46bd-9d58-09841dd83efb@magic-munich
-DTSTAMP:20260812T223305
+UID:d2fec3ba-a338-4fcc-a363-db9b2d268b3d@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260725T100000
 DTEND:20260725T170000
 SUMMARY:Ultra Comix - Modern RCQ
@@ -565,8 +565,8 @@ URL:
 DESCRIPTION:Ultra Comix - Modern RCQ  Wo: Vordere Sterngasse 2, 90402 Nürnberg   Wann: 25.07.2026 10:00-17:00  Teilnahmegebühr: 30€  URL:   Details:
 END:VEVENT
 BEGIN:VEVENT
-UID:a3b6be21-c859-43ce-aaf3-6fc9027a15d7@magic-munich
-DTSTAMP:20260812T223305
+UID:db5bf9ff-fd06-4567-b836-92d3f51599e2@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260728T190000
 DTEND:20260728T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -575,8 +575,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:202d5808-6874-4afa-bf94-ed2747b208de@magic-munich
-DTSTAMP:20260812T223305
+UID:18ef9f1c-c650-48f4-ad6d-e49a0b8fb39c@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260801T100000
 DTEND:20260801T160000
 SUMMARY:Magic Papa – RCQ – Modern
@@ -585,8 +585,8 @@ URL:https://www.magicpapa-shop.dep/mtg-rcq-26-27-r1-am-sa-01-august-2026-start-1
 DESCRIPTION:MTG RCQ 26/27 R1 am SA 01. August 2026 Start 10:00 - Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:0c9a43b0-dc94-4d2d-ba4a-92a032caa530@magic-munich
-DTSTAMP:20260812T223305
+UID:5db2389d-e867-4ddb-bdc2-96bc6431a5df@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260801T110000
 DTEND:20260801T140000
 SUMMARY:Deck & Dice – RCQ Modern
@@ -595,8 +595,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:1f7f972b-f6e5-4c06-9459-9c03f503e82f@magic-munich
-DTSTAMP:20260812T223305
+UID:8c699162-0869-4eb8-ace9-197e3ef9150f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260804T190000
 DTEND:20260804T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -605,8 +605,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:ce139682-7d32-4b06-b6fd-e6f9524a142e@magic-munich
-DTSTAMP:20260812T223305
+UID:f4a402b6-0761-45a0-92e4-97cb80b22593@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260805T190000
 DTEND:20260805T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -615,8 +615,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f44ab1ee-4914-4484-bdcd-3adabef1e839@magic-munich
-DTSTAMP:20260812T223305
+UID:a1a0af01-254a-4006-8f4f-7d9d5f72ab82@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260806T190000
 DTEND:20260806T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -625,8 +625,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:37f69d1e-e5da-4344-aa5d-c0cae8701fa6@magic-munich
-DTSTAMP:20260812T223305
+UID:6527820d-fa0c-47b5-a3d2-505af70b9597@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260810T190000
 DTEND:20260810T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -635,8 +635,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:c5c4a6e2-dab1-4844-b0b3-75d6347d7724@magic-munich
-DTSTAMP:20260812T223305
+UID:e2080229-3ce8-40c4-8738-04452975ac4a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260912T100000
 DTEND:20260912T130000
 SUMMARY:BB-Spiele – Regional Championship Qualifier: The Hobbit LIMITED
@@ -645,8 +645,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Format: The Hobbit Limited. Gewinner des RCQ erhält 1 Slot für den RC
 END:VEVENT
 BEGIN:VEVENT
-UID:6adc7db8-3b76-4cf0-b9b7-dc59fe2f7168@magic-munich
-DTSTAMP:20260812T223305
+UID:d6710b54-feb1-4443-891f-1ab1e6b33557@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261010T100000
 DTEND:20261010T130000
 SUMMARY:BB-Spiele – Regional Championship Store Qualifier - Standard
@@ -655,8 +655,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Gewinner des WPN Qualifier erhält 1 Slot für den Regional Championship.
 END:VEVENT
 BEGIN:VEVENT
-UID:b824161c-4075-4ba1-80ea-c3739deed0ea@magic-munich
-DTSTAMP:20260812T223305
+UID:03781a36-2362-4138-9ece-287bdb779fa0@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261114T100000
 DTEND:20261114T130000
 SUMMARY:BB-Spiele – Regional Championship Store Qualifier - Standard
@@ -665,8 +665,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Gewinner des WPN Qualifier erhält 1 Slot für den Regional Championship.
 END:VEVENT
 BEGIN:VEVENT
-UID:53b19479-ac09-4b8e-866d-35a41b46967d@magic-munich
-DTSTAMP:20260812T223305
+UID:c217f40e-a3f8-4143-ab9e-39896aa3f11a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260814T170000
 DTEND:20260814T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -675,8 +675,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:9427eadb-21e6-4dbe-bb60-d88215015d51@magic-munich
-DTSTAMP:20260812T223305
+UID:379f45e4-f64d-440f-a4b0-e1c5ef487d3c@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260821T170000
 DTEND:20260821T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -685,8 +685,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:8506790f-d40e-48da-a417-02dfc97f31b6@magic-munich
-DTSTAMP:20260812T223305
+UID:ac7a137c-992d-4a8a-8b57-16ef395d0a6a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260828T170000
 DTEND:20260828T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -695,18 +695,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:12235353-64d5-4c3e-b350-cf6172ed3bf0@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260812T190000
-DTEND:20260812T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:3cc8dc67-5a73-4019-b5a4-0308cab98cd7@magic-munich
-DTSTAMP:20260812T223305
+UID:84e054e4-5bcd-43ac-bf1d-f6a8944ce69a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260813T190000
 DTEND:20260813T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -715,8 +705,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b7bb98cb-adfb-4bc8-be24-ee17ecf6a6ec@magic-munich
-DTSTAMP:20260812T223305
+UID:f12a35cf-e2bb-4fd3-8acc-64b08141a19f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260814T190000
 DTEND:20260814T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -725,8 +715,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:cdd96b83-87e0-439f-af7c-c2b72b351b76@magic-munich
-DTSTAMP:20260812T223305
+UID:95d428ae-c087-4364-980d-400027c39fa0@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260817T190000
 DTEND:20260817T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -735,8 +725,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:2416fdf1-c437-4bab-b384-a4b62a95274b@magic-munich
-DTSTAMP:20260812T223305
+UID:cfdb7fc0-3402-4acd-aabe-5069682f3296@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260818T190000
 DTEND:20260818T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -745,108 +735,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:85ab2b91-f4ff-4d39-857e-f039a921e150@magic-munich
-DTSTAMP:20260812T223305
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261012
-SUMMARY:Fanfinity – Ultimate Guard European Magic Series Regional Championship Ghent 2026
-LOCATION:Online
-URL:https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/
-DESCRIPTION:Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026 https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:f459ce8b-ccee-4ca4-8d97-0c9b03399a24@magic-munich
-DTSTAMP:20260812T223305
-DTSTART;VALUE=DATE:20270212
-DTEND;VALUE=DATE:20270215
-SUMMARY:Fanfinity – Ultimate Guard European Magic Series – Regional Championship Bilbao 2027
-LOCATION:Online
-URL:https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/
-DESCRIPTION:Event von Fanfinity: Ultimate Guard European Magic Series – Regional Championship Bilbao 2027 https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:c399579c-b762-4e71-97c1-9e3505ce81bb@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260823T110000
-DTEND:20260823T140000
-SUMMARY:Countdown – Monatliches Magic Legacy Turnier
-LOCATION:Countdown Spielewelt Landsberg
-URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-08-23/
-DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
-END:VEVENT
-BEGIN:VEVENT
-UID:dbee1422-c897-48f3-97d0-78491e771c69@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260927T110000
-DTEND:20260927T140000
-SUMMARY:Countdown – Monatliches Magic Legacy Turnier
-LOCATION:Countdown Spielewelt Landsberg
-URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-09-27/
-DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
-END:VEVENT
-BEGIN:VEVENT
-UID:b3b414f8-0d06-460e-abc2-eafd898c8346@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261025T110000
-DTEND:20261025T140000
-SUMMARY:Countdown – Monatliches Magic Legacy Turnier
-LOCATION:Countdown Spielewelt Landsberg
-URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-10-25/
-DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
-END:VEVENT
-BEGIN:VEVENT
-UID:87259e74-ff2d-43ad-b77c-66bb6ebadcf7@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261122T110000
-DTEND:20261122T140000
-SUMMARY:Countdown – Monatliches Magic Legacy Turnier
-LOCATION:Countdown Spielewelt Landsberg
-URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-11-22/
-DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
-END:VEVENT
-BEGIN:VEVENT
-UID:f1aa357d-fddc-4ff6-b1a3-653d020357f4@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260829T100000
-DTEND:20260829T160000
-SUMMARY:Magic Papa – RCQ – Standard
-LOCATION:Magic Papa, München
-URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-29-august-2026-start-10-00-standard
-DESCRIPTION:MTG RCQ 26/27 R2 am SA 29. August 2026 Start 10:00 - Standard
-END:VEVENT
-BEGIN:VEVENT
-UID:df3be412-ca47-40ec-97b7-ddf0e66f6f30@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260912T100000
-DTEND:20260912T160000
-SUMMARY:Magic Papa – RCQ – Standard
-LOCATION:Magic Papa, München
-URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-12-september-2026-start-10-00-standard
-DESCRIPTION:MTG RCQ 26/27 R2 am SA 12. September 2026 Start 10:00 - Standard
-END:VEVENT
-BEGIN:VEVENT
-UID:4e73a1da-ce06-4b9b-8f7b-047e97c9599c@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260919T100000
-DTEND:20260919T160000
-SUMMARY:Magic Papa – RCQ – Standard
-LOCATION:Magic Papa, München
-URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-19-september-2026-start-10-00-standard
-DESCRIPTION:MTG RCQ 26/27 R2 am SA 19. September 2026 Start 10:00 - Standard
-END:VEVENT
-BEGIN:VEVENT
-UID:f33bd945-9622-4018-a8ba-dfc51bd0ff15@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260919T093000
-DTEND:20260919T180000
-SUMMARY:Games Island – RCQ – Limited
-LOCATION:Games Island Ladenlokal
-URL:http://www.datefix.de/kalender/5800?dfxid=1375345
-DESCRIPTION:European Magic Series - RCQ Season 26/27 Round 2 - Sealed
-END:VEVENT
-BEGIN:VEVENT
-UID:45d05d83-84b8-410d-b1ec-4c5cd5c16d34@magic-munich
-DTSTAMP:20260812T223305
+UID:9551fd9d-9ead-479e-9ce2-ca1a3be44981@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260819T190000
 DTEND:20260819T220000
 SUMMARY:Deck & Dice – After Work Legacy
@@ -855,198 +745,108 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:6a7aa4f8-c64c-4980-b042-8f25a94d6f04@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260826T190000
-DTEND:20260826T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:b306ab6a-38d2-44d1-b35b-27f328d18e18@magic-munich
+DTSTAMP:20260812T233438
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261012
+SUMMARY:Fanfinity – Ultimate Guard European Magic Series Regional Championship Ghent 2026
+LOCATION:Online
+URL:https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/
+DESCRIPTION:Event von Fanfinity: Ultimate Guard European Magic Series Regional Championship Ghent 2026 https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-ghent-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:a9cf2f91-3789-40a4-ac7b-ecbbf3a01f5e@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260902T190000
-DTEND:20260902T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:781015ea-037b-4f44-bc30-35552f2ac869@magic-munich
+DTSTAMP:20260812T233438
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270215
+SUMMARY:Fanfinity – Ultimate Guard European Magic Series – Regional Championship Bilbao 2027
+LOCATION:Online
+URL:https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/
+DESCRIPTION:Event von Fanfinity: Ultimate Guard European Magic Series – Regional Championship Bilbao 2027 https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-bilbao-2027/
 END:VEVENT
 BEGIN:VEVENT
-UID:56438a3e-c63f-45c2-8d8d-4086cebabb1c@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260909T190000
-DTEND:20260909T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:f4b8d956-b872-40ad-9509-a804808ad955@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260823T110000
+DTEND:20260823T140000
+SUMMARY:Countdown – Monatliches Magic Legacy Turnier
+LOCATION:Countdown Spielewelt Landsberg
+URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-08-23/
+DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
 END:VEVENT
 BEGIN:VEVENT
-UID:35a54e9d-2dc5-43ca-85aa-b2bffac5ef05@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260916T190000
-DTEND:20260916T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:978ec4ec-45e7-4b1e-87bb-09cfccec7185@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260927T110000
+DTEND:20260927T140000
+SUMMARY:Countdown – Monatliches Magic Legacy Turnier
+LOCATION:Countdown Spielewelt Landsberg
+URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-09-27/
+DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
 END:VEVENT
 BEGIN:VEVENT
-UID:aaa8f6a6-b940-4993-80ab-4fac79dc7c68@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260923T190000
-DTEND:20260923T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:493a2d65-b1dd-4f64-a8f7-38172b1b21dc@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261025T110000
+DTEND:20261025T140000
+SUMMARY:Countdown – Monatliches Magic Legacy Turnier
+LOCATION:Countdown Spielewelt Landsberg
+URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-10-25/
+DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
 END:VEVENT
 BEGIN:VEVENT
-UID:c2064a25-93a4-4c6b-9693-dbd03c6ef19b@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20260930T190000
-DTEND:20260930T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:8818e0c3-7495-4a3f-a7b2-468c8b944225@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261122T110000
+DTEND:20261122T140000
+SUMMARY:Countdown – Monatliches Magic Legacy Turnier
+LOCATION:Countdown Spielewelt Landsberg
+URL:https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-11-22/
+DESCRIPTION:Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der Hälfte der gespielten Runden […]
 END:VEVENT
 BEGIN:VEVENT
-UID:10cc5be5-fc81-44bd-9b21-f9c7174fd07c@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261007T190000
-DTEND:20261007T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:fc98e5e4-7c43-4418-9bdc-fbff820005dc@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260829T100000
+DTEND:20260829T160000
+SUMMARY:Magic Papa – RCQ – Standard
+LOCATION:Magic Papa, München
+URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-29-august-2026-start-10-00-standard
+DESCRIPTION:MTG RCQ 26/27 R2 am SA 29. August 2026 Start 10:00 - Standard
 END:VEVENT
 BEGIN:VEVENT
-UID:ba5d72f7-d9d4-468d-bbc5-00477424e7ce@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261014T190000
-DTEND:20261014T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:c025847d-fab8-426b-b503-9632b7a41bc4@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260912T100000
+DTEND:20260912T160000
+SUMMARY:Magic Papa – RCQ – Standard
+LOCATION:Magic Papa, München
+URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-12-september-2026-start-10-00-standard
+DESCRIPTION:MTG RCQ 26/27 R2 am SA 12. September 2026 Start 10:00 - Standard
 END:VEVENT
 BEGIN:VEVENT
-UID:7dd9fe99-ec3a-475d-b2c5-a95e34f0ec4b@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261021T190000
-DTEND:20261021T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:3e4e7ec4-da30-4aa5-9dc3-54eb580e0b8d@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260919T100000
+DTEND:20260919T160000
+SUMMARY:Magic Papa – RCQ – Standard
+LOCATION:Magic Papa, München
+URL:https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-19-september-2026-start-10-00-standard
+DESCRIPTION:MTG RCQ 26/27 R2 am SA 19. September 2026 Start 10:00 - Standard
 END:VEVENT
 BEGIN:VEVENT
-UID:0833e343-f9e3-4a13-ad9b-ce9dcbc62efb@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261028T190000
-DTEND:20261028T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
+UID:3649c9c7-876d-4c0e-b89a-f897795bb849@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260919T093000
+DTEND:20260919T180000
+SUMMARY:Games Island – RCQ – Limited
+LOCATION:Games Island Ladenlokal
+URL:http://www.datefix.de/kalender/5800?dfxid=1375345
+DESCRIPTION:European Magic Series - RCQ Season 26/27 Round 2 - Sealed
 END:VEVENT
 BEGIN:VEVENT
-UID:aea5f605-19eb-476c-a0cb-7a47be7e3de3@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261104T190000
-DTEND:20261104T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:51b58d72-d628-494a-9312-2e40a0dd2cbd@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261111T190000
-DTEND:20261111T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:afb15875-dee4-4ed0-abc7-473ecd6d4758@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261118T190000
-DTEND:20261118T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:5cbb19ad-0ed1-48a3-9b5a-239a842d0de6@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261125T190000
-DTEND:20261125T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:0b2b0973-2d1b-496e-9a70-ed07a80c7f2c@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261202T190000
-DTEND:20261202T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:6383b054-2955-41f5-81d2-aeb4b3e53d5a@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261209T190000
-DTEND:20261209T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:c488103d-07ae-42e5-ab31-863e3849e2a1@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261216T190000
-DTEND:20261216T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:2b329cf7-02fa-4a79-b0b8-d5aad6e7e24b@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261223T190000
-DTEND:20261223T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:f9f7f6b6-0ae6-40d2-a2e0-c70887e2c570@magic-munich
-DTSTAMP:20260812T223305
-DTSTART:20261230T190000
-DTEND:20261230T220000
-SUMMARY:Deck & Dice – After Work Legacy
-LOCATION:Deck & Dice Munich
-URL:https://www.dd-munich.de
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:651ff810-308c-476e-aad6-9c27f0b9bbcf@magic-munich
-DTSTAMP:20260812T223305
+UID:f050088d-82c3-4881-b0e6-959bcefeebd5@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260820T190000
 DTEND:20260820T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1055,8 +855,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:2cbe29c9-ca2b-49fe-b8ee-deb09a15dc49@magic-munich
-DTSTAMP:20260812T223305
+UID:abd5aa8d-b099-4df2-b65a-3ddf93828972@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260827T190000
 DTEND:20260827T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1065,8 +865,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:43a99628-726d-4301-8c2f-572162ffc8cd@magic-munich
-DTSTAMP:20260812T223305
+UID:62d37709-1a75-4010-8863-3304022dcc48@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260903T190000
 DTEND:20260903T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1075,8 +875,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:89a2622a-72d8-45ea-a363-390cb6f22631@magic-munich
-DTSTAMP:20260812T223305
+UID:a9aa730a-d9da-465b-bef9-1704d993fd4a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260910T190000
 DTEND:20260910T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1085,8 +885,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:8d359a4d-60f5-4e7c-9bd1-49a0e03d66a9@magic-munich
-DTSTAMP:20260812T223305
+UID:c0f9fe31-c44c-42ef-ac15-e78c0eaa9544@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260917T190000
 DTEND:20260917T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1095,8 +895,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:a175696f-347e-48e1-9fb3-a032b4241994@magic-munich
-DTSTAMP:20260812T223305
+UID:40d2a3c0-29e6-4f57-8509-35ed58bb2aff@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260924T190000
 DTEND:20260924T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1105,8 +905,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:2be19779-9f17-4bff-9ed1-7290f147d164@magic-munich
-DTSTAMP:20260812T223305
+UID:0d7bd619-1345-4fd9-881f-8d7da96095a2@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261001T190000
 DTEND:20261001T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1115,8 +915,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:8774c301-ec10-4aa8-bb9a-760b0dea363a@magic-munich
-DTSTAMP:20260812T223305
+UID:6c9300d2-1d2c-4ab0-b984-3e80a9766716@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261008T190000
 DTEND:20261008T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1125,8 +925,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:a30ec131-9b3f-4a3d-839f-d1fcbb811673@magic-munich
-DTSTAMP:20260812T223305
+UID:b1ef70de-4e38-4b70-b819-994077b4e3cf@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261015T190000
 DTEND:20261015T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1135,8 +935,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5b6ea248-b39b-4dc0-9d73-7ae3fc13f3e5@magic-munich
-DTSTAMP:20260812T223305
+UID:f7606fcf-f46f-4248-868e-94822290541b@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261022T190000
 DTEND:20261022T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1145,8 +945,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:cd38351b-c627-4a70-9b04-764d8d29a733@magic-munich
-DTSTAMP:20260812T223305
+UID:be901a31-8552-45e8-896b-2c71874bbdce@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261029T190000
 DTEND:20261029T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1155,8 +955,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:919b8794-adac-4ae9-95a1-d0786942b28c@magic-munich
-DTSTAMP:20260812T223305
+UID:1bae15c5-c902-4977-bf4f-a3675da8ea27@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261105T190000
 DTEND:20261105T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1165,8 +965,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:23c7db8d-a347-472d-8586-aba6bc0b9dc9@magic-munich
-DTSTAMP:20260812T223305
+UID:3c63a417-cb72-417d-a906-878446889ed9@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261112T190000
 DTEND:20261112T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1175,8 +975,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:ec9b64ff-6066-45bf-800b-2511856dc522@magic-munich
-DTSTAMP:20260812T223305
+UID:2bbf2104-375c-4cde-9e5d-5584acc175e4@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261119T190000
 DTEND:20261119T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1185,8 +985,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:07e242d3-590c-41dd-a172-f9bc8f567682@magic-munich
-DTSTAMP:20260812T223305
+UID:d8eb2d00-96a4-4f11-9fc3-eb1c4fa38b6c@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261126T190000
 DTEND:20261126T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1195,8 +995,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:7e73b6c0-274d-4de0-a456-646b5ddb15b2@magic-munich
-DTSTAMP:20260812T223305
+UID:509b825b-1e5b-414b-9ee0-d31bdb24b47e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261203T190000
 DTEND:20261203T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1205,8 +1005,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:9c6b6ec1-25a6-4b0b-aeb4-5f7d4a5bf80b@magic-munich
-DTSTAMP:20260812T223305
+UID:6427fda3-2ce9-4f92-8f2c-d8138108e139@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261210T190000
 DTEND:20261210T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1215,8 +1015,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5f19398e-f62a-4af0-80a6-3533234c57e7@magic-munich
-DTSTAMP:20260812T223305
+UID:0026e265-8bac-430e-b999-9c4342af918c@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261217T190000
 DTEND:20261217T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1225,8 +1025,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:76e49035-004a-479e-82c2-669761f8b1dd@magic-munich
-DTSTAMP:20260812T223305
+UID:5094961c-4738-48f6-8953-bdcf8703ba4a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261224T190000
 DTEND:20261224T220000
 SUMMARY:Deck & Dice – After Work Premodern 19:00 Uhr
@@ -1235,8 +1035,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:398cbf22-120c-4ab8-971f-e6a07b335323@magic-munich
-DTSTAMP:20260812T223305
+UID:ec94dfe7-0307-408f-a620-4567f75f4932@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260904T190000
 DTEND:20260904T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1245,8 +1045,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:cc24601c-9c7a-4b22-a22f-1da561fba8ca@magic-munich
-DTSTAMP:20260812T223305
+UID:c6554f63-1517-43ad-a725-d08161d5ec57@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260911T190000
 DTEND:20260911T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1255,8 +1055,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:066049eb-ca30-4466-b08a-b1d56a7e650d@magic-munich
-DTSTAMP:20260812T223305
+UID:4180d3c9-e7d8-47a8-ac45-e4ac049509a1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260918T190000
 DTEND:20260918T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1265,8 +1065,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:44004516-6e27-4cb4-a67a-8179e6ee886d@magic-munich
-DTSTAMP:20260812T223305
+UID:f08332eb-ca82-4019-b5d5-8c04d4cd20a2@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260925T190000
 DTEND:20260925T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1275,8 +1075,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:e7ddf808-9559-460d-9c4c-ea1f70a89faf@magic-munich
-DTSTAMP:20260812T223305
+UID:fc3b2855-796f-4526-aa38-e53f5229de4b@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261002T190000
 DTEND:20261002T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1285,8 +1085,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5c023a13-774e-411b-8855-1daf87a39d23@magic-munich
-DTSTAMP:20260812T223305
+UID:0cfae9e0-4f26-428d-926c-b440bbe898d5@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261016T190000
 DTEND:20261016T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1295,8 +1095,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:32afde07-b1c2-4f78-b6f5-b348bd3c3d1c@magic-munich
-DTSTAMP:20260812T223305
+UID:d1ef7587-d652-4ef2-9c74-a4496bec9fe2@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261023T190000
 DTEND:20261023T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1305,8 +1105,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:6d4953da-cbff-41ed-810a-c1d85a769162@magic-munich
-DTSTAMP:20260812T223305
+UID:4eacbf8b-3e81-4818-a419-94f706cde659@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261030T190000
 DTEND:20261030T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1315,8 +1115,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b6cf239b-219b-4051-8366-f40601d6dc03@magic-munich
-DTSTAMP:20260812T223305
+UID:8ee5316e-3770-40b6-aacc-5fc714315fa7@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261106T190000
 DTEND:20261106T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1325,8 +1125,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:d5d167ea-90f0-456c-9195-a2e6ec6a3ba8@magic-munich
-DTSTAMP:20260812T223305
+UID:3c012ca6-068e-4411-bdbb-69230cce016a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261113T190000
 DTEND:20261113T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1335,8 +1135,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:101204a3-b184-43d1-84d8-d91485803e00@magic-munich
-DTSTAMP:20260812T223305
+UID:6ac4a391-ff9f-4198-a14f-80735122e494@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261120T190000
 DTEND:20261120T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1345,8 +1145,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:7ddd5450-b867-45d0-842a-553ecea08188@magic-munich
-DTSTAMP:20260812T223305
+UID:2afeb549-eb43-4dec-8163-cf90ed508ef8@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261127T190000
 DTEND:20261127T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1355,8 +1155,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:10756ef2-96f5-4327-ad1b-04937a4bbe41@magic-munich
-DTSTAMP:20260812T223305
+UID:855e43b0-eb92-48b7-93e4-ef7cf1a6c7af@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261204T190000
 DTEND:20261204T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1365,8 +1165,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0db4db8c-0e18-4546-913e-844023e88f22@magic-munich
-DTSTAMP:20260812T223305
+UID:79e8192a-cdc0-4ac0-9eba-c712776c0952@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261211T190000
 DTEND:20261211T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1375,8 +1175,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b90fd2fb-496a-4ce7-bd58-1d11a0b500e7@magic-munich
-DTSTAMP:20260812T223305
+UID:57e46dc4-0137-440c-bd27-dc4df2526a6b@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261218T190000
 DTEND:20261218T220000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -1385,8 +1185,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:1fef5a2f-198e-44d6-9a29-523374857226@magic-munich
-DTSTAMP:20260812T223305
+UID:e10a8ec9-cba8-4a31-9822-784a0d41475e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260824T190000
 DTEND:20260824T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1395,8 +1195,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:ebde4359-1f7a-4276-b0e4-fb66b341a77c@magic-munich
-DTSTAMP:20260812T223305
+UID:64cc33bb-9e95-4702-bdd7-9aafc412467e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260831T190000
 DTEND:20260831T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1405,8 +1205,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:de832356-7f7c-4aa4-a589-6dece3be69da@magic-munich
-DTSTAMP:20260812T223305
+UID:303c614a-9cad-4535-9178-4072fbc02d10@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260907T190000
 DTEND:20260907T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1415,8 +1215,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:61b45d2c-f451-4c5b-8641-856a435d0b89@magic-munich
-DTSTAMP:20260812T223305
+UID:55a9790a-424e-4e70-b7e0-40fa4b7ce692@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260914T190000
 DTEND:20260914T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1425,8 +1225,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:27901834-d9f9-4a81-b020-7b39584afdee@magic-munich
-DTSTAMP:20260812T223305
+UID:81624583-1c19-4f48-ad25-ea07d7c8e959@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260921T190000
 DTEND:20260921T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1435,8 +1235,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:23d32109-475b-45cb-bcfb-aa4374c1e781@magic-munich
-DTSTAMP:20260812T223305
+UID:78271b05-9456-4c08-8db8-e92b8de85384@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260928T190000
 DTEND:20260928T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1445,8 +1245,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:dfd1754b-0e0a-4006-9bfd-4cefe49036cd@magic-munich
-DTSTAMP:20260812T223305
+UID:5aef5494-56f8-44a9-b5c2-8055ea585f5f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261005T190000
 DTEND:20261005T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1455,8 +1255,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:02fdf916-8e85-4b92-834d-3352844f8e63@magic-munich
-DTSTAMP:20260812T223305
+UID:243ed4bc-7481-4f3e-8407-d9506b647803@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261012T190000
 DTEND:20261012T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1465,8 +1265,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:36ab9c1a-bb91-4a03-9243-d714da318a02@magic-munich
-DTSTAMP:20260812T223305
+UID:a3548876-160e-446e-bf8b-36cbc369c8d0@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261019T190000
 DTEND:20261019T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1475,8 +1275,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:7a6f02ff-b7ab-405c-8b4b-bab2dbebbfd5@magic-munich
-DTSTAMP:20260812T223305
+UID:9b6aa8a8-cd36-4792-9244-388ac7bf46e4@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261026T190000
 DTEND:20261026T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1485,8 +1285,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:eb37d46d-89cd-4a33-9a85-4db4353ffc48@magic-munich
-DTSTAMP:20260812T223305
+UID:e6835664-e9ac-47ab-8fd6-f651c82c83dd@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261102T190000
 DTEND:20261102T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1495,8 +1295,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:9eaa5ede-2a45-4ed7-9044-9eaf91ccdb3f@magic-munich
-DTSTAMP:20260812T223305
+UID:3a3a1ac2-f984-4b36-bc24-9e0657071dc9@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261109T190000
 DTEND:20261109T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1505,8 +1305,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:163fbf8d-07d7-47f0-9e70-4be9d19a4c78@magic-munich
-DTSTAMP:20260812T223305
+UID:0626f5c8-91e5-4d9a-a464-ea7981910623@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261116T190000
 DTEND:20261116T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1515,8 +1315,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:c1844b93-2aa4-4d92-aba9-a47dd31421f6@magic-munich
-DTSTAMP:20260812T223305
+UID:1a39fd26-1712-4f80-8bf2-7b48dc88f3e1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261123T190000
 DTEND:20261123T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1525,8 +1325,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:57d147b8-bc0f-47cf-9c9b-573666a46d49@magic-munich
-DTSTAMP:20260812T223305
+UID:aeb384ca-bbb3-43b5-8341-6df6cd753213@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261130T190000
 DTEND:20261130T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1535,8 +1335,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:5a50ac8e-818a-4637-afd2-cf8faec3d3b9@magic-munich
-DTSTAMP:20260812T223305
+UID:efe35002-5315-47c9-9576-723303f4e5c0@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261207T190000
 DTEND:20261207T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1545,8 +1345,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:4de47d43-9ba9-4a11-85e4-908133860750@magic-munich
-DTSTAMP:20260812T223305
+UID:1c228598-529b-4501-9172-dd343510d75e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261214T190000
 DTEND:20261214T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1555,8 +1355,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:340f9a38-f0c0-4b26-8066-f4087c59a377@magic-munich
-DTSTAMP:20260812T223305
+UID:4ef0a681-406f-485b-a7b3-26340e1860a6@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261221T190000
 DTEND:20261221T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1565,8 +1365,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:1d9d6c7d-6b5f-478f-8e2a-f0114c0b7c04@magic-munich
-DTSTAMP:20260812T223305
+UID:11a7b635-ec5d-4bb3-a68b-0b29470f49ed@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261228T190000
 DTEND:20261228T220000
 SUMMARY:Deck & Dice – After Work Standard - 19:00 Uhr
@@ -1575,8 +1375,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:2d5c66b9-4e91-483e-b1de-621c7542a907@magic-munich
-DTSTAMP:20260812T223305
+UID:4094770c-8ea8-4f71-99f5-09fcee628e64@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260825T190000
 DTEND:20260825T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1585,8 +1385,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:9239e0a7-6b29-4642-a55f-72f25a757565@magic-munich
-DTSTAMP:20260812T223305
+UID:0cca6720-0c74-483e-bc93-9cd82f4dd43a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260901T190000
 DTEND:20260901T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1595,8 +1395,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0ae0270a-a19f-4ebb-84f0-8bab971d348b@magic-munich
-DTSTAMP:20260812T223305
+UID:56dba9ea-c710-41e8-bd6a-da21a122f9ce@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260908T190000
 DTEND:20260908T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1605,8 +1405,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:bd7c0794-3c14-4a7f-b378-7f8cbcfe9da3@magic-munich
-DTSTAMP:20260812T223305
+UID:15ba67d9-ca7a-4b9a-b023-4acdd426cdc0@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260915T190000
 DTEND:20260915T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1615,8 +1415,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:8f542b9a-cb1c-4e07-8300-6caa0732f620@magic-munich
-DTSTAMP:20260812T223305
+UID:9a500e68-ea68-4b77-ba90-76ef726be44d@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260922T190000
 DTEND:20260922T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1625,8 +1425,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:6eb0fd52-fa05-48c0-8cb0-765ddbd754ef@magic-munich
-DTSTAMP:20260812T223305
+UID:196f7ea2-48f2-4303-bc21-a8760580d433@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20260929T190000
 DTEND:20260929T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1635,8 +1435,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:bc67fd62-510d-4fc8-a38b-b76cbabae4fc@magic-munich
-DTSTAMP:20260812T223305
+UID:8f72e316-2eb9-4d3c-b8a4-530a434d06b5@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261006T190000
 DTEND:20261006T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1645,8 +1445,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:b8855c3e-0be6-4e02-8bca-5fcd997d6707@magic-munich
-DTSTAMP:20260812T223305
+UID:d8aa32e4-f9bb-46b1-831f-2abdb8488142@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261013T190000
 DTEND:20261013T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1655,8 +1455,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:0adef072-5fc0-438b-a5dc-7fdec34c4c1b@magic-munich
-DTSTAMP:20260812T223305
+UID:d6ce0636-1404-49dc-8a78-2787d900f061@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261020T190000
 DTEND:20261020T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1665,8 +1465,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:41777c30-1275-44c8-a122-d11361453f3e@magic-munich
-DTSTAMP:20260812T223305
+UID:f7079394-bb52-4cec-9d6c-7b3ba2d0493f@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261027T190000
 DTEND:20261027T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1675,8 +1475,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:530b87f8-f81d-4fa8-b232-820ce35472b3@magic-munich
-DTSTAMP:20260812T223305
+UID:29af918c-c89f-4277-8657-ee7f44abf662@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261103T190000
 DTEND:20261103T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1685,8 +1485,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:061956a8-7454-4b68-827f-2cf3bdd7d69c@magic-munich
-DTSTAMP:20260812T223305
+UID:7419c13f-ae98-472c-8011-44e4cc6779b9@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261110T190000
 DTEND:20261110T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1695,8 +1495,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:2b2906e3-51dc-45b7-a3a5-6249073f9b74@magic-munich
-DTSTAMP:20260812T223305
+UID:a1a0cc94-c7e3-4d48-8153-37ab079fcad5@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261117T190000
 DTEND:20261117T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1705,8 +1505,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:89480698-299f-4c72-b24a-147d99e87fb0@magic-munich
-DTSTAMP:20260812T223305
+UID:6e79661a-76f7-4e23-8ce9-35035ce76c5a@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261124T190000
 DTEND:20261124T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1715,8 +1515,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:be1abe35-cdaa-43b2-b4d8-795ab5a53d0d@magic-munich
-DTSTAMP:20260812T223305
+UID:54f7ef04-e097-491c-badb-bcb9620bbb7e@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261201T190000
 DTEND:20261201T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1725,8 +1525,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:d9350a8b-dd23-4428-96cf-8882f4567d8a@magic-munich
-DTSTAMP:20260812T223305
+UID:3c769dbf-aa61-43bd-b08b-a5e97b3c00a1@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261208T190000
 DTEND:20261208T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1735,8 +1535,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:f70b409d-178b-4df7-a4b7-63cd6dc0e7b3@magic-munich
-DTSTAMP:20260812T223305
+UID:bcc0d820-f1c0-49a7-bf2b-5dddfe90b5e6@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261215T190000
 DTEND:20261215T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1745,8 +1545,8 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:12b528d0-b2d9-4b3f-b364-aa5a809ce0d8@magic-munich
-DTSTAMP:20260812T223305
+UID:d8e7c8e2-50ea-49d8-b876-8e379f4f6efd@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261222T190000
 DTEND:20261222T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
@@ -1755,11 +1555,201 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:83d77d54-70ed-496e-9935-a3611ba9a83b@magic-munich
-DTSTAMP:20260812T223305
+UID:8c4f11f3-f3d6-49e7-987f-08f4881605e9@magic-munich
+DTSTAMP:20260812T233438
 DTSTART:20261229T190000
 DTEND:20261229T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:fec7bd9b-a073-4aeb-b564-143a8b5b40ae@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260826T190000
+DTEND:20260826T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:9161bec7-2c98-4a14-a982-7a538e9a0c5d@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260902T190000
+DTEND:20260902T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:4391f7c7-690b-4895-8c51-fb66b55c37f6@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260909T190000
+DTEND:20260909T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:00c97a26-07ea-4f79-9aa4-40f70d46ac1e@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260916T190000
+DTEND:20260916T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:199522c6-8ba0-43e3-9dc4-bc656b112875@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260923T190000
+DTEND:20260923T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:91d30b5d-8913-44bb-afe8-172c3720405f@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20260930T190000
+DTEND:20260930T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:c8973602-7a3e-451d-98de-773ce4546234@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261007T190000
+DTEND:20261007T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:cb47c0c0-ca01-461a-b176-ea8fc4f63045@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261014T190000
+DTEND:20261014T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:a5e740b0-0a01-4480-81e8-490cd668808f@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261021T190000
+DTEND:20261021T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:c55af739-492f-4d1d-934a-efd308a3d49f@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261028T190000
+DTEND:20261028T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:efd273ae-253f-4eeb-8fff-0e26c5d73c44@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261104T190000
+DTEND:20261104T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae8a6d3-156d-4cf8-be2c-535fba99e572@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261111T190000
+DTEND:20261111T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:e050a8c3-617e-422f-8d4e-6798b368874e@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261118T190000
+DTEND:20261118T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:d79ec760-4eef-40a7-9c15-d812b6e5cd7f@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261125T190000
+DTEND:20261125T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:44f63142-0a52-48a7-aa89-d131f55805db@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261202T190000
+DTEND:20261202T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:adcd8039-53aa-47ff-b401-e1e843f527d6@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261209T190000
+DTEND:20261209T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:bee25fa5-1dde-445b-9602-6e1b8217cfb3@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261216T190000
+DTEND:20261216T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:ce46ab05-8240-4699-b06c-42b4fe842cca@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261223T190000
+DTEND:20261223T220000
+SUMMARY:Deck & Dice – After Work Legacy
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:1460facd-9d07-431c-85f5-1594f193a379@magic-munich
+DTSTAMP:20260812T233438
+DTSTART:20261230T190000
+DTEND:20261230T220000
+SUMMARY:Deck & Dice – After Work Legacy
 LOCATION:Deck & Dice Munich
 URL:https://www.dd-munich.de
 DESCRIPTION:

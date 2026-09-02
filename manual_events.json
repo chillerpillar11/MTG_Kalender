@@ -28,5 +28,95 @@
     "description": "Ultra Comix - Modern RCQ\n\nWo: Vordere Sterngasse 2, 90402 Nürnberg \n\nWann: 25.07.2026 10:00-17:00\n\nTeilnahmegebühr: 30€\n\nURL: \n\nDetails:",
     "all_day": false,
     "source": "MANUAL"
+  },
+  {
+    "title": "Titel: Modern – Destination Qualifier",
+    "start": "2026-08-22T10:00:00+02:00",
+    "end": "2026-08-22T16:00:00+02:00",
+    "location": "Flottmann-Hallen Herne",
+    "url": "",
+    "description": "Titel: Modern – Destination Qualifier\nWo: Flottmann-Hallen Herne\nWann: Samstag, 22.08.2026, 10:00 Uhr\nTeilnahmegebühr: 45€\nURL: https://lotusvale-bochum.de/lotusvale-series/\nDetails: Rebound Sideevent um 15:00 Uhr",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Titel: Modern – Destination Qualifier",
+    "start": "2026-08-23T10:00:00+02:00",
+    "end": "2026-08-23T16:00:00+02:00",
+    "location": "Flottmann-Hallen Herne",
+    "url": "",
+    "description": "Titel: Modern – Destination Qualifier\nWo: Flottmann-Hallen Herne\nWann: Sonntag, 23.08.2026, 10:00 Uhr\nTeilnahmegebühr: 45€\nURL: https://lotusvale-bochum.de/lotusvale-series/\nDetails: Rebound Sideevent um 15:00 Uhr",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Titel: TEAM-TRIOS Modern",
+    "start": "2026-08-21T17:00:00+02:00",
+    "end": "2026-08-21T23:00:00+02:00",
+    "location": "Flottmann-Hallen Herne",
+    "url": "",
+    "description": "Titel: TEAM-TRIOS Modern\nWo: Flottmann-Hallen Herne\nWann: Freitag, 21.08.2026, 17:00 Uhr\nTeilnahmegebühr: Keine Angabe\nURL: https://lotusvale-bochum.de/lotusvale-series/\nDetails: Keine weiteren Angaben",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Marcel Hobbit Geburtstags Draft",
+    "start": "2026-09-06T12:00:00+02:00",
+    "end": "2026-09-06T18:00:00+02:00",
+    "location": "Unbekannt",
+    "url": "",
+    "description": "Marcel Hobbit Geburtstags Draft\nWann & Wo?\nAm Sonntag, den 6.9.2026\nDeck&Dice München\nStart um 12:00 Uhr",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Titel: MTG - Banned and Restricted Announcement",
+    "start": "2026-08-10T18:00:00+02:00",
+    "end": "2026-08-10T22:00:00+02:00",
+    "location": "Wann: 10.08.2026 17 Uhr - 17 Uhr",
+    "url": "",
+    "description": "Titel: MTG - Banned and Restricted Announcement\n\nWo: \n\n\nWann: 10.08.2026 17 Uhr - 17 Uhr\n\nTeilnahmegebühr: \n\nURL: https://magic.wizards.com/en/news/announcements?gl=116z1aaxupMQ..gaNzQwNjk3OTc1LjE3ODYzNjEyMzc.gaX145Z177LSczE3ODYzNjEyMzYkbzEkZzAkdDE3ODYzNjEyNTAkajQ2JGwwJGgxNjU4MjYxMjAw\n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "German Nationals 2026 — Unity League",
+    "start": "2026-11-07T18:00:00+01:00",
+    "end": "2026-11-07T22:00:00+01:00",
+    "location": "Kulmbacher Str. 4, 95030 Hof",
+    "url": "",
+    "description": "German Nationals 2026 — Unity League\n\nWo: Kulmbacher Str. 4, 95030 Hof\n\nWann: 7.11.26-8.11.26\n\nTeilnahmegebühr: \n\nURL: \n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Modern Destination Qualifier",
+    "start": "2026-08-22T10:00:00+02:00",
+    "end": "2026-08-22T18:00:00+02:00",
+    "location": "Str. des Bohrhammers 5, 44625 Herne",
+    "url": "",
+    "description": "Modern Destination Qualifier\n\n\nWo: Str. des Bohrhammers 5, 44625 Herne\n\nWann: 22.08.26, 10:00-18:00 Uhr\n\nTeilnahmegebühr: 45€\n\nURL: https://lotusvale-bochum.de/ticket-shop/\n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Modern Destination Qualifier",
+    "start": "2026-08-23T10:00:00+02:00",
+    "end": "2026-08-23T18:00:00+02:00",
+    "location": "Str. des Bohrhammers 5, 44625 Herne",
+    "url": "",
+    "description": "Modern Destination Qualifier\n\n\nWo: Str. des Bohrhammers 5, 44625 Herne\n\nWann: 23.08.26, 10:00-18:00 Uhr\n\nTeilnahmegebühr: 45€\n\nURL: https://lotusvale-bochum.de/ticket-shop/\n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
+  },
+  {
+    "title": "Marcel Geburtstagsdraft Hobbit",
+    "start": "2026-09-06T12:00:00+02:00",
+    "end": "2026-09-06T18:00:00+02:00",
+    "location": "Deck&Dice Munich",
+    "url": "",
+    "description": "Marcel Geburtstagsdraft Hobbit\n\nWo: Deck&Dice Munich\nWann: 6.9.2026, 12:00-18:00\n\nTeilnahmegebühr: 0€",
+    "all_day": false,
+    "source": "MANUAL"
   }
 ]

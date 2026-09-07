@@ -1,28 +1,10 @@
 import requests
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-import re
 
 TZ = ZoneInfo("Europe/Berlin")
 
-CALENDAR_ID = "c_7f090f10dbb843c0bac91ed58594c85b7ac59c12d1764b34a586dd01ca7a8502@group.calendar.google.com"
-EVENTS_PAGE = "https://racoon-rises.com/pages/events"
-
-
-def _extract_google_api_key():
-    """
-    Holt den Google API Key direkt aus dem HTML der Events-Seite.
-    Der Key ist öffentlich eingebettet, daher sicher zu verwenden.
-    """
-    try:
-        html = requests.get(EVENTS_PAGE, timeout=10).text
-    except Exception as e:
-        print("Fehler beim Laden der Racoon-Events-Seite:", e)
-        return None
-
-    # Suche nach einem Google API Key im HTML
-    match = re.search(r"AIza[0-9A-Za-z\-_]{35}", html)
-    return match.group(0) if match else None
+WORKER_URL = "https://curly-frog-1c07.black-credit-b521.workers.dev/"
 
 
 def _normalize_title(raw_title: str) -> str:
@@ -42,17 +24,6 @@ def _normalize_title(raw_title: str) -> str:
 def fetch_racoon_events():
     events = []
 
-    api_key = _extract_google_api_key()
-    if not api_key:
-        print("Fehler: Kein Google API Key auf der Racoon-Seite gefunden.")
-        return []
-
-    base_url = (
-        "https://content.googleapis.com/calendar/v3/calendars/"
-        + CALENDAR_ID
-        + "/events"
-    )
-
     now = datetime.now(TZ)
     one_year = now + timedelta(days=365)
 
@@ -63,15 +34,14 @@ def fetch_racoon_events():
         "orderBy": "startTime",
         "maxResults": "2500",
         "showDeleted": "false",
-        "key": api_key,
     }
 
     try:
-        response = requests.get(base_url, params=params, timeout=10)
+        response = requests.get(WORKER_URL, params=params, timeout=10)
         response.raise_for_status()
         data = response.json()
     except Exception as e:
-        print("Fehler beim Laden des Racoon-Google-Calendars:", e)
+        print("Fehler beim Laden des Racoon-Workers:", e)
         return []
 
     for item in data.get("items", []):

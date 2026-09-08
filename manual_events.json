@@ -118,5 +118,15 @@
     "description": "Marcel Geburtstagsdraft Hobbit\n\nWo: Deck&Dice Munich\nWann: 6.9.2026, 12:00-18:00\n\nTeilnahmegebühr: 0€",
     "all_day": false,
     "source": "MANUAL"
+  },
+  {
+    "title": "MTG Regional Championship Qualifier",
+    "start": "2026-10-18T12:00:00+02:00",
+    "end": "2026-10-18T18:00:00+02:00",
+    "location": "TCG Tavern Dachau, Schleißheimer Str. 19, 85221 Dachau",
+    "url": "",
+    "description": "MTG Regional Championship Qualifier\n\nWo: TCG Tavern Dachau\nSchleißheimer Str. 19\n85221 Dachau\n\nWann: 18.10.2026, 12:00-18:00\n\nTeilnahmegebühr: 30.00€\n\nURL: https://www.tcgtavern.de/events\n\nDetails:",
+    "all_day": false,
+    "source": "MANUAL"
   }
 ]

@@ -738,6 +738,24 @@
     "all_day": false
   },
   {
+    "title": "Magic Papa \u2013 RCQ \u2013 Standard",
+    "start": "2026-09-19T10:30:00+02:00",
+    "end": "2026-09-19T16:30:00+02:00",
+    "location": "Magic Papa, M\u00fcnchen",
+    "url": "https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-19-september-2026-start-10-30-standard",
+    "description": "MTG RCQ 26/27 R2 am SA 19. September 2026 Start 10:30 - Standard",
+    "all_day": false
+  },
+  {
+    "title": "Games Island \u2013 RCQ \u2013 Limited",
+    "start": "2026-09-19T09:30:00+02:00",
+    "end": "2026-09-19T18:00:00+02:00",
+    "location": "Games Island Ladenlokal",
+    "url": "http://www.datefix.de/kalender/5800?dfxid=1375345",
+    "description": "European Magic Series - RCQ Season 26/27 Round 2 - Sealed",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Regional Championship Store Qualifier - Standard",
     "start": "2026-10-10T10:00:00+02:00",
     "end": "2026-10-10T13:00:00+02:00",
@@ -810,6 +828,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 Munich Premodern Battle 2026 - Presented by Bavarian Barbarians",
+    "start": "2026-10-24T11:00:00+02:00",
+    "end": "2026-10-24T14:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "Fanfinity \u2013 Ultimate Guard European Magic Series Regional Championship Ghent 2026",
     "start": "2026-10-09T00:00:00",
     "end": "2026-10-12T00:00:00",
@@ -861,24 +888,6 @@
     "location": "Countdown Spielewelt Landsberg",
     "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-12-27/",
     "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Magic Papa \u2013 RCQ \u2013 Standard",
-    "start": "2026-09-19T10:30:00+02:00",
-    "end": "2026-09-19T16:30:00+02:00",
-    "location": "Magic Papa, M\u00fcnchen",
-    "url": "https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-19-september-2026-start-10-30-standard",
-    "description": "MTG RCQ 26/27 R2 am SA 19. September 2026 Start 10:30 - Standard",
-    "all_day": false
-  },
-  {
-    "title": "Games Island \u2013 RCQ \u2013 Limited",
-    "start": "2026-09-19T09:30:00+02:00",
-    "end": "2026-09-19T18:00:00+02:00",
-    "location": "Games Island Ladenlokal",
-    "url": "http://www.datefix.de/kalender/5800?dfxid=1375345",
-    "description": "European Magic Series - RCQ Season 26/27 Round 2 - Sealed",
     "all_day": false
   },
   {

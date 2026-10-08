@@ -873,6 +873,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-08T19:00:00+02:00",
+    "end": "2026-10-08T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Regional Championship Store Qualifier - Standard",
     "start": "2026-10-10T10:00:00+02:00",
     "end": "2026-10-10T13:00:00+02:00",
@@ -936,15 +945,6 @@
     "all_day": false
   },
   {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-08T19:00:00+02:00",
-    "end": "2026-10-08T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
     "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
     "start": "2026-10-12T19:00:00+02:00",
     "end": "2026-10-12T22:00:00+02:00",
@@ -966,6 +966,15 @@
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-10-14T19:00:00+02:00",
     "end": "2026-10-14T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-15T19:00:00+02:00",
+    "end": "2026-10-15T22:00:00+02:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -999,42 +1008,6 @@
     "all_day": true
   },
   {
-    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
-    "start": "2026-10-25T11:00:00+01:00",
-    "end": "2026-10-25T14:00:00+01:00",
-    "location": "Countdown Spielewelt Landsberg",
-    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-10-25/",
-    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
-    "start": "2026-11-22T11:00:00+01:00",
-    "end": "2026-11-22T14:00:00+01:00",
-    "location": "Countdown Spielewelt Landsberg",
-    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-11-22/",
-    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
-    "start": "2026-12-27T11:00:00+01:00",
-    "end": "2026-12-27T14:00:00+01:00",
-    "location": "Countdown Spielewelt Landsberg",
-    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-12-27/",
-    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
-    "start": "2027-01-24T11:00:00+01:00",
-    "end": "2027-01-24T14:00:00+01:00",
-    "location": "Countdown Spielewelt Landsberg",
-    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-01-24/",
-    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
     "title": "German Nationals 2026 \u2014 Unity League",
     "start": "2026-11-07T18:00:00+01:00",
     "end": "2026-11-07T22:00:00+01:00",
@@ -1050,105 +1023,6 @@
     "location": "TCG Tavern Dachau, Schlei\u00dfheimer Str. 19, 85221 Dachau",
     "url": "",
     "description": "MTG Regional Championship Qualifier\n\nWo: TCG Tavern Dachau\nSchlei\u00dfheimer Str. 19\n85221 Dachau\n\nWann: 18.10.2026, 12:00-18:00\n\nTeilnahmegeb\u00fchr: 30.00\u20ac\n\nURL: https://www.tcgtavern.de/events\n\nDetails:",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-15T19:00:00+02:00",
-    "end": "2026-10-15T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-22T19:00:00+02:00",
-    "end": "2026-10-22T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-10-29T19:00:00+01:00",
-    "end": "2026-10-29T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-05T19:00:00+01:00",
-    "end": "2026-11-05T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-12T19:00:00+01:00",
-    "end": "2026-11-12T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-19T19:00:00+01:00",
-    "end": "2026-11-19T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-11-26T19:00:00+01:00",
-    "end": "2026-11-26T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-03T19:00:00+01:00",
-    "end": "2026-12-03T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-10T19:00:00+01:00",
-    "end": "2026-12-10T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-17T19:00:00+01:00",
-    "end": "2026-12-17T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
-    "start": "2026-12-24T19:00:00+01:00",
-    "end": "2026-12-24T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -1434,6 +1308,96 @@
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-12-30T19:00:00+01:00",
     "end": "2026-12-30T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-22T19:00:00+02:00",
+    "end": "2026-10-22T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-10-29T19:00:00+01:00",
+    "end": "2026-10-29T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-05T19:00:00+01:00",
+    "end": "2026-11-05T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-12T19:00:00+01:00",
+    "end": "2026-11-12T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-19T19:00:00+01:00",
+    "end": "2026-11-19T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-11-26T19:00:00+01:00",
+    "end": "2026-11-26T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-03T19:00:00+01:00",
+    "end": "2026-12-03T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-10T19:00:00+01:00",
+    "end": "2026-12-10T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-17T19:00:00+01:00",
+    "end": "2026-12-17T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
+    "start": "2026-12-24T19:00:00+01:00",
+    "end": "2026-12-24T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

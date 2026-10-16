@@ -927,6 +927,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-10-16T19:00:00+02:00",
+    "end": "2026-10-16T22:00:00+02:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "BB-Spiele \u2013 Magic Store Championship: Reality Fracture",
     "start": "2026-10-24T10:00:00+02:00",
     "end": "2026-10-24T13:00:00+02:00",
@@ -969,15 +978,6 @@
     "location": "FUNtainment M\u00fcnchen",
     "url": "https://www.funtainment.de",
     "description": "Buche Deinen Platz f\u00fcr dieses Event",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-10-16T19:00:00+02:00",
-    "end": "2026-10-16T22:00:00+02:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {

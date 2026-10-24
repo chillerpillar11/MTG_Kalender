@@ -990,15 +990,6 @@
     "all_day": false
   },
   {
-    "title": "BB-Spiele \u2013 Magic Store Championship: Reality Fracture",
-    "start": "2026-10-24T10:00:00+02:00",
-    "end": "2026-10-24T13:00:00+02:00",
-    "location": "BB-Spiele",
-    "url": "https://www.bb-spiele.de",
-    "description": "Format: Standard. 4-6 Runden Swis, Top-Cut je nach Teilnehmerzahl. Teilnahmegeb\u00fchr 6,00 \u20ac",
-    "all_day": false
-  },
-  {
     "title": "BB-Spiele \u2013 Regional Championship Store Qualifier - Standard",
     "start": "2026-11-14T10:00:00+01:00",
     "end": "2026-11-14T13:00:00+01:00",
@@ -1134,13 +1125,13 @@
     "all_day": false
   },
   {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-11-06T19:00:00+01:00",
-    "end": "2026-11-06T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
+    "title": "Fanfinity \u2013 Magic Spotlight: Star Trek",
+    "start": "2027-01-08T00:00:00",
+    "end": "2027-01-11T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-star-trek/",
+    "description": "Event von Fanfinity: Magic Spotlight: Star Trek\nhttps://www.fanfinity.gg/event/magic-spotlight-star-trek/",
+    "all_day": true
   },
   {
     "title": "Fanfinity \u2013 CommandFest Lille 2027",
@@ -1149,15 +1140,6 @@
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/commandfest-lille-2027/",
     "description": "Event von Fanfinity: CommandFest Lille 2027\nhttps://www.fanfinity.gg/event/commandfest-lille-2027/",
-    "all_day": true
-  },
-  {
-    "title": "Fanfinity \u2013 Magic Spotlight: Star Trek",
-    "start": "2027-01-08T00:00:00",
-    "end": "2027-01-11T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-star-trek/",
-    "description": "Event von Fanfinity: Magic Spotlight: Star Trek\nhttps://www.fanfinity.gg/event/magic-spotlight-star-trek/",
     "all_day": true
   },
   {
@@ -1212,6 +1194,33 @@
     "location": "Kulmbacher Str. 4, 95030 Hof",
     "url": "",
     "description": "German Nationals 2026 \u2014 Unity League\n\nWo: Kulmbacher Str. 4, 95030 Hof\n\nWann: 7.11.26-8.11.26\n\nTeilnahmegeb\u00fchr: \n\nURL: \n\nDetails:",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-12-04T19:00:00+01:00",
+    "end": "2026-12-04T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-12-11T19:00:00+01:00",
+    "end": "2026-12-11T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-12-18T19:00:00+01:00",
+    "end": "2026-12-18T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
     "all_day": false
   },
   {
@@ -1549,33 +1558,6 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-18T19:00:00+01:00",
-    "end": "2026-12-18T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-04T19:00:00+01:00",
-    "end": "2026-12-04T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-11T19:00:00+01:00",
-    "end": "2026-12-11T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-12-18T19:00:00+01:00",
     "end": "2026-12-18T22:00:00+01:00",
     "location": "Deck & Dice Munich",

@@ -1179,6 +1179,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-11-20T19:00:00+01:00",
+    "end": "2026-11-20T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "Fanfinity \u2013 CommandFest Lille 2027",
     "start": "2027-01-08T00:00:00",
     "end": "2027-01-11T00:00:00",
@@ -1239,33 +1248,6 @@
     "location": "Countdown Spielewelt Landsberg",
     "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-02-28/",
     "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-04T19:00:00+01:00",
-    "end": "2026-12-04T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-11T19:00:00+01:00",
-    "end": "2026-12-11T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-18T19:00:00+01:00",
-    "end": "2026-12-18T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
     "all_day": false
   },
   {
@@ -1531,6 +1513,33 @@
   },
   {
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
+    "start": "2026-12-18T19:00:00+01:00",
+    "end": "2026-12-18T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-12-04T19:00:00+01:00",
+    "end": "2026-12-04T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
+    "start": "2026-12-11T19:00:00+01:00",
+    "end": "2026-12-11T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
     "start": "2026-12-18T19:00:00+01:00",
     "end": "2026-12-18T22:00:00+01:00",
     "location": "Deck & Dice Munich",

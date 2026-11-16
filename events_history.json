@@ -1233,15 +1233,6 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Nauctis",
-    "start": "2027-03-12T00:00:00",
-    "end": "2027-03-15T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
-    "description": "Event von Fanfinity: Magic Spotlight: Nauctis\nhttps://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
-    "all_day": true
-  },
-  {
     "title": "Fanfinity \u2013 CommandFest Zagreb 2027",
     "start": "2027-03-12T00:00:00",
     "end": "2027-03-15T00:00:00",
@@ -1251,12 +1242,12 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 CommandFest Utrecht 2027",
-    "start": "2027-09-03T00:00:00",
-    "end": "2027-09-06T00:00:00",
+    "title": "Fanfinity \u2013 Magic Spotlight: Nauctis",
+    "start": "2027-03-12T00:00:00",
+    "end": "2027-03-15T00:00:00",
     "location": "Online",
-    "url": "https://www.fanfinity.gg/event/commandfest-utrecht-2027/",
-    "description": "Event von Fanfinity: CommandFest Utrecht 2027\nhttps://www.fanfinity.gg/event/commandfest-utrecht-2027/",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
+    "description": "Event von Fanfinity: Magic Spotlight: Nauctis\nhttps://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
     "all_day": true
   },
   {
@@ -1269,12 +1260,12 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Zhalfir",
-    "start": "2027-10-15T00:00:00",
-    "end": "2027-10-18T00:00:00",
+    "title": "Fanfinity \u2013 CommandFest Utrecht 2027",
+    "start": "2027-09-03T00:00:00",
+    "end": "2027-09-06T00:00:00",
     "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
-    "description": "Event von Fanfinity: Magic Spotlight: Zhalfir\nhttps://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
+    "url": "https://www.fanfinity.gg/event/commandfest-utrecht-2027/",
+    "description": "Event von Fanfinity: CommandFest Utrecht 2027\nhttps://www.fanfinity.gg/event/commandfest-utrecht-2027/",
     "all_day": true
   },
   {
@@ -1284,6 +1275,15 @@
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/commandfest-valencia-2027/",
     "description": "Event von Fanfinity: CommandFest Valencia 2027\nhttps://www.fanfinity.gg/event/commandfest-valencia-2027/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Magic Spotlight: Zhalfir",
+    "start": "2027-10-15T00:00:00",
+    "end": "2027-10-18T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
+    "description": "Event von Fanfinity: Magic Spotlight: Zhalfir\nhttps://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
     "all_day": true
   },
   {
@@ -1327,8 +1327,8 @@
     "start": "2026-11-28T09:30:00+01:00",
     "end": "2026-11-28T15:30:00+01:00",
     "location": "Magic Papa, M\u00fcnchen",
-    "url": "https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-28-november-2026-start-9-30-standard",
-    "description": "MTG RCQ 26/27 R2 am SA 28. November 2026 Start 9:30 - Standard",
+    "url": "https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-28-nov-2026-start-9-30-standard",
+    "description": "MTG RCQ 26/27 R2 am SA 28. Nov. 2026 Start 9:30 - Standard",
     "all_day": false
   },
   {

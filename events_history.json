@@ -1224,21 +1224,21 @@
     "all_day": false
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Star Trek",
-    "start": "2027-01-08T00:00:00",
-    "end": "2027-01-11T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-star-trek/",
-    "description": "Event von Fanfinity: Magic Spotlight: Star Trek\nhttps://www.fanfinity.gg/event/magic-spotlight-star-trek/",
-    "all_day": true
-  },
-  {
     "title": "Fanfinity \u2013 CommandFest Lille 2027",
     "start": "2027-01-08T00:00:00",
     "end": "2027-01-11T00:00:00",
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/commandfest-lille-2027/",
     "description": "Event von Fanfinity: CommandFest Lille 2027\nhttps://www.fanfinity.gg/event/commandfest-lille-2027/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Magic Spotlight: Star Trek",
+    "start": "2027-01-08T00:00:00",
+    "end": "2027-01-11T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-star-trek/",
+    "description": "Event von Fanfinity: Magic Spotlight: Star Trek\nhttps://www.fanfinity.gg/event/magic-spotlight-star-trek/",
     "all_day": true
   },
   {
@@ -1251,15 +1251,6 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Nauctis",
-    "start": "2027-03-12T00:00:00",
-    "end": "2027-03-15T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
-    "description": "Event von Fanfinity: Magic Spotlight: Nauctis\nhttps://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
-    "all_day": true
-  },
-  {
     "title": "Fanfinity \u2013 CommandFest Zagreb 2027",
     "start": "2027-03-12T00:00:00",
     "end": "2027-03-15T00:00:00",
@@ -1269,12 +1260,12 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight Series Utrecht",
-    "start": "2027-09-03T00:00:00",
-    "end": "2027-09-06T00:00:00",
+    "title": "Fanfinity \u2013 Magic Spotlight: Nauctis",
+    "start": "2027-03-12T00:00:00",
+    "end": "2027-03-15T00:00:00",
     "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
-    "description": "Event von Fanfinity: Magic Spotlight Series Utrecht\nhttps://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
+    "description": "Event von Fanfinity: Magic Spotlight: Nauctis\nhttps://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
     "all_day": true
   },
   {
@@ -1284,6 +1275,15 @@
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/commandfest-utrecht-2027/",
     "description": "Event von Fanfinity: CommandFest Utrecht 2027\nhttps://www.fanfinity.gg/event/commandfest-utrecht-2027/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Magic Spotlight Series Utrecht",
+    "start": "2027-09-03T00:00:00",
+    "end": "2027-09-06T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
+    "description": "Event von Fanfinity: Magic Spotlight Series Utrecht\nhttps://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
     "all_day": true
   },
   {

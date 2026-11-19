@@ -1152,15 +1152,6 @@
     "all_day": false
   },
   {
-    "title": "Funtainment \u2013 Friday Night Magic: Modern",
-    "start": "2026-11-20T17:00:00+01:00",
-    "end": "2026-11-20T20:00:00+01:00",
-    "location": "FUNtainment M\u00fcnchen",
-    "url": "https://www.funtainment.de",
-    "description": "Buche Deinen Platz f\u00fcr dieses Event",
-    "all_day": false
-  },
-  {
     "title": "Funtainment \u2013 European Magic Series RCQ 2026/27 Round 2: Limited",
     "start": "2026-11-21T11:00:00+01:00",
     "end": "2026-11-21T14:00:00+01:00",
@@ -1173,6 +1164,42 @@
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-11-27T17:00:00+01:00",
     "end": "2026-11-27T20:00:00+01:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-12-04T17:00:00+01:00",
+    "end": "2026-12-04T20:00:00+01:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-12-11T17:00:00+01:00",
+    "end": "2026-12-11T20:00:00+01:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-12-18T17:00:00+01:00",
+    "end": "2026-12-18T20:00:00+01:00",
+    "location": "FUNtainment M\u00fcnchen",
+    "url": "https://www.funtainment.de",
+    "description": "Buche Deinen Platz f\u00fcr dieses Event",
+    "all_day": false
+  },
+  {
+    "title": "Funtainment \u2013 Friday Night Magic: Modern",
+    "start": "2026-12-25T17:00:00+01:00",
+    "end": "2026-12-25T20:00:00+01:00",
     "location": "FUNtainment M\u00fcnchen",
     "url": "https://www.funtainment.de",
     "description": "Buche Deinen Platz f\u00fcr dieses Event",
@@ -1260,21 +1287,21 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 CommandFest Zagreb 2027",
-    "start": "2027-03-12T00:00:00",
-    "end": "2027-03-15T00:00:00",
-    "location": "Online",
-    "url": "https://www.fanfinity.gg/event/commandfest-zagreb-2027/",
-    "description": "Event von Fanfinity: CommandFest Zagreb 2027\nhttps://www.fanfinity.gg/event/commandfest-zagreb-2027/",
-    "all_day": true
-  },
-  {
     "title": "Fanfinity \u2013 Magic Spotlight: Nauctis",
     "start": "2027-03-12T00:00:00",
     "end": "2027-03-15T00:00:00",
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
     "description": "Event von Fanfinity: Magic Spotlight: Nauctis\nhttps://www.fanfinity.gg/event/magic-spotlight-nauctis-zagreb/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 CommandFest Zagreb 2027",
+    "start": "2027-03-12T00:00:00",
+    "end": "2027-03-15T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/commandfest-zagreb-2027/",
+    "description": "Event von Fanfinity: CommandFest Zagreb 2027\nhttps://www.fanfinity.gg/event/commandfest-zagreb-2027/",
     "all_day": true
   },
   {
@@ -1398,33 +1425,6 @@
     "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
     "start": "2026-12-24T19:00:00+01:00",
     "end": "2026-12-24T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-04T19:00:00+01:00",
-    "end": "2026-12-04T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-11T19:00:00+01:00",
-    "end": "2026-12-11T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Modern 18.30",
-    "start": "2026-12-18T19:00:00+01:00",
-    "end": "2026-12-18T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -1560,33 +1560,6 @@
     "title": "Deck & Dice \u2013 After Work Legacy",
     "start": "2026-12-30T19:00:00+01:00",
     "end": "2026-12-30T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-04T19:00:00+01:00",
-    "end": "2026-12-04T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-11T19:00:00+01:00",
-    "end": "2026-12-11T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
-    "start": "2026-12-18T19:00:00+01:00",
-    "end": "2026-12-18T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

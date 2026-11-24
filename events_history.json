@@ -1215,15 +1215,6 @@
     "all_day": false
   },
   {
-    "title": "Funtainment \u2013 Friday Night Magic: Modern",
-    "start": "2026-12-25T17:00:00+01:00",
-    "end": "2026-12-25T20:00:00+01:00",
-    "location": "FUNtainment M\u00fcnchen",
-    "url": "https://www.funtainment.de",
-    "description": "Buche Deinen Platz f\u00fcr dieses Event",
-    "all_day": false
-  },
-  {
     "title": "Deck & Dice \u2013 After Work Modern - 19:00 Uhr",
     "start": "2026-11-24T19:00:00+01:00",
     "end": "2026-11-24T22:00:00+01:00",
@@ -1254,15 +1245,6 @@
     "title": "Deck & Dice \u2013 Friday Night Standard 18.30",
     "start": "2026-11-27T19:00:00+01:00",
     "end": "2026-11-27T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-11-30T19:00:00+01:00",
-    "end": "2026-11-30T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",
@@ -1359,12 +1341,84 @@
     "all_day": true
   },
   {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2026-12-27T11:00:00+01:00",
+    "end": "2026-12-27T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-12-27/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2027-01-24T11:00:00+01:00",
+    "end": "2027-01-24T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-01-24/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2027-02-28T11:00:00+01:00",
+    "end": "2027-02-28T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-02-28/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
     "title": "Magic Papa \u2013 RCQ \u2013 Standard",
     "start": "2026-11-28T09:30:00+01:00",
     "end": "2026-11-28T15:30:00+01:00",
     "location": "Magic Papa, M\u00fcnchen",
     "url": "https://www.magicpapa-shop.de/p/mtg-rcq-26-27-r2-am-sa-28-nov-2026-start-9-30-standard",
     "description": "MTG RCQ 26/27 R2 am SA 28. Nov. 2026 Start 9:30 - Standard",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-11-30T19:00:00+01:00",
+    "end": "2026-11-30T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-12-07T19:00:00+01:00",
+    "end": "2026-12-07T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-12-14T19:00:00+01:00",
+    "end": "2026-12-14T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-12-21T19:00:00+01:00",
+    "end": "2026-12-21T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-12-28T19:00:00+01:00",
+    "end": "2026-12-28T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
     "all_day": false
   },
   {
@@ -1488,42 +1542,6 @@
     "title": "Deck & Dice \u2013 After Work Premodern 19:00 Uhr",
     "start": "2026-12-24T19:00:00+01:00",
     "end": "2026-12-24T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-12-07T19:00:00+01:00",
-    "end": "2026-12-07T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-12-14T19:00:00+01:00",
-    "end": "2026-12-14T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-12-21T19:00:00+01:00",
-    "end": "2026-12-21T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-12-28T19:00:00+01:00",
-    "end": "2026-12-28T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

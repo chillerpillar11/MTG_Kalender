@@ -1278,6 +1278,15 @@
     "all_day": false
   },
   {
+    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
+    "start": "2026-12-28T19:00:00+01:00",
+    "end": "2026-12-28T22:00:00+01:00",
+    "location": "Deck & Dice Munich",
+    "url": "https://www.dd-munich.de",
+    "description": "",
+    "all_day": false
+  },
+  {
     "title": "Fanfinity \u2013 CommandFest Lille 2027",
     "start": "2027-01-08T00:00:00",
     "end": "2027-01-11T00:00:00",
@@ -1323,12 +1332,12 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight Series Utrecht",
-    "start": "2027-09-03T00:00:00",
-    "end": "2027-09-06T00:00:00",
+    "title": "Fanfinity \u2013 Ultimate Guard European Magic Series \u2013 Regional Championship Prague 2027",
+    "start": "2027-04-23T00:00:00",
+    "end": "2027-04-26T00:00:00",
     "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
-    "description": "Event von Fanfinity: Magic Spotlight Series Utrecht\nhttps://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
+    "url": "https://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-prague-2027/",
+    "description": "Event von Fanfinity: Ultimate Guard European Magic Series \u2013 Regional Championship Prague 2027\nhttps://www.fanfinity.gg/event/ultimate-guard-european-magic-series-regional-championship-prague-2027/",
     "all_day": true
   },
   {
@@ -1341,12 +1350,12 @@
     "all_day": true
   },
   {
-    "title": "Fanfinity \u2013 Magic Spotlight: Zhalfir",
-    "start": "2027-10-15T00:00:00",
-    "end": "2027-10-18T00:00:00",
+    "title": "Fanfinity \u2013 Magic Spotlight Series Utrecht",
+    "start": "2027-09-03T00:00:00",
+    "end": "2027-09-06T00:00:00",
     "location": "Online",
-    "url": "https://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
-    "description": "Event von Fanfinity: Magic Spotlight: Zhalfir\nhttps://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
+    "description": "Event von Fanfinity: Magic Spotlight Series Utrecht\nhttps://www.fanfinity.gg/event/magic-spotlight-series-utrecht/",
     "all_day": true
   },
   {
@@ -1356,6 +1365,15 @@
     "location": "Online",
     "url": "https://www.fanfinity.gg/event/commandfest-valencia-2027/",
     "description": "Event von Fanfinity: CommandFest Valencia 2027\nhttps://www.fanfinity.gg/event/commandfest-valencia-2027/",
+    "all_day": true
+  },
+  {
+    "title": "Fanfinity \u2013 Magic Spotlight: Zhalfir",
+    "start": "2027-10-15T00:00:00",
+    "end": "2027-10-18T00:00:00",
+    "location": "Online",
+    "url": "https://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
+    "description": "Event von Fanfinity: Magic Spotlight: Zhalfir\nhttps://www.fanfinity.gg/event/magic-spotlight-zhalfir-valencia/",
     "all_day": true
   },
   {
@@ -1452,15 +1470,6 @@
     "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
     "start": "2026-12-21T19:00:00+01:00",
     "end": "2026-12-21T22:00:00+01:00",
-    "location": "Deck & Dice Munich",
-    "url": "https://www.dd-munich.de",
-    "description": "",
-    "all_day": false
-  },
-  {
-    "title": "Deck & Dice \u2013 After Work Standard - 19:00 Uhr",
-    "start": "2026-12-28T19:00:00+01:00",
-    "end": "2026-12-28T22:00:00+01:00",
     "location": "Deck & Dice Munich",
     "url": "https://www.dd-munich.de",
     "description": "",

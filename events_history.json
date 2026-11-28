@@ -1206,15 +1206,6 @@
     "all_day": false
   },
   {
-    "title": "BB-Spiele \u2013 Regional Championship Qualifier: Reality Fracture Limited",
-    "start": "2026-11-28T10:00:00+01:00",
-    "end": "2026-11-28T13:00:00+01:00",
-    "location": "BB-Spiele",
-    "url": "https://www.bb-spiele.de",
-    "description": "Gewinner des RCQ Qualifier erh\u00e4lt 1 Slot f\u00fcr den RC.",
-    "all_day": false
-  },
-  {
     "title": "Funtainment \u2013 Friday Night Magic: Modern",
     "start": "2026-12-04T17:00:00+01:00",
     "end": "2026-12-04T20:00:00+01:00",
@@ -1393,6 +1384,33 @@
     "url": "https://www.fanfinity.gg/event/commandfest-valencia-2027/",
     "description": "Event von Fanfinity: CommandFest Valencia 2027\nhttps://www.fanfinity.gg/event/commandfest-valencia-2027/",
     "all_day": true
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2026-12-27T11:00:00+01:00",
+    "end": "2026-12-27T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2026-12-27/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2027-01-24T11:00:00+01:00",
+    "end": "2027-01-24T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-01-24/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
+  },
+  {
+    "title": "Countdown \u2013 Monatliches Magic Legacy Turnier",
+    "start": "2027-02-28T11:00:00+01:00",
+    "end": "2027-02-28T14:00:00+01:00",
+    "location": "Countdown Spielewelt Landsberg",
+    "url": "https://countdown-spielewelt.de/event/monatliches-magic-legacy-turnier-v2wegzd/2027-02-28/",
+    "description": "Casual Schweizer System Proxys erlaubt Max. Teilnehmer 64 , es werden bis 16 Teilnehmer 4 Runden, 17-32 5 Runden und 33-64 6 Runden gespielt. Nach der H\u00e4lfte der gespielten Runden [\u2026]",
+    "all_day": false
   },
   {
     "title": "Magic Papa \u2013 RCQ \u2013 Standard",
